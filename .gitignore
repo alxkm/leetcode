@@ -1,0 +1,19 @@
+### Gradle ###
+.idea/gradle.xml
+.gradle
+gradle/
+gradlew
+gradlew.bat
+build
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
