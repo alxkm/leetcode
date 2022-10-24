@@ -1,9 +1,10 @@
 package com.leetcode.easy.hash;
 
+import com.leetcode.easy.list.ListNode;
+import com.leetcode.easy.list.ListUtil;
+
 import java.util.HashSet;
 import java.util.List;
-import com.company.list.ListUtil;
-import com.company.list.ListNode;
 
 public class _160_Intersection_of_Two_Linked_Lists {
     static public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

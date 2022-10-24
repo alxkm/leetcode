@@ -1,7 +1,5 @@
 package com.leetcode.easy.list;
 
-import com.company.list.ListNode;
-
 public class _83_Remove_Duplicates_from_Sorted_List {
    static class Solution {
         public static ListNode deleteDuplicates(ListNode head) {

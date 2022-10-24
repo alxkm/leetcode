@@ -1,6 +1,6 @@
 package com.leetcode.easy.gold.array;
 
-import com.company.list.ListNode;
+import com.leetcode.easy.list.ListNode;
 
 public class _876_Middle_of_the_Linked_List {
     static public ListNode middleNode(ListNode head) {

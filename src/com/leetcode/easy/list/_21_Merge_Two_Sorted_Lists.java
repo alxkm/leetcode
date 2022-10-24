@@ -1,7 +1,5 @@
 package com.leetcode.easy.list;
 
-import com.company.list.ListNode;
-
 public class _21_Merge_Two_Sorted_Lists {
     /**
      * Definition for singly-linked list.
