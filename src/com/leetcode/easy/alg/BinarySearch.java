@@ -1,4 +1,4 @@
-package com.company.alg;
+package com.leetcode.easy.alg;
 
 public class BinarySearch {
 

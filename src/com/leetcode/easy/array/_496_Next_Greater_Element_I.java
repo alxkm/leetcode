@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _496_Next_Greater_Element_I {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {

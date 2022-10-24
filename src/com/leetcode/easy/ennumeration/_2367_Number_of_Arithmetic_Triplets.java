@@ -1,4 +1,4 @@
-package com.company.ennumeration;
+package com.leetcode.easy.ennumeration;
 
 public class _2367_Number_of_Arithmetic_Triplets {
 

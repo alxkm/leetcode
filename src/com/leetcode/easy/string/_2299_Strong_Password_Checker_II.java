@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2299_Strong_Password_Checker_II {
     static public boolean strongPasswordCheckerII(String password) {

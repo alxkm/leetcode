@@ -1,4 +1,4 @@
-package com.company.math;
+package com.leetcode.easy.math;
 
 public class _1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer {
     static public int subtractProductAndSum(int n) {

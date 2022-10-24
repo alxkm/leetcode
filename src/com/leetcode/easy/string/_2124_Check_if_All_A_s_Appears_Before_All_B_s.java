@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2124_Check_if_All_A_s_Appears_Before_All_B_s {
     public boolean checkString(String s) {

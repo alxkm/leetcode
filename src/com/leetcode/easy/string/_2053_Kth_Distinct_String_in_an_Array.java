@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 import java.util.HashMap;
 import java.util.Map;

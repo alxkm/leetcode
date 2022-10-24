@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1694_Reformat_Phone_Number {
     static public String reformatNumber(String number) {

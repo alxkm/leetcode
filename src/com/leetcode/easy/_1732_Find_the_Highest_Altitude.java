@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _1732_Find_the_Highest_Altitude {
     public int largestAltitude(int[] gain) {

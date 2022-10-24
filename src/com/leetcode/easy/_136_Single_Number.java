@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _136_Single_Number {
     static class Solution {

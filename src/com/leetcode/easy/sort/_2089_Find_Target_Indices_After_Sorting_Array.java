@@ -1,4 +1,4 @@
-package com.company.sort;
+package com.leetcode.easy.sort;
 
 import java.util.ArrayList;
 import java.util.Arrays;

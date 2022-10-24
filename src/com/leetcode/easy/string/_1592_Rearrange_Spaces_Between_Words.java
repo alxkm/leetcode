@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1592_Rearrange_Spaces_Between_Words {
     static public String reorderSpaces(String text) {

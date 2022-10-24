@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _1893_Check_if_All_the_Integers_in_a_Range_Are_Covered {
     static public boolean isCovered(int[][] ranges, int left, int right) {

@@ -1,4 +1,4 @@
-package com.company.matrix;
+package com.leetcode.easy.matrix;
 
 public class _1672_Richest_Customer_Wealth {
     public int maximumWealth(int[][] accounts) {

@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _561_Array_Partition {
     public int sumOddLengthSubarrays(int[] arr) {

@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _520_Detect_Capital {
     static public boolean detectCapitalUse(String word) {

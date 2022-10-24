@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2000_Reverse_Prefix_of_Word {
     static public String reversePrefix(String word, char ch) {

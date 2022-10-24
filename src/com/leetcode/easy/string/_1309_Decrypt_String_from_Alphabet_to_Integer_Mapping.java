@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1309_Decrypt_String_from_Alphabet_to_Integer_Mapping {
     static public String freqAlphabets(String s) {

@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2278_Percentage_of_Letter_in_String {
     static public int percentageLetter(String s, char letter) {

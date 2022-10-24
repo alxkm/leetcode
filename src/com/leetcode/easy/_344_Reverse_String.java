@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _344_Reverse_String {
 

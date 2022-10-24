@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _1920_Build_Array_from_Permutation {
     public int[] buildArray(int[] nums) {

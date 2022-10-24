@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2129_Capitalize_the_Title {
     public String capitalizeTitle(String title) {

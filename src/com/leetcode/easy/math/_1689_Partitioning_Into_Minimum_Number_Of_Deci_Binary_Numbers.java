@@ -1,4 +1,4 @@
-package com.company.math;
+package com.leetcode.easy.math;
 
 public class _1689_Partitioning_Into_Minimum_Number_Of_Deci_Binary_Numbers {
    static public int minPartitions(String n) {

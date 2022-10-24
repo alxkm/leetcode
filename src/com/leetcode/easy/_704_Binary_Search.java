@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _704_Binary_Search {
     static class Solution {

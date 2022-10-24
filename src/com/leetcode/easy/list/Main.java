@@ -1,4 +1,4 @@
-package com.company.list;
+package com.leetcode.easy.list;
 
 public class Main {
     public static void main(String[] args) {

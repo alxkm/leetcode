@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _2259_Remove_Digit_From_Number_to_Maximize_Result {
     static public String removeDigit(String number, char digit) {

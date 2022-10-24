@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _66_Plus_One {
     class Solution {

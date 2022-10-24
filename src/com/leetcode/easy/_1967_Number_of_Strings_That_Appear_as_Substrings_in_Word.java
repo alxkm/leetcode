@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _1967_Number_of_Strings_That_Appear_as_Substrings_in_Word {
     public int numOfStrings(String[] patterns, String word) {

@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1859_Sorting_the_Sentence {
     static     public String sortSentence(String s) {

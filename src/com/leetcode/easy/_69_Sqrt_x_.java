@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _69_Sqrt_x_ {
 

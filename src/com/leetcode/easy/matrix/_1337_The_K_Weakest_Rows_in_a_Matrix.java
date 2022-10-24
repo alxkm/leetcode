@@ -1,4 +1,4 @@
-package com.company.matrix;
+package com.leetcode.easy.matrix;
 
 import java.util.ArrayList;
 import java.util.Arrays;

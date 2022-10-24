@@ -1,4 +1,4 @@
-package com.company.gold.array;
+package com.leetcode.easy.gold.array;
 
 public class _191_Number_of_1_Bits {
     // you need to treat n as an unsigned value

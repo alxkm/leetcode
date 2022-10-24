@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _1929_Concatenation_of_Array {
     class Solution {

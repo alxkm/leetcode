@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _2239_Find_Closest_Number_to_Zero {
     public int findClosestNumber(int[] nums) {

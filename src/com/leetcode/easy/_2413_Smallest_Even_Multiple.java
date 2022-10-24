@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _2413_Smallest_Even_Multiple {
     public int smallestEvenMultiple(int n) {

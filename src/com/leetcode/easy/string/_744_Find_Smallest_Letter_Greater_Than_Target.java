@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _744_Find_Smallest_Letter_Greater_Than_Target {
     static public char nextGreatestLetter(char[] letters, char target) {

@@ -1,4 +1,4 @@
-package com.company.math;
+package com.leetcode.easy.math;
 
 public class _1342_Number_of_Steps_to_Reduce_a_Number_to_Zero {
     public int numberOfSteps(int num) {

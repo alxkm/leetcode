@@ -1,4 +1,4 @@
-package com.company.list;
+package com.leetcode.easy.list;
 
 import com.company.list.ListNode;
 

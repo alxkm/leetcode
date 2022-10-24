@@ -1,4 +1,4 @@
-package com.company.dp;
+package com.leetcode.easy.dp;
 
 public class _509_Fibonacci_Number {
     public int fib(int n) {

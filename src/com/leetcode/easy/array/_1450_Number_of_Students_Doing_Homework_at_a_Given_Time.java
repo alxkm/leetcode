@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _1450_Number_of_Students_Doing_Homework_at_a_Given_Time {
     public int busyStudent(int[] startTime, int[] endTime, int queryTime) {

@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _27_Remove_Element {
     public static int removeElement(int[] nums, int val) {

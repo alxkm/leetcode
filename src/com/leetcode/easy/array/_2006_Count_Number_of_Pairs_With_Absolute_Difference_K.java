@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _2006_Count_Number_of_Pairs_With_Absolute_Difference_K {
     public int countKDifference(int[] nums, int k) {

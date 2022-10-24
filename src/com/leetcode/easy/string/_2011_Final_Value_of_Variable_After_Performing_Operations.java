@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2011_Final_Value_of_Variable_After_Performing_Operations {
     public int finalValueAfterOperations(String[] operations) {

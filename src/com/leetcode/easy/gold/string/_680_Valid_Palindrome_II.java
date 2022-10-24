@@ -1,4 +1,4 @@
-package com.company.gold.string;
+package com.leetcode.easy.gold.string;
 
 public class _680_Valid_Palindrome_II {
     static public boolean validPalindrome(String s) {

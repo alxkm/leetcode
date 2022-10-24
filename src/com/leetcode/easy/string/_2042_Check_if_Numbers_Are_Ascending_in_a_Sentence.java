@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2042_Check_if_Numbers_Are_Ascending_in_a_Sentence {
     static public boolean areNumbersAscending(String s) {

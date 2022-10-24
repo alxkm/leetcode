@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _14_Longest_Common_Prefix {
     class Solution {

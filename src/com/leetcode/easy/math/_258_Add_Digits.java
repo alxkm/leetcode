@@ -1,4 +1,4 @@
-package com.company.math;
+package com.leetcode.easy.math;
 
 public class _258_Add_Digits {
     static public int addDigits(int num) {

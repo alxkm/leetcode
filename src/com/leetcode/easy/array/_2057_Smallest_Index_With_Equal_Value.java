@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _2057_Smallest_Index_With_Equal_Value {
     static     public int smallestEqual(int[] nums) {

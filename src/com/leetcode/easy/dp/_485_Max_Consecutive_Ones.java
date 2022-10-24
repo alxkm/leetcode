@@ -1,4 +1,4 @@
-package com.company.dp;
+package com.leetcode.easy.dp;
 
 public class _485_Max_Consecutive_Ones {
     public int findMaxConsecutiveOnes(int[] nums) {

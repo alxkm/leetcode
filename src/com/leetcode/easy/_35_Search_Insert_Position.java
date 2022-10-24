@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _35_Search_Insert_Position {
     static class Solution {

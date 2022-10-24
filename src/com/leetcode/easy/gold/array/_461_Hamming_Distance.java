@@ -1,4 +1,4 @@
-package com.company.gold.array;
+package com.leetcode.easy.gold.array;
 
 import java.util.ArrayList;
 import java.util.List;

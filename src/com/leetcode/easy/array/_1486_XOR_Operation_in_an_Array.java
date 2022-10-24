@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _1486_XOR_Operation_in_an_Array {
     public int xorOperation(int n, int start) {

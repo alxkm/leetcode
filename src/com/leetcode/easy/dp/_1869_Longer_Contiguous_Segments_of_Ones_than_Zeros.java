@@ -1,4 +1,4 @@
-package com.company.dp;
+package com.leetcode.easy.dp;
 
 public class _1869_Longer_Contiguous_Segments_of_Ones_than_Zeros {
     public boolean checkZeroOnes(String s) {

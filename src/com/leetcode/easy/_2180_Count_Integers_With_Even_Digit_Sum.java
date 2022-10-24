@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _2180_Count_Integers_With_Even_Digit_Sum {
     // we can parse like string

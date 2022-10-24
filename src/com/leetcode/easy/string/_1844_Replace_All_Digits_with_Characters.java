@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1844_Replace_All_Digits_with_Characters {
      static public String replaceDigits(String s) {

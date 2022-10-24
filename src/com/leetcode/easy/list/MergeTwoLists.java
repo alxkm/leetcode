@@ -1,4 +1,4 @@
-package com.company.list;
+package com.leetcode.easy.list;
 
 public class MergeTwoLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

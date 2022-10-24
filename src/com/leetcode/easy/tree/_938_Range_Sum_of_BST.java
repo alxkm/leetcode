@@ -1,4 +1,4 @@
-package com.company.tree;
+package com.leetcode.easy.tree;
 
 public class _938_Range_Sum_of_BST {
     public int rangeSumBST(TreeNode root, int low, int high) {

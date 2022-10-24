@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _709_To_Lower_Case {
     public String toLowerCase(String s) {

@@ -1,4 +1,4 @@
-package com.company.hash;
+package com.leetcode.easy.hash;
 
  public class ListNode {
      int val;

@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _268_Missing_Number {
     public int missingNumber(int[] nums) {

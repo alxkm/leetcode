@@ -1,4 +1,4 @@
-package com.company.tree;
+package com.leetcode.easy.tree;
 
 public class _104_Maximum_Depth_of_Binary_Tree {
 

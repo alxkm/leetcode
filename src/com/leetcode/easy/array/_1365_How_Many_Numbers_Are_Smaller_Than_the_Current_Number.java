@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _1365_How_Many_Numbers_Are_Smaller_Than_the_Current_Number {
     public int[] smallerNumbersThanCurrent(int[] nums) {

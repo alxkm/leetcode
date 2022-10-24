@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _70_Climbing_Stairs {
     class Solution {

@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _977_Squares_of_a_Sorted_Array {
     class Solution {

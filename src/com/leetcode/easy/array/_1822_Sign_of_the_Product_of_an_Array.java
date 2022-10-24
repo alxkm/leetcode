@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _1822_Sign_of_the_Product_of_an_Array {
     public int arraySign(int[] nums) {

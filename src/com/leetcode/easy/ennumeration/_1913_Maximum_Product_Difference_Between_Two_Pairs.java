@@ -1,4 +1,4 @@
-package com.company.ennumeration;
+package com.leetcode.easy.ennumeration;
 
 import java.util.ArrayList;
 import java.util.Arrays;

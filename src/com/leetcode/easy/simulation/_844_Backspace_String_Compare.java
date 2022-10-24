@@ -1,4 +1,4 @@
-package com.company.simulation;
+package com.leetcode.easy.simulation;
 
 import java.util.Stack;
 

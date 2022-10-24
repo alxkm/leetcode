@@ -1,4 +1,4 @@
-package com.company.matrix;
+package com.leetcode.easy.matrix;
 
 public class _766_Toeplitz_Matrix {
 

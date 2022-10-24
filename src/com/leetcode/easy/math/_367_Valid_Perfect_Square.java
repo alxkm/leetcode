@@ -1,4 +1,4 @@
-package com.company.math;
+package com.leetcode.easy.math;
 
 public class _367_Valid_Perfect_Square {
     static public boolean isPerfectSquare(int num) {

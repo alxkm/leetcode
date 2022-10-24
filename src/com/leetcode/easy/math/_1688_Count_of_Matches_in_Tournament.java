@@ -1,4 +1,4 @@
-package com.company.math;
+package com.leetcode.easy.math;
 
 public class _1688_Count_of_Matches_in_Tournament {
     public int numberOfMatches(int n) {

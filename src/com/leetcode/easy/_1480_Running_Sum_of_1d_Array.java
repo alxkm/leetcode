@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _1480_Running_Sum_of_1d_Array {
     public int[] runningSum(int[] nums) {

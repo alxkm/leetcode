@@ -1,4 +1,4 @@
-package com.company.tree;
+package com.leetcode.easy.tree;
 
 import java.util.ArrayList;
 import java.util.List;

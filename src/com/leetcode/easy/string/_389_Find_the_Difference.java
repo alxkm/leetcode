@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _389_Find_the_Difference {
     static public char findTheDifference(String s, String t) {

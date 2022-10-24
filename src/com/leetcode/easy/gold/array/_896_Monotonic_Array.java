@@ -1,4 +1,4 @@
-package com.company.gold.array;
+package com.leetcode.easy.gold.array;
 
 public class _896_Monotonic_Array {
     static public boolean isMonotonic1(int[] nums) {

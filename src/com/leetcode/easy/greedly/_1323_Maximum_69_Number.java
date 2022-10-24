@@ -1,4 +1,4 @@
-package com.company.greedly;
+package com.leetcode.easy.greedly;
 
 public class _1323_Maximum_69_Number {
     public int maximum69Number (int num) {

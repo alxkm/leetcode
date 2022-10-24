@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1768_Merge_Strings_Alternately {
     public String mergeAlternately(String word1, String word2) {

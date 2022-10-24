@@ -1,4 +1,4 @@
-package com.company.matrix;
+package com.leetcode.easy.matrix;
 
 public class _1572_Matrix_Diagonal_Sum {
    static public int diagonalSum(int[][] mat) {

@@ -1,4 +1,4 @@
-package com.company.array;
+package com.leetcode.easy.array;
 
 public class _1752_Check_if_Array_Is_Sorted_and_Rotated {
     static public boolean check(int[] nums) {

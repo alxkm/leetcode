@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1221_Split_a_String_in_Balanced_Strings {
     public int balancedStringSplit(String s) {

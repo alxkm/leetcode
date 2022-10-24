@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1678_Goal_Parser_Interpretation {
     static public String interpret(String command) {

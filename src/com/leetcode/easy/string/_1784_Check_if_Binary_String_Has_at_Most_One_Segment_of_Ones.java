@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _1784_Check_if_Binary_String_Has_at_Most_One_Segment_of_Ones {
     static public boolean checkOnesSegment(String s) {

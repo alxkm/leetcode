@@ -1,4 +1,4 @@
-package com.company.gold.array;
+package com.leetcode.easy.gold.array;
 
 public class _1374_Generate_a_String_With_Characters_That_Have_Odd_Counts {
     public String generateTheString(int n) {

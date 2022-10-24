@@ -1,4 +1,4 @@
-package com.company.ennumeration;
+package com.leetcode.easy.ennumeration;
 
 public class _1534_Count_Good_Triplets {
     static public int countGoodTriplets(int[] arr, int a, int b, int c) {

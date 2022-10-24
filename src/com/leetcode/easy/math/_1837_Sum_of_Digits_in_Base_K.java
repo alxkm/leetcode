@@ -1,4 +1,4 @@
-package com.company.math;
+package com.leetcode.easy.math;
 
 public class _1837_Sum_of_Digits_in_Base_K {
     static public int sumBase(int n, int k) {

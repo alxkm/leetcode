@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2315_Count_Asterisks {
     static public int countAsterisks(String s) {

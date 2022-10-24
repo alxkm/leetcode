@@ -1,4 +1,4 @@
-package com.company.tree;
+package com.leetcode.easy.tree;
 
 public class _700_Search_in_a_Binary_Search_Tree {
     public TreeNode searchBST(TreeNode root, int val) {

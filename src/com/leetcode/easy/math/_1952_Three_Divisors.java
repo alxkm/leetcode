@@ -1,4 +1,4 @@
-package com.company.math;
+package com.leetcode.easy.math;
 
 public class _1952_Three_Divisors {
     static public boolean isThree(int n) {

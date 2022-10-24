@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _88_Merge_Sorted_Array {
     class Solution {

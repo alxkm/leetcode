@@ -1,4 +1,4 @@
-package com.company.matrix;
+package com.leetcode.easy.matrix;
 
 public class _832_Flipping_an_Image {
     static  public int[][] flipAndInvertImage(int[][] image) {

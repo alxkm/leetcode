@@ -1,4 +1,4 @@
-package com.company.string;
+package com.leetcode.easy.string;
 
 public class _2114_Maximum_Number_of_Words_Found_in_Sentences {
     static public int mostWordsFound(String[] sentences) {

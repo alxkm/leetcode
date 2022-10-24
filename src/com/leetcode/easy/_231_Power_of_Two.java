@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class _231_Power_of_Two {
     static public boolean isPowerOfTwo(int n) {

@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode.easy;
 
 public class MaxSubArray {
     public static int maxSubArray(int[] nums) {
