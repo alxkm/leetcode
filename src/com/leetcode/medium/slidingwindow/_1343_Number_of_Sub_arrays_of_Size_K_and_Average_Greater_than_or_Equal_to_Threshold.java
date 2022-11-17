@@ -1,4 +1,4 @@
-package com.leetcode.easy.slidingwindow;
+package com.leetcode.medium.slidingwindow;
 
 public class _1343_Number_of_Sub_arrays_of_Size_K_and_Average_Greater_than_or_Equal_to_Threshold {
     static public int numOfSubarrays(int[] arr, int k, int threshold) {
