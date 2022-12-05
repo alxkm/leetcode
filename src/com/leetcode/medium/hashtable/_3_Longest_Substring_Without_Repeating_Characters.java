@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class _3_Longest_Substring_Without_Repeating_Characters {
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring1(String s) {
         Map<Character, Integer> map = new HashMap<>();
         int maxSize = 0;
         if (s.equals("")) return maxSize;
@@ -32,6 +32,28 @@ public class _3_Longest_Substring_Without_Repeating_Characters {
             }
         }
         return maxSize;
+    }
+
+    public int lengthOfLongestSubstring(String s) {
+        int max = 0;
+        int globalMax = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        int started = 0;
+        char[] ar = s.toCharArray();
+        for (int i = 0; i < ar.length; i++) {
+            if (map.get(ar[i]) != null) {
+                int prev = map.get(ar[i]);
+                for (int j = started; j < prev; j++) map.remove(ar[j]);
+                started = prev + 1;
+                map.put(ar[i], i);
+                max = map.size();
+            } else {
+                map.put(ar[i], i);
+                max++;
+            }
+            globalMax = Math.max(max, globalMax);
+        }
+        return globalMax;
     }
 
 }
