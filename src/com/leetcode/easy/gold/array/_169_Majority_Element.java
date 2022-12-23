@@ -1,6 +1,7 @@
 package com.leetcode.easy.gold.array;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class _169_Majority_Element {
     static public int majorityElement(int[] nums) {
@@ -25,6 +26,26 @@ public class _169_Majority_Element {
             }
         }
         return max;
+    }
+
+    static public int majorityElement1(int[] nums) {
+        Arrays.sort(nums);
+        return nums[nums.length / 2];
+    }
+
+    static public int majorityElement2(int[] nums) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int n : nums) {
+            int fr = map.getOrDefault(n, 0);
+            map.put(n, ++fr);
+        }
+        int f = (nums.length / 2) + 1;
+        for (var entry : map.entrySet()) {
+            if (entry.getValue() >= f) {
+                return entry.getKey();
+            }
+        }
+        return 0;
     }
 
     public static void main(String[] args) {
