@@ -1,4 +1,4 @@
-package com.leetcode.easy.array;
+package com.leetcode.easy.prefix;
 
 public class _724_Find_Pivot_Index {
     public int pivotIndex(int[] nums) {

@@ -1,4 +1,4 @@
-package com.leetcode.easy.array;
+package com.leetcode.easy.prefix;
 
 import java.util.Arrays;
 
