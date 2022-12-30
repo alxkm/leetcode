@@ -1,4 +1,4 @@
-package com.leetcode.easy.gold.array;
+package com.leetcode.easy.prefix;
 
 public class _1991_Find_the_Middle_Index_in_Array {
     static public int findMiddleIndex(int[] nums) {
