@@ -1,6 +1,9 @@
 package com.leetcode.easy.math;
 
 public class _263_Ugly_Number {
+    //https://leetcode.com/problems/ugly-number/
+    //263. Ugly Number
+
     public boolean isUgly(int n) {
         while (true) {
             if (n == 0) return false;
