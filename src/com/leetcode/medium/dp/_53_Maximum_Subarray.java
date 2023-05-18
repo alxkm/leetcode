@@ -1,4 +1,4 @@
-package com.leetcode.easy;
+package com.leetcode.medium.dp;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Set;
 
 public class _53_Maximum_Subarray {
+    //https://leetcode.com/problems/maximum-subarray/
+
     public static int maxSubArray(int[] nums) {
         int localSum = nums[0];
         int sum = nums[0];
