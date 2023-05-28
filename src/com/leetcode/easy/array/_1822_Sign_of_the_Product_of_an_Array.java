@@ -1,6 +1,8 @@
 package com.leetcode.easy.array;
 
 public class _1822_Sign_of_the_Product_of_an_Array {
+    //https://leetcode.com/problems/sign-of-the-product-of-an-array/
+
     public int arraySign(int[] nums) {
         int counter = 0;
         boolean is = false;
