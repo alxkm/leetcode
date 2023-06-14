@@ -1,31 +1,33 @@
 package com.leetcode.easy.list;
 
+import com.leetcode.ListNode;
+
 public class _83_Remove_Duplicates_from_Sorted_List {
-   static class Solution {
-        public static ListNode deleteDuplicates(ListNode head) {
-            if (head == null) return null;
-            ListNode node = head;
-            ListNode prev = node;
-            node = node.next;
-            while (node != null) {
-                if (node.val == prev.val) {
-                    ListNode s = node;
-                    while (s != null && node.val == s.val) {
-                        s = s.next;
-                    }
-                    prev.next = s;
-                    node = s;
-                    continue;
+    //https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null) return null;
+        ListNode node = head;
+        ListNode prev = node;
+        node = node.next;
+        while (node != null) {
+            if (node.val == prev.val) {
+                ListNode s = node;
+                while (s != null && node.val == s.val) {
+                    s = s.next;
                 }
-                prev = node;
-                node = node.next;
+                prev.next = s;
+                node = s;
+                continue;
             }
-            return head;
+            prev = node;
+            node = node.next;
         }
+        return head;
     }
 
     public static void main(String[] args) {
-        Solution s = new Solution();
+        var s = new _83_Remove_Duplicates_from_Sorted_List();
 
         ListNode l =
                 new ListNode(1,

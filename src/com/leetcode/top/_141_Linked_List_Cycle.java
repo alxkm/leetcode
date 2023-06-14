@@ -1,8 +1,10 @@
 package com.leetcode.top;
 
-import com.leetcode.easy.list.ListNode;
+import com.leetcode.ListNode;
 
 public class _141_Linked_List_Cycle {
+    //141. Linked List Cycle
+    //https://leetcode.com/problems/linked-list-cycle/
 
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) return false;

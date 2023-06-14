@@ -1,4 +1,4 @@
-package com.leetcode.easy.list;
+package com.leetcode;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Main {
 
         test(listNode, ListNode.class);
 
-	// write your code here
+        // write your code here
     }
 
     public static void test(Object list, Class clazz) {

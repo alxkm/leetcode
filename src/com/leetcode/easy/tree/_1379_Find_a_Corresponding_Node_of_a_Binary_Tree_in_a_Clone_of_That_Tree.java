@@ -1,5 +1,7 @@
 package com.leetcode.easy.tree;
 
+import com.leetcode.TreeNode;
+
 public class _1379_Find_a_Corresponding_Node_of_a_Binary_Tree_in_a_Clone_of_That_Tree {
 
 

@@ -1,21 +1,10 @@
 package com.leetcode.top.tree;
 
+import com.leetcode.TreeNode;
+
 public class _112_Path_Sum {
     //https://leetcode.com/problems/path-sum/
     //112. Path Sum
-
-    public class TreeNode {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode() {}
-        public TreeNode(int val) { this.val = val; }
-        public TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     public boolean hasPathSum(TreeNode root, int targetSum) {
         // if (root == null) return false;

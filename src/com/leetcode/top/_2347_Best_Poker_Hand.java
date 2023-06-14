@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class _2347_Best_Poker_Hand {
-    //https://leetcade.com/problems/best-poker-hand/
     //2347. Best Poker Hand
+    //https://leetcade.com/problems/best-poker-hand/
 
     public String bestHand(int[] ranks, char[] suits) {
         Map<Character, Integer> s = new HashMap<>();

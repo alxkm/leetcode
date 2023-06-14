@@ -1,5 +1,7 @@
 package com.leetcode.easy.tree;
 
+import com.leetcode.TreeNode;
+
 public class _104_Maximum_Depth_of_Binary_Tree {
 
     static public int maxDepth(TreeNode root) {

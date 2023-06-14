@@ -1,7 +1,7 @@
 package com.leetcode.easy.math;
 
 import java.util.Stack;
-import com.leetcode.easy.list.ListNode;
+import com.leetcode.ListNode;
 
 public class _1290_Convert_Binary_Number_in_a_Linked_List_to_Integer {
     public int getDecimalValue(ListNode head) {

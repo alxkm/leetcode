@@ -1,8 +1,8 @@
 package com.leetcode.top;
 
 public class _75_Sort_Colors {
-    //https://leetcode.com/problems/sort-colors/
     //75. Sort Colors
+    //https://leetcode.com/problems/sort-colors/
 
     public void sortColors(int[] nums) {
         int[] pos = new int[]{0, 0, nums.length - 1};

@@ -1,21 +1,10 @@
 package com.leetcode.top.tree;
 
-public class _783_Minimum_Distance_Between_BST_Nodes {
-    //https://leetcode.com/problems/minimum-distance-between-bst-nodes/
-    //783. Minimum Distance Between BST Nodes
+import com.leetcode.TreeNode;
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
+public class _783_Minimum_Distance_Between_BST_Nodes {
+    //783. Minimum Distance Between BST Nodes
+    //https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 
     private TreeNode prev;
     private Integer min = Integer.MAX_VALUE;

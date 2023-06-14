@@ -1,5 +1,7 @@
 package com.leetcode.top.tree;
 
+import com.leetcode.TreeNode;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -8,19 +10,6 @@ import java.util.Set;
 public class _671_Second_Minimum_Node_In_a_Binary_Tree {
     //https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
     //671. Second Minimum Node In a Binary Tree
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     public int findSecondMinimumValue(TreeNode root) {
         Set<Integer> set = new HashSet<>();

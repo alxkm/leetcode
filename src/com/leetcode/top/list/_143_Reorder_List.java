@@ -1,5 +1,7 @@
 package com.leetcode.top.list;
 
+import com.leetcode.ListNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -7,14 +9,6 @@ import java.util.Stack;
 public class _143_Reorder_List {
     //https://leetcode.com/problems/reorder-list/
     //143. Reorder List
-
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
 
     public void reorderList(ListNode head) {
         if (head == null || head.next == null || head.next.next == null) return;

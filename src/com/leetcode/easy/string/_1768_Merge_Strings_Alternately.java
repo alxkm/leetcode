@@ -1,6 +1,8 @@
 package com.leetcode.easy.string;
 
 public class _1768_Merge_Strings_Alternately {
+    //https://leetcode.com/problems/merge-strings-alternately/
+
     public String mergeAlternately(String word1, String word2) {
         StringBuilder sb = new StringBuilder();
         int i = 0, j = 0;

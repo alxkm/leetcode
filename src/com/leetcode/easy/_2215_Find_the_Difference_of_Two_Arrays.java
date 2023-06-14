@@ -3,8 +3,11 @@ package com.leetcode.easy;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class _2215_Find_the_Difference_of_Two_Arrays {
+    //https://leetcode.com/problems/find-the-difference-of-two-arrays/
+
     static public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         var s1 = new HashSet<Integer>();
         var s2 = new HashSet<Integer>();
@@ -32,6 +35,21 @@ public class _2215_Find_the_Difference_of_Two_Arrays {
         l3.add(l1);
         l3.add(l2);
         return l3;
+    }
+
+    public List<List<Integer>> findDifference1(int[] nums1, int[] nums2) {
+        Set<Integer> set = new HashSet<>();
+        for (int n: nums1) set.add(n);
+        Set<Integer> seen = new HashSet<>();
+        List<Integer> second = new ArrayList<>();
+        for (int n: nums2) {
+            if (!set.remove(n) && !seen.contains(n)) {
+                second.add(n);
+            }
+            seen.add(n);
+        }
+        List<Integer> first = new ArrayList<>(set);
+        return List.of(first, second);
     }
 
     public static void main(String[] args) {

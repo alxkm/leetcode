@@ -1,21 +1,10 @@
 package com.leetcode.top.tree;
 
+import com.leetcode.TreeNode;
+
 public class _543_Diameter_of_Binary_Tree {
     //https://leetcode.com/problems/diameter-of-binary-tree/
     //543. Diameter of Binary Tree
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     int d = 0;
 
