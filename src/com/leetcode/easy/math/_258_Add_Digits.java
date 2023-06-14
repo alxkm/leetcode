@@ -1,6 +1,8 @@
 package com.leetcode.easy.math;
 
 public class _258_Add_Digits {
+    //https://leetcode.com/problems/add-digits/description/
+
     static public int addDigits(int num) {
         while (num / 10 != 0) {
             int d = num / 10;
@@ -11,6 +13,18 @@ public class _258_Add_Digits {
                 d /= 10;
             }
             num = sum;
+        }
+        return num;
+    }
+
+    public int addDigits1(int num) {
+        while (num >= 10) {
+            int n = 0;
+            while (num != 0) {
+                n += num % 10;
+                num /= 10;
+            }
+            num = n;
         }
         return num;
     }

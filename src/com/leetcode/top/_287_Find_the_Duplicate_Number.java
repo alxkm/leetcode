@@ -3,8 +3,8 @@ package com.leetcode.top;
 import java.util.Arrays;
 
 public class _287_Find_the_Duplicate_Number {
-    //https://leetcode.com/problems/find-the-duplicate-number/
     //287. Find the Duplicate Number
+    //https://leetcode.com/problems/find-the-duplicate-number/
 
     public int findDuplicate(int[] nums) {
         int fast = nums[nums[0]];

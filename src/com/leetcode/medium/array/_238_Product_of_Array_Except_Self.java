@@ -3,6 +3,8 @@ package com.leetcode.medium.array;
 import java.util.Arrays;
 
 public class _238_Product_of_Array_Except_Self {
+    //https://leetcode.com/problems/product-of-array-except-self/
+
     static public int[] productExceptSelf(int[] nums) {
         int[] prefix = new int[nums.length];
         int[] suffix = new int[nums.length];

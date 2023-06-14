@@ -1,8 +1,8 @@
 package com.leetcode.top;
 
 public class _5_Longest_Palindromic_Substring {
-    //https://leetcode.com/problems/longest-palindromic-substring/
     //5. Longest Palindromic Substring
+    //https://leetcode.com/problems/longest-palindromic-substring/
 
     public String longestPalindrome(String s) {
         if (s == null && s.equals("") || isPalindrome(s)) return s;

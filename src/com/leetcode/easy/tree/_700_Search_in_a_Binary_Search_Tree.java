@@ -1,5 +1,7 @@
 package com.leetcode.easy.tree;
 
+import com.leetcode.TreeNode;
+
 public class _700_Search_in_a_Binary_Search_Tree {
     public TreeNode searchBST(TreeNode root, int val) {
         return search(root, val);

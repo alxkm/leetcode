@@ -1,5 +1,7 @@
 package com.leetcode.easy.tree;
 
+import com.leetcode.TreeNode;
+
 public class _938_Range_Sum_of_BST {
     public int rangeSumBST(TreeNode root, int low, int high) {
         return inorder(root, low, high);

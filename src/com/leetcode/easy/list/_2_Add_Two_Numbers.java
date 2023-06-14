@@ -1,5 +1,7 @@
 package com.leetcode.easy.list;
 
+import com.leetcode.ListNode;
+
 public class _2_Add_Two_Numbers {
     /**
      * Definition for singly-linked list.

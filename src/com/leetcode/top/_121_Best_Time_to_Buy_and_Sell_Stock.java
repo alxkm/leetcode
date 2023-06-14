@@ -1,6 +1,9 @@
 package com.leetcode.top;
 
 public class _121_Best_Time_to_Buy_and_Sell_Stock {
+    //121. Best Time to Buy and Sell Stock
+    //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
     public static int maxProfit(int[] prices) {
         if (prices.length == 1) return 0;
         int max = 0;

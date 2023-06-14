@@ -1,20 +1,22 @@
 package com.leetcode.easy;
 
 public class _704_Binary_Search {
+    //https://leetcode.com/problems/binary-search/
+
     static class Solution {
         public int search(int[] nums, int target) {
-            int l = 0, r = nums.length - 1;
-            while ((r - l + 1) > 0) {
-                int i = (l + r) / 2;
-                if (nums[i] > target) {
-                    r = i - 1;
-                } else if (nums[i] < target) {
-                    l = i + 1;
+            int l = 0;
+            int r = nums.length;
+            while (l + 1 < r) {
+                int m = (l + r) / 2;
+                if (nums[m] > target) {
+                    r = m;
                 } else {
-                    return i;
+                    l = m;
                 }
+                if (nums[m] == target) return m;
             }
-            return -1;
+            return nums[l] == target ? l : -1;
         }
 
         public int search1(int[] a, int x) {

@@ -1,5 +1,8 @@
 package com.leetcode.easy.list;
 
+import com.leetcode.ListNode;
+import com.leetcode.ListUtil;
+
 import java.util.List;
 
 public class _203_Remove_Linked_List_Elements {

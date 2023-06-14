@@ -1,21 +1,10 @@
 package com.leetcode.top.tree;
 
-public class _101_Symmetric_Tree {
-    //https://leetcode.com/problems/symmetric-tree/
-    //101. Symmetric Tree
+import com.leetcode.TreeNode;
 
-    public class TreeNode {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode() {}
-        public TreeNode(int val) { this.val = val; }
-        public TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
+public class _101_Symmetric_Tree {
+    //101. Symmetric Tree
+    //https://leetcode.com/problems/symmetric-tree/
 
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return false;
