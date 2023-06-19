@@ -1,0 +1,18 @@
+package com.leetcode.easy.math;
+
+public class _278_First_Bad_Version {
+    //https://leetcode.com/problems/first-bad-version/
+
+    public int firstBadVersion(int n) {
+        int l = 1, r = n;
+        while (l < r) {
+            int m = l + (r - l) / 2;
+//            if (isBadVersion(m)) {
+//                r = m;
+//            } else {
+//                l = m + 1;
+//            }
+        }
+        return l;
+    }
+}
