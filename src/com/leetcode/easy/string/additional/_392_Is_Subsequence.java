@@ -1,6 +1,8 @@
 package com.leetcode.easy.string.additional;
 
-public class A {
+public class _392_Is_Subsequence {
+    //https://leetcode.com/problems/is-subsequence/
+
     static public boolean isSubsequence(String s, String t) {
         if (s.length() > t.length()) return false;
         int j = 0;
