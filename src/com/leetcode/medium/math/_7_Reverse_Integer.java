@@ -1,4 +1,4 @@
-package com.leetcode.easy.math;
+package com.leetcode.medium.math;
 
 public class _7_Reverse_Integer {
     static public int reverse(int x) {
