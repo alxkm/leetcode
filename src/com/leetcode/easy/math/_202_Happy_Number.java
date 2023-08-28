@@ -4,7 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class _202_Happy_Number {
-     static public boolean isHappy(int n) {
+    //https://leetcode.com/problems/happy-number/
+
+    static public boolean isHappy(int n) {
         int cnt = 0;
         while (n != 1) {
             int a = n % 10;
