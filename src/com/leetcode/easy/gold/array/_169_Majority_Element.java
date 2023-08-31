@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class _169_Majority_Element {
+    //https://leetcode.com/problems/majority-element/
+
     static public int majorityElement(int[] nums) {
         Arrays.sort(nums);
 
