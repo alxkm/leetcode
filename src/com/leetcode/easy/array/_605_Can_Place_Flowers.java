@@ -1,6 +1,8 @@
 package com.leetcode.easy.array;
 
 public class _605_Can_Place_Flowers {
+    //https://leetcode.com/problems/can-place-flowers/
+
     static public boolean canPlaceFlowers(int[] flowerbed, int n) {
         if (n == 0) return true;
         if (flowerbed.length == 1) return (flowerbed[0] == 0 && n == 1);
@@ -27,6 +29,26 @@ public class _605_Can_Place_Flowers {
             }
         }
         return n == 0;
+    }
+
+    public boolean canPlaceFlowers1(int[] f, int n) {
+        if (f.length == 1 && f[0] == 0 && n == 1) return true;
+        if (f.length == 1 && f[0] == 1 && n == 1) return false;
+
+        for (int i = 1; i < f.length; i++) {
+            if (i == 1 && f[i - 1] == 0 && f[i] == 0) {
+                n--;
+                f[i - 1] = 1;
+            } else if (f.length - 1 >= i + 1 && f[i + 1] == 0 && f[i - 1] == 0 && f[i] == 0) {
+                n--;
+                f[i] = 1;
+            } else if (f.length - 1 == i && f[i - 1] == 0 && f[i] == 0) {
+                n--;
+                f[i] = 1;
+            }
+        }
+
+        return n <= 0;
     }
 
     public static void main(String[] args) {
