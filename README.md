@@ -199,6 +199,7 @@ Character {
 
 
 String {
+    String listString = String.join(", ", list);
 
     charAt(int index)
 
