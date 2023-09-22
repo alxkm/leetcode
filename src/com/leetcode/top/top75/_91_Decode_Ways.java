@@ -1,7 +1,7 @@
 package com.leetcode.top.top75;
 
 public class _91_Decode_Ways {
-    //https://leetcode.com/problems/decode-ways/description/
+    //https://leetcode.com/problems/decode-ways/
     //FOREIGN_SOLUTION
     //TOP
 
