@@ -6,7 +6,12 @@ https://leetcode.com/problems/dota2-senate/
 https://leetcode.com/problems/asteroid-collision/
 https://leetcode.com/problems/task-scheduler/
 https://leetcode.com/problems/reorganize-string/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 https://leetcode.com/problems/queue-reconstruction-by-height/
+https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+https://leetcode.com/problems/top-k-frequent-elements/
+
+https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 https://leetcode.com/problems/maximum-binary-tree/
 https://leetcode.com/problems/delete-node-in-a-bst/
@@ -14,8 +19,14 @@ https://leetcode.com/problems/delete-node-in-a-bst/
 https://leetcode.com/problems/lru-cache/
 https://leetcode.com/problems/implement-trie-prefix-tree/
 
-//Multidirectional bfs
+//Multi-directional bfs
 https://leetcode.com/problems/01-matrix/
+
+//Google design question
+https://leetcode.com/problems/snapshot-array/
+
+//Not clear dfs
+https://leetcode.com/problems/interleaving-string/
 
 
 https://leetcode.com/problems/perfect-squares/
