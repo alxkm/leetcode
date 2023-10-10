@@ -2,6 +2,8 @@ package com.leetcode.medium.math;
 
 public class _2575_Find_the_Divisibility_Array_of_a_String {
     //https://leetcode.com/problems/find-the-divisibility-array-of-a-string/
+    //2575. Find the Divisibility Array of a String
+    //numerical mod
 
     public int[] divisibilityArray(String word, int m) {
         int[] div = new int[word.length()];
