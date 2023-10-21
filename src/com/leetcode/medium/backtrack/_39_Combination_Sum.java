@@ -1,10 +1,11 @@
-package com.leetcode.top.dfs;
+package com.leetcode.medium.backtrack;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class _39_Combination_Sum {
     //https://leetcode.com/problems/combination-sum/
+    //39. Combination Sum
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> ans = new ArrayList<>();
