@@ -18,7 +18,6 @@ public class _888_Fair_Candy_Swap {
             sumB += b;
             setB.add(b);
         }
-        int[] answer = new int[2];
         int delta = (sumB - sumA) / 2;
         for (int a: aliceSizes) {
             if (setB.contains(a + delta)) {
