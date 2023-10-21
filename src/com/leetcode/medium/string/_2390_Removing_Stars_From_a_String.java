@@ -4,6 +4,8 @@ import java.util.Stack;
 
 public class _2390_Removing_Stars_From_a_String {
     //https://leetcode.com/problems/removing-stars-from-a-string/
+    //2390. Removing Stars From a String
+    //top
 
     public String removeStars(String s) {
         Stack<Character> st = new Stack<>();
