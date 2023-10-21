@@ -6,6 +6,7 @@ import java.util.Map;
 public class _2043_Simple_Bank_System {
     //https://leetcode.com/problems/simple-bank-system/
     //2043. Simple Bank System
+
     class Bank {
         private Map<Integer, Long> accountToMoney = new HashMap<>();
 
