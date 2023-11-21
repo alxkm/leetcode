@@ -8,6 +8,10 @@ import java.util.List;
 
 public class _24_Swap_Nodes_in_Pairs {
     //https://leetcode.com/problems/swap-nodes-in-pairs/description/
+    //24. Swap Nodes in Pairs
+    //Jun 16, 2023 12:41
+    //time 1
+    //foreign_solution
 
     public ListNode swapPairs(ListNode head) {
         if (head == null) return null;
