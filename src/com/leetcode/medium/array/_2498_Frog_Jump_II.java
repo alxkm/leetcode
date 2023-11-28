@@ -2,6 +2,9 @@ package com.leetcode.medium.array;
 
 public class _2498_Frog_Jump_II {
     //https://leetcode.com/problems/frog-jump-ii/
+    //2498. Frog Jump II
+    //Jul 24, 2023 18:39
+    //foreign_solution
 
     public int maxJump(int[] stones) {
         int n = stones.length;
