@@ -1,6 +1,9 @@
 package com.leetcode.easy.math;
 
 public class _1688_Count_of_Matches_in_Tournament {
+    //1688. Count of Matches in Tournament
+    //https://leetcode.com/problems/count-of-matches-in-tournament/
+
     public int numberOfMatches(int n) {
         int a = n;
         int counter = 0;
@@ -21,5 +24,9 @@ public class _1688_Count_of_Matches_in_Tournament {
             }
         }
         return a - 1;
+    }
+
+    public int numberOfMatches1(int n) {
+        return n - 1;
     }
 }
