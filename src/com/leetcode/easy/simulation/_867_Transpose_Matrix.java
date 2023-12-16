@@ -3,6 +3,9 @@ package com.leetcode.easy.simulation;
 import java.util.Arrays;
 
 public class _867_Transpose_Matrix {
+    //867. Transpose Matrix
+    //https://leetcode.com/problems/transpose-matrix/
+
     static public int[][] transpose(int[][] matrix) {
         int[][] mat = new int[matrix[0].length][matrix.length];
 
@@ -14,6 +17,17 @@ public class _867_Transpose_Matrix {
             i++;
         }
         return mat;
+    }
+
+    public int[][] transpose1(int[][] matrix) {
+        int m = matrix.length, n = matrix[0].length;
+        int[][] a = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                a[i][j] = matrix[j][i];
+            }
+        }
+        return a;
     }
 
     public static void main(String[] args) {
