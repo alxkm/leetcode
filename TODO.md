@@ -23,6 +23,8 @@ https://leetcode.com/problems/search-a-2d-matrix-ii/
 https://leetcode.com/problems/decode-ways/
 https://leetcode.com/problems/house-robber-ii/
 
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
 https://leetcode.com/problems/interleaving-string/
 https://leetcode.com/problems/reorganize-string/
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
@@ -243,3 +245,10 @@ https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-s
 //FOREIGN_SOLUTION
 //NOT_OPTIMAL
 //TOP
+
+//nov oct top
+https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/
+https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+https://leetcode.com/problems/binary-tree-pruning/
+https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+https://leetcode.com/problems/rearrange-array-elements-by-sign/
