@@ -5,6 +5,7 @@ import java.util.Queue;
 
 public class _649_Dota2_Senate {
     //https://leetcode.com/problems/dota2-senate/
+    //649. Dota2 Senate
     //FOREIGN_SOLUTION
     //TOP
 
