@@ -1,12 +1,12 @@
 package com.leetcode.easy.string;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class _1160_Find_Words_That_Can_Be_Formed_by_Characters {
+    //1160. Find Words That Can Be Formed by Characters
+    //https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/
+
     static public int countCharacters(String[] words, String chars) {
         Map<Character, Integer> map = new HashMap<>();
 
