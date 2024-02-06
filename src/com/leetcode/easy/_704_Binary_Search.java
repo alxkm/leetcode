@@ -2,6 +2,7 @@ package com.leetcode.easy;
 
 public class _704_Binary_Search {
     //https://leetcode.com/problems/binary-search/
+    //704. Binary Search
 
     static class Solution {
         public int search(int[] nums, int target) {
