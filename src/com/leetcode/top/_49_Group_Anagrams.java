@@ -26,4 +26,19 @@ public class _49_Group_Anagrams {
         }
         return new ArrayList<>(map.values());
     }
+
+    public List<List<String>> groupAnagrams1(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for (String s: strs) {
+            String str = new String(s);
+            char[] ch = str.toCharArray();
+            Arrays.sort(ch);
+            str = new String(ch);
+            if (map.get(str) == null) map.put(str, new ArrayList<>());
+            map.get(str).add(s);
+        }
+        List<List<String>> ll = new ArrayList<>();
+        for (var l: map.values()) ll.add(l);
+        return ll;
+    }
 }
