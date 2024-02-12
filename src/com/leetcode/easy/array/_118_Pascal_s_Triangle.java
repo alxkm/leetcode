@@ -5,6 +5,7 @@ import java.util.List;
 
 public class _118_Pascal_s_Triangle {
     //https://leetcode.com/problems/pascals-triangle/
+    //118. Pascal's Triangle
 
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list = new ArrayList<>();
