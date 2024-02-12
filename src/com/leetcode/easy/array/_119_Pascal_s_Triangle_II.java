@@ -5,6 +5,7 @@ import java.util.List;
 
 public class _119_Pascal_s_Triangle_II {
     //https://leetcode.com/problems/pascals-triangle-ii/
+    //119. Pascal's Triangle II
 
     static public List<Integer> getRow(int rowIndex) {
         List<Integer> list = new ArrayList<>(rowIndex  + 1);
