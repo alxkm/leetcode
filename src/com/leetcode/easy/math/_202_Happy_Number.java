@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class _202_Happy_Number {
     //https://leetcode.com/problems/happy-number/
+    //202. Happy Number
 
     static public boolean isHappy(int n) {
         int cnt = 0;
