@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class _383_Ransom_Note {
     //https://leetcode.com/problems/ransom-note/
+    //383. Ransom Note
 
     public boolean canConstruct(String ransomNote, String magazine) {
         Map<Character, Integer> map = new HashMap<>();
