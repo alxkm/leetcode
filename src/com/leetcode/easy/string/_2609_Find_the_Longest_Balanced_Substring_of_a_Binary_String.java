@@ -2,6 +2,7 @@ package com.leetcode.easy.string;
 
 public class _2609_Find_the_Longest_Balanced_Substring_of_a_Binary_String {
     //https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/
+    //2609. Find the Longest Balanced Substring of a Binary String
 
     public int findTheLongestBalancedSubstring(String s) {
         int max = 0;
