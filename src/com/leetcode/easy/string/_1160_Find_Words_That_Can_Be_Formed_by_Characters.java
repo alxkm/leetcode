@@ -33,6 +33,47 @@ public class _1160_Find_Words_That_Can_Be_Formed_by_Characters {
         return counter;
     }
 
+    public int countCharacters1(String[] words, String chars) {
+        int[] map = new int[26];
+        for (var ch: chars.toCharArray()) map[ch - 'a']++;
+        int s = 0;
+        for (var word: words) {
+            if (word.length() > chars.length()) continue;
+            int[] wFrequency = new int[26];
+            for (var ch: word.toCharArray()) wFrequency[ch - 'a']++;
+
+            boolean consists = true;
+            for (var ch: word.toCharArray()) {
+                if (wFrequency[ch - 'a'] > map[ch - 'a']) {
+                    consists = false;
+                    break;
+                }
+            }
+            if (consists) s += word.length();
+        }
+        return s;
+    }
+
+    public int countCharacters2(String[] words, String chars) {
+        int[] map = new int[26];
+        for (var ch: chars.toCharArray()) map[ch - 'a']++;
+        int s = 0;
+        for (var word: words) {
+            if (word.length() > chars.length()) continue;
+            int[] freq = new int[26];
+            boolean consists = true;
+            for (var ch: word.toCharArray()) {
+                freq[ch - 'a']++;
+                if (freq[ch - 'a'] > map[ch - 'a']) {
+                    consists = false;
+                    break;
+                }
+            }
+            if (consists) s += word.length();
+        }
+        return s;
+    }
+
     public static void main(String[] args) {
         String[] words = {"cat","bt","hat","tree"};
                 String chars = "atach";
