@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class _290_Word_Pattern {
     //https://leetcode.com/problems/word-pattern/
+    //290. Word Pattern
+    //hash
 
     static public boolean wordPattern(String pattern, String s) {
         Map<Character, String> map = new HashMap<>();
