@@ -1,4 +1,4 @@
-package com.leetcode.easy.ennumeration;
+package com.leetcode.easy.enumeration;
 
 public class _2908_Minimum_Sum_of_Mountain_Triplets_I {
     //https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/
