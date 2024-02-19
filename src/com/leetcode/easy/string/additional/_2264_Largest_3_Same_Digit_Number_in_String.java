@@ -1,6 +1,9 @@
 package com.leetcode.easy.string.additional;
 
 public class _2264_Largest_3_Same_Digit_Number_in_String {
+    //2264. Largest 3-Same-Digit Number in String
+    //https://leetcode.com/problems/largest-3-same-digit-number-in-string/
+
     static public String largestGoodInteger(String num) {
         if (num.length() < 3) return "";
         if (num.length() == 3 && num.charAt(0) == num.charAt(1) && num.charAt(1) == num.charAt(2)) {
