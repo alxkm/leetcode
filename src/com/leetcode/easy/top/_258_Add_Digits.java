@@ -1,7 +1,10 @@
-package com.leetcode.easy.math;
+package com.leetcode.easy.top;
 
 public class _258_Add_Digits {
     //https://leetcode.com/problems/add-digits/description/
+    //258. Add Digits
+    //top
+    //math
 
     static public int addDigits(int num) {
         while (num / 10 != 0) {
