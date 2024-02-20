@@ -1,4 +1,4 @@
-package com.leetcode.easy.gold.array;
+package com.leetcode.easy.top.array;
 
 public class _2255_Count_Prefixes_of_a_Given_String {
     public int countPrefixes(String[] words, String s) {

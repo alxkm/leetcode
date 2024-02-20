@@ -1,4 +1,4 @@
-package com.leetcode.easy.gold.string;
+package com.leetcode.easy.top.string;
 
 import java.util.Stack;
 

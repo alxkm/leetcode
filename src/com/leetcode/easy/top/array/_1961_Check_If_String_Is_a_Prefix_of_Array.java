@@ -1,4 +1,4 @@
-package com.leetcode.easy.gold.array;
+package com.leetcode.easy.top.array;
 
 public class _1961_Check_If_String_Is_a_Prefix_of_Array {
     public boolean isPrefixString(String s, String[] words) {

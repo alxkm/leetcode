@@ -1,9 +1,7 @@
-package com.leetcode.easy.gold.string;
+package com.leetcode.easy.top.string;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
 public class _459_Repeated_Substring_Pattern {
     static public boolean repeatedSubstringPattern(String s) {
