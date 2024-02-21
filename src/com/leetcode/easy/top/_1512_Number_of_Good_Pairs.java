@@ -1,9 +1,12 @@
-package com.leetcode.easy.hash;
+package com.leetcode.easy.top;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class _1512_Number_of_Good_Pairs {
+    //https://leetcode.com/problems/number-of-good-pairs/
+    //1512. Number of Good Pairs
+
     public int numIdenticalPairs(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
@@ -36,5 +39,15 @@ public class _1512_Number_of_Good_Pairs {
             }
         }
         return count;
+    }
+
+    public int numIdenticalPairs2(int[] nums) {
+        int counter = 0;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] == nums[j]) counter++;
+            }
+        }
+        return counter;
     }
 }
