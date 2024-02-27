@@ -1,7 +1,9 @@
-package com.leetcode.easy.array;
+package com.leetcode.easy.top;
 
 public class _605_Can_Place_Flowers {
     //https://leetcode.com/problems/can-place-flowers/
+    //605. Can Place Flowers
+    //easyTop
 
     static public boolean canPlaceFlowers(int[] flowerbed, int n) {
         if (n == 0) return true;
