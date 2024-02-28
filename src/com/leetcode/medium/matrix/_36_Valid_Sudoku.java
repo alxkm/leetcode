@@ -6,7 +6,9 @@ import java.util.Map;
 import java.util.Set;
 
 public class _36_Valid_Sudoku {
-    //https://leetcode.com/problems/valid-sudoku/description/
+    //https://leetcode.com/problems/valid-sudoku/
+    //36. Valid Sudoku
+    //matrix
 
     public boolean isValidSudoku(char[][] board) {
         Map<Integer, Set<Character>> rows = new HashMap<>();
