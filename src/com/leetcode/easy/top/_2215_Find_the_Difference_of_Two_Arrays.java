@@ -1,4 +1,4 @@
-package com.leetcode.easy;
+package com.leetcode.easy.top;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -7,6 +7,8 @@ import java.util.Set;
 
 public class _2215_Find_the_Difference_of_Two_Arrays {
     //https://leetcode.com/problems/find-the-difference-of-two-arrays/
+    //2215. Find the Difference of Two Arrays
+    //easyTop
 
     static public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         var s1 = new HashSet<Integer>();
@@ -50,6 +52,28 @@ public class _2215_Find_the_Difference_of_Two_Arrays {
         }
         List<Integer> first = new ArrayList<>(set);
         return List.of(first, second);
+    }
+
+    public List<List<Integer>> findDifference2(int[] nums1, int[] nums2) {
+        Set<Integer> s1 = new HashSet<>();
+        Set<Integer> s2 = new HashSet<>();
+        for (int n: nums1) s1.add(n);
+        for (int n: nums2) s2.add(n);
+
+        List<Integer> l1 = new ArrayList<>();
+        List<Integer> l2 = new ArrayList<>();
+        for (int n: s1) {
+            if (!s2.contains(n)) {
+                l1.add(n);
+            }
+        }
+
+        for (int n: s2) {
+            if (!s1.contains(n)) {
+                l2.add(n);
+            }
+        }
+        return List.of(l1, l2);
     }
 
     public static void main(String[] args) {
