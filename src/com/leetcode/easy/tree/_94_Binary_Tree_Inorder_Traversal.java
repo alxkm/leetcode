@@ -21,4 +21,18 @@ public class _94_Binary_Tree_Inorder_Traversal {
         inorderTraversal(root, list);
         return list;
     }
+
+    public List<Integer> inorderTraversal1(TreeNode root) {
+        List<Integer> l = new ArrayList<>();
+        dfs1(root, l);
+        return l;
+    }
+
+    private void dfs1(TreeNode t, List<Integer> l) {
+        if (t == null) return;
+
+        dfs1(t.left, l);
+        l.add(t.val);
+        dfs1(t.right, l);
+    }
 }
