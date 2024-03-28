@@ -31,4 +31,12 @@ public class _100_Same_Tree {
         traversalInorder(p.left, l);
         traversalInorder(p.right, l);
     }
+
+    public boolean isSameTree1(TreeNode p, TreeNode q) {
+        if (p == null && q == null) return true;
+        if ((p == null && q != null) || (p != null && q == null)) return false;
+        if (p.val != q.val) return false;
+
+        return isSameTree1(p.left, q.left) && isSameTree1(p.right, q.right);
+    }
 }
