@@ -1,6 +1,9 @@
 package com.leetcode.easy;
 
 public class _268_Missing_Number {
+    //268. Missing Number
+    //https://leetcode.com/problems/missing-number/
+
     public int missingNumber(int[] nums) {
         int max = nums[0];
         int min = nums[0];
@@ -28,6 +31,27 @@ public class _268_Missing_Number {
         if (sum1 == sum) return max + 1;
 
         return sum1 - sum;
+    }
+
+    public int missingNumber1(int[] nums) {
+        int s = 0, max = 0;
+        boolean has = false;
+        for (int n: nums) {
+            max = Math.max(max, n);
+            s += n;
+            if (n == 0) has = true;
+        }
+        if (!has) return 0;
+        int s1 = 0;
+        for (int i = 0; i <= max; i++) {
+            s1 += i;
+        }
+
+        if (s == s1) {
+            return max + 1;
+        }
+
+        return s1 - s;
     }
 
 }
