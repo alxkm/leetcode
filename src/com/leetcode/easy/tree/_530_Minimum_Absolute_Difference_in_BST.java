@@ -4,6 +4,7 @@ import com.leetcode.TreeNode;
 
 public class _530_Minimum_Absolute_Difference_in_BST {
     //https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+    //530. Minimum Absolute Difference in BST
 
     private int prev = Integer.MAX_VALUE;
     private int diff = Integer.MAX_VALUE;
