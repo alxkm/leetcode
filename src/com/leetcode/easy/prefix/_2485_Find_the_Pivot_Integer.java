@@ -3,6 +3,8 @@ package com.leetcode.easy.prefix;
 import java.util.Arrays;
 
 public class _2485_Find_the_Pivot_Integer {
+    //2485. Find the Pivot Integer
+    //https://leetcode.com/problems/find-the-pivot-integer/
 
     static public int pivotInteger(int n) {
         int[] prefix = new int[n];
@@ -26,7 +28,20 @@ public class _2485_Find_the_Pivot_Integer {
         return result;
     }
 
+    public static int pivotInteger1(int n) {
+        int[] pr = new int[n + 1];
+        pr[1] = 1;
+        for (int i = 1; i <= n; i++) {
+            pr[i] = pr[i - 1] + i;
+        }
+        int pivot = -1;
+        for (int i = 1; i <= n; i++) {
+            if (pr[i] == pr[n] - pr[i - 1]) return i;
+        }
+        return pivot;
+    }
+
     public static void main(String[] args) {
-        System.out.println(pivotInteger(8));
+        System.out.println(pivotInteger1(8));
     }
 }
