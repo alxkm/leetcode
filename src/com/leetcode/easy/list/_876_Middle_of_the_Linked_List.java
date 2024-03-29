@@ -1,8 +1,12 @@
-package com.leetcode.easy.top.array;
+package com.leetcode.easy.list;
 
 import com.leetcode.ListNode;
 
 public class _876_Middle_of_the_Linked_List {
+    //876. Middle of the Linked List
+    //https://leetcode.com/problems/middle-of-the-linked-list/
+
+
     static public ListNode middleNode(ListNode head) {
         ListNode l = head;
         int size = 0;
@@ -23,6 +27,21 @@ public class _876_Middle_of_the_Linked_List {
         return null;
     }
 
-    public static void main(String[] args) {
+    public ListNode middleNode1(ListNode head) {
+        ListNode h = head;
+        int size = 0;
+
+        while (h != null) {
+            size++;
+            h = h.next;
+        }
+
+        size /= 2;
+        h = head;
+
+        while (size-- > 0) {
+            h = h.next;
+        }
+        return h;
     }
 }
