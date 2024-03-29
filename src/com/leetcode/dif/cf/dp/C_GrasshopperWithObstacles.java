@@ -1,4 +1,4 @@
-package com.leetcode.diff.cf.dp;
+package com.leetcode.dif.cf.dp;
 
 import java.io.BufferedReader;
 import java.io.IOException;

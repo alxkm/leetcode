@@ -1,4 +1,4 @@
-package com.leetcode.diff.cf.dp;
+package com.leetcode.dif.cf.dp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,43 +7,46 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class B_TurtleMaxCoins {
-
-    static int m;
-    static int n;
+public class F_HorseAndCoins {
+    private static int INF = -100000;
 
     public static void solve() throws IOException {
-        m = in.nextInt();
-        n = in.nextInt();
-
-        int[][] mat = new int[m][n];
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
+        int n = in.nextInt();
+        int m = in.nextInt();
+        int[][] mat = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 mat[i][j] = in.nextInt();
             }
         }
 
-        int ans = getMaxCoins(mat);
-        out.println(ans);
-    }
-
-    private static int getMaxCoins(int[][] coins) {
-        int[][] max = new int[m][n];
-        max[0][0] = coins[0][0];
-        for (int i = 1; i < m; i++) {
-            max[i][0] = coins[i][0] + max[i - 1][0];
-        }
-        for (int j = 1; j < n; j++) {
-            max[0][j] = coins[0][j] + max[0][j - 1];
-        }
-
-        for (int i = 1; i < m; i++) {
-            for (int j = 1; j < n; j++) {
-                max[i][j] = coins[i][j] + Math.max(max[i][j], max[i][j - 1]);
+        int[][] dp = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                dp[i][j] = INF;
             }
         }
 
-        return max[m - 1][n - 1];
+        dp[0][0] = mat[0][0];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (i - 1 >= 0 && j - 2 >= 0) {
+                    dp[i][j] = Math.max(dp[i][j], dp[i - 1][j - 2] + mat[i][j]);
+                }
+                if (i - 2 >= 0 && j - 1 >= 0) {
+                    dp[i][j] = Math.max(dp[i][j], dp[i - 2][j - 1] + mat[i][j]);
+                }
+            }
+        }
+
+        int max = INF;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                max = Math.max(dp[i][j], max);
+            }
+        }
+
+        out.println(max);
     }
 
     public static void main(String[] args) throws IOException {
@@ -51,12 +54,12 @@ public class B_TurtleMaxCoins {
         out.close();
     }
 
-    static InputReader in = new InputReader();
+    static C_GrasshopperWithObstacles.InputReader in = new C_GrasshopperWithObstacles.InputReader();
     static PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
 
     static class InputReader {
         private StringTokenizer st;
-        private BufferedReader bf;
+        private final BufferedReader bf;
 
         public InputReader() {
             bf = new BufferedReader(new InputStreamReader(System.in));
@@ -76,14 +79,6 @@ public class B_TurtleMaxCoins {
 
         public int nextInt() throws IOException {
             return Integer.parseInt(next());
-        }
-
-        public long nextLong() throws IOException {
-            return Long.parseLong(next());
-        }
-
-        public double nextDouble() throws IOException {
-            return Double.parseDouble(next());
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.leetcode.diff.cf.dp;
+package com.leetcode.dif.cf.dp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,45 +7,24 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class F_HorseAndCoins {
-    private static int INF = -100000;
-
+public class E_BiggestIncreasingSubSequence {
     public static void solve() throws IOException {
         int n = in.nextInt();
-        int m = in.nextInt();
-        int[][] mat = new int[n][m];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                mat[i][j] = in.nextInt();
-            }
-        }
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) arr[i] = in.nextInt();
 
-        int[][] dp = new int[n][m];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                dp[i][j] = INF;
-            }
-        }
-
-        dp[0][0] = mat[0][0];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (i - 1 >= 0 && j - 2 >= 0) {
-                    dp[i][j] = Math.max(dp[i][j], dp[i - 1][j - 2] + mat[i][j]);
-                }
-                if (i - 2 >= 0 && j - 1 >= 0) {
-                    dp[i][j] = Math.max(dp[i][j], dp[i - 2][j - 1] + mat[i][j]);
+        int[] dp = new int[n];
+        dp[0] = 1;
+        int max = 1;
+        for (int i = 1; i < n; i++) {
+            dp[i] = 1;
+            for (int j = 0; j < i; j++) {
+                if (arr[j] < arr[i]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
                 }
             }
+            max = Math.max(max, dp[i]);
         }
-
-        int max = INF;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                max = Math.max(dp[i][j], max);
-            }
-        }
-
         out.println(max);
     }
 
@@ -54,7 +33,7 @@ public class F_HorseAndCoins {
         out.close();
     }
 
-    static C_GrasshopperWithObstacles.InputReader in = new C_GrasshopperWithObstacles.InputReader();
+    static InputReader in = new InputReader();
     static PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
 
     static class InputReader {
