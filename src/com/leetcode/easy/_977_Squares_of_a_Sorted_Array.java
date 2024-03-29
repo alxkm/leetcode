@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import java.util.Arrays;
+
 public class _977_Squares_of_a_Sorted_Array {
     //977. Squares of a Sorted Array
     //https://leetcode.com/problems/squares-of-a-sorted-array/
@@ -84,9 +86,39 @@ public class _977_Squares_of_a_Sorted_Array {
         return n;
     }
 
+    public int[] sortedSquares2(int[] nums) {
+        int[] ar = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) nums[i] *= nums[i];
+
+        for (int i = 0, j = nums.length - 1, r = nums.length - 1, l = 0; i <= j; ) {
+            if (i == j) {
+                ar[r] = nums[i];
+                break;
+            }
+            if (nums[i] > nums[j]) {
+                ar[r] = nums[i];
+                r--;
+                i++;
+            } else if (nums[i] == nums[j]) {
+                ar[r] = nums[i];
+                r--;
+                ar[r] = nums[j];
+                r--;
+                i++;
+                j--;
+            } else if (nums[i] < nums[j]) {
+                ar[r] = nums[j];
+                j--;
+                r--;
+            }
+        }
+        return ar;
+    }
+
     public static void main(String[] args) {
        var sol = new _977_Squares_of_a_Sorted_Array();
 
-        System.out.println(sol.sortedSquares1(new int [] {-7,-3,2,3,11}));
+        //System.out.println(sol.sortedSquares2(new int [] {-7,-3,2,3,11}));
+        System.out.println(sol.sortedSquares2(new int [] {-4,-1,0,3,10}));
     }
 }
