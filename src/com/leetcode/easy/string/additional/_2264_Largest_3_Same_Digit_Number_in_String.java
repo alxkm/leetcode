@@ -30,6 +30,21 @@ public class _2264_Largest_3_Same_Digit_Number_in_String {
         }
     }
 
+    public String largestGoodInteger1(String num) {
+        String s = "";
+        char[] ch = num.toCharArray();
+        for (int i = 0; i <= num.length() - 3; i++) {
+            if (ch[i] != ch[i + 1]) continue;
+            if (ch[i + 1] != ch[i + 2]) continue;
+
+            if (s.equals("") || (s.charAt(0) < ch[i])) {
+                s = num.substring(i, i + 3);
+                i += 2;
+            }
+        }
+        return s;
+    }
+
     public static void main(String[] args) {
         //String s = "6777133339";
         String s = "1221000";
