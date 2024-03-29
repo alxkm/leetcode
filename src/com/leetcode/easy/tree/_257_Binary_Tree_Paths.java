@@ -7,6 +7,9 @@ import java.util.List;
 
 public class _257_Binary_Tree_Paths {
     //https://leetcode.com/problems/binary-tree-paths/
+    //257. Binary Tree Paths
+    //top
+    //tree
 
     public List<String> binaryTreePaths(TreeNode root) {
         if (root == null) return null;
