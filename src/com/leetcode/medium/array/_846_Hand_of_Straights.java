@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class _846_Hand_of_Straights {
     //https://leetcode.com/problems/hand-of-straights/
+    //846. Hand of Straights
 
     public boolean isNStraightHand(int[] hand, int groupSize) {
         if (hand.length % groupSize != 0) return false;
