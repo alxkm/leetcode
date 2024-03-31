@@ -5,6 +5,8 @@ import java.util.Set;
 
 public class _1593_Split_a_String_Into_the_Max_Number_of_Unique_Substrings {
     //https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/
+    //1593. Split a String Into the Max Number of Unique Substrings
+    //backtrack
 
     private int max = 0;
 
