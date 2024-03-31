@@ -10,6 +10,7 @@ import java.util.Set;
 
 public class _721_Accounts_Merge {
     //https://leetcode.com/problems/accounts-merge/
+    //721. Accounts Merge
 
     Set<String> visited = new HashSet<>();
     Map<String, List<String>> adjacent = new HashMap<String, List<String>>();
