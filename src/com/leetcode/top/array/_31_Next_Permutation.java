@@ -2,6 +2,7 @@ package com.leetcode.top.array;
 
 public class _31_Next_Permutation {
     //https://leetcode.com/problems/next-permutation/
+    //31. Next Permutation
     //FOREIGN_SOLUTION
 
     public void nextPermutation(int[] nums) {
