@@ -1,11 +1,19 @@
 package com.leetcode.top.top175;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.Set;
+import java.util.TreeMap;
 
 public class _621_Task_Scheduler {
     //https://leetcode.com/problems/task-scheduler/
+    //621. Task Scheduler
     //FOREIGN_SOLUTION
     //TOP
 
@@ -46,5 +54,40 @@ public class _621_Task_Scheduler {
             }
         }
         return time;
+    }
+
+    public int leastInterval1(char[] tasks, int n) {
+        Map<Character, Integer> map = new TreeMap<>(Comparator.reverseOrder());
+        for (char t: tasks) map.put(t, map.getOrDefault(t, 0) + 1);
+
+        int counter = 0;
+
+        do {
+            int c = 0;
+            Set<Character> set = new HashSet<>();
+            for (var entry : map.entrySet()) {
+                if (entry.getValue() == 1) {
+                    set.add(entry.getKey());
+                } else {
+                    map.put(entry.getKey(), entry.getValue() - 1);
+                }
+                counter++;
+                c++;
+                if (c == n + 1) break;
+            }
+            for (Character character : set) {
+                map.remove(character);
+            }
+            if (map.size() > 0 && c < n + 1) counter += n + 1 - c;
+        } while (map.size() != 0);
+
+        return counter;
+    }
+
+    public static void main(String[] args) {
+        var sol = new _621_Task_Scheduler();
+        //System.out.println(sol.leastInterval1(new char[] {'A','A','A','B','B','B'}, 2));
+        System.out.println(sol.leastInterval1(new char[] {'A','A','A','B','B','B', 'C','C','C', 'D', 'D', 'E'}, 2));
+        //System.out.println(sol.leastInterval1(new char[] {'A','A','A','A','A','A','B','C','D','E','F','G'}, 1));
     }
 }
