@@ -5,6 +5,7 @@ import java.util.List;
 
 public class _229_Majority_Element_II {
     //https://leetcode.com/problems/majority-element-ii/
+    //Majority Element II
     //TOP
 
     public List<Integer> majorityElement(int[] nums) {
@@ -56,6 +57,37 @@ public class _229_Majority_Element_II {
         }
 
         return major;
+    }
+
+    public List<Integer> majorityElement1(int[] nums) {
+        int a = 0, b = 0, c1 = 0, c2 = 0;
+        for (int n: nums) {
+            if (n == a) {
+                c1++;
+            } else if (n == b) {
+                c2++;
+            } else if (c1 == 0) {
+                a = n;
+                c1 = 1;
+            } else if (c2 == 0) {
+                b = n;
+                c2 = 1;
+            } else {
+                c1--;
+                c2--;
+            }
+        }
+        c1 = 0;
+        c2 = 0;
+        for (int n: nums) {
+            if (n == a) c1++;
+            else if (n == b) c2++;
+        }
+        int n = nums.length / 3;
+        List<Integer> l = new ArrayList<>();
+        if (c1 > n) l.add(a);
+        if (c2 > n) l.add(b);
+        return l;
     }
 
     public static void main(String[] args) {
