@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class _1838_Frequency_of_the_Most_Frequent_Element {
     //https://leetcode.com/problems/frequency-of-the-most-frequent-element/
+    //1838. Frequency of the Most Frequent Element
     //FOREIGN_SOLUTION
     //TOP
 
