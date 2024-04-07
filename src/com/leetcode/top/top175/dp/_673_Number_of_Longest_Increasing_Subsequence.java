@@ -4,8 +4,10 @@ import java.util.Arrays;
 
 public class _673_Number_of_Longest_Increasing_Subsequence {
     //https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+    //673. Number of Longest Increasing Subsequence
     //FOREIGN_SOLUTION
     //TOP
+    //LCS
 
     public int findNumberOfLIS(int[] nums) {
         int n = nums.length;
