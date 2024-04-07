@@ -8,6 +8,7 @@ import java.util.List;
 
 public class _86_Partition_List {
     //https://leetcode.com/problems/partition-list/
+    //86. Partition List
 
     public ListNode partition(ListNode head, int x) {
         List<ListNode> before = new LinkedList<>();
