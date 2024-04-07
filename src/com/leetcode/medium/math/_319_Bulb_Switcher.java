@@ -2,6 +2,8 @@ package com.leetcode.medium.math;
 
 public class _319_Bulb_Switcher {
     //https://leetcode.com/problems/bulb-switcher/
+    //319. Bulb Switcher
+    //top
 
     public int bulbSwitch(int n) {
         return (int)Math.sqrt(n);
