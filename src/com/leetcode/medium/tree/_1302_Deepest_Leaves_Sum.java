@@ -4,7 +4,7 @@ import com.leetcode.TreeNode;
 
 public class _1302_Deepest_Leaves_Sum {
     //https://leetcode.com/problems/deepest-leaves-sum/
-    //TOP
+    //1302. Deepest Leaves Sum
 
     private int n = 0;
     private int sum = 0;
