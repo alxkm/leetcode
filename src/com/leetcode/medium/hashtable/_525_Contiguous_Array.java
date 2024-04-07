@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class _525_Contiguous_Array {
     //https://leetcode.com/problems/contiguous-array/
+    //525. Contiguous Array
     //TOP
 
     public int findMaxLength(int[] nums) {
