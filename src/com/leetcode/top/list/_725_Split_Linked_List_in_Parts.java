@@ -4,6 +4,7 @@ import com.leetcode.ListNode;
 
 public class _725_Split_Linked_List_in_Parts {
     //https://leetcode.com/problems/split-linked-list-in-parts/
+    //725. Split Linked List in Parts
 
     public ListNode[] splitListToParts(ListNode head, int k) {
         if (head == null) return new ListNode[k];
