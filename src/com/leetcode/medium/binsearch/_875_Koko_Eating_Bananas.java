@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class _875_Koko_Eating_Bananas {
     //https://leetcode.com/problems/koko-eating-bananas/
+    //875. Koko Eating Bananas
+    //Aug 01, 2023 12:53
+    //FOREIGN_SOLUTIONS
 
     public int minEatingSpeed(int[] piles, int h) {
         int l = 1;
