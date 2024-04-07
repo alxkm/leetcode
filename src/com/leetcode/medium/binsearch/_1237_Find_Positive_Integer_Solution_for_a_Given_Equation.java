@@ -19,6 +19,7 @@ interface CustomFunction {
 
 public class _1237_Find_Positive_Integer_Solution_for_a_Given_Equation {
     //https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/
+    //1237. Find Positive Integer Solution for a Given Equation
 
     public List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
         List<List<Integer>> ll = new ArrayList<>();
