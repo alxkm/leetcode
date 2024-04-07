@@ -9,15 +9,20 @@ public class _2353_Design_a_Food_Rating_System {
     //https://leetcode.com/problems/design-a-food-rating-system/
 
     static class FoodRatings {
-        private class Food {
+        static class Food {
             String name;
             String cuisine;
             int rating;
-            public Food(String name, String cuisine, int rating) {this.name = name; this.cuisine = cuisine; this.rating = rating;}
+
+            public Food(String name, String cuisine, int rating) {
+                this.name = name;
+                this.cuisine = cuisine;
+                this.rating = rating;
+            }
         }
 
-        private Map<String, PriorityQueue<Food>> map = new HashMap<>();
-        private Map<String, Food> foodMap = new HashMap<>();
+        Map<String, PriorityQueue<Food>> map = new HashMap<>();
+        Map<String, Food> foodMap = new HashMap<>();
 
         public FoodRatings(String[] foods, String[] cuisines, int[] ratings) {
             for (int i = 0; i < foods.length; i++) {
@@ -38,17 +43,44 @@ public class _2353_Design_a_Food_Rating_System {
         }
 
         public void changeRating(String food, int newRating) {
-            var prev = foodMap.get(food);
-            var newFood = new Food(food, prev.cuisine, newRating);
-            foodMap.put(food, newFood);
-            prev.name = "";
-            map.get(prev.cuisine).add(newFood);
+            var f = foodMap.get(food);
+            f.rating = newRating;
+            var pq = map.get(f.cuisine);
+
+            var it = pq.iterator();
+            Food foodToRemove = null;
+            while (it.hasNext()) {
+                foodToRemove = it.next();
+                if (foodToRemove.name.equals(food)) {
+                    it.remove();
+                    break;
+                }
+            }
+            pq.offer(foodToRemove);
+
+            //work with remove
+//            var foodToRemove = foodMap.get(food);
+//            foodMap.remove(food);
+//            pq.remove(foodToRemove);
+//            var fn = new Food(foodToRemove.name, foodToRemove.cuisine, newRating);
+//            pq.offer(fn);
+//            foodMap.put(food, fn);
+
+            //work create new priority queue
+//            int size = pq.size();
+//            List<Food> list = new ArrayList<>();
+//            while (size-- > 0) {
+//                list.add(pq.poll());
+//            }
+//            for (Food o : list) {
+//                pq.add(o);
+//            }
+
+
+   //         foodMap.put(food, new PriorityQueue<>(pq));
         }
 
         public String highestRated(String cuisine) {
-            while(map.get(cuisine).peek().name.equals("")) {
-                map.get(cuisine).remove();
-            }
             return map.get(cuisine).peek().name;
         }
     }
@@ -71,6 +103,7 @@ public class _2353_Design_a_Food_Rating_System {
 
         //["korean"], ["japanese"], ["sushi", 16], ["japanese"], ["ramen", 16], ["japanese"]
         //["FoodRatings", "highestRated", "highestRated", "changeRating", "highestRated", "changeRating", "highestRated"]
+
         //[null,"bulgogi","sushi",null,"sushi",null,"sushi"]
 
         System.out.println(sol.highestRated("korean"));
