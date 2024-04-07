@@ -3,6 +3,7 @@ package com.leetcode.medium.array;
 import java.util.Arrays;
 
 public class _1877_Minimize_Maximum_Pair_Sum_in_Array {
+    //1877. Minimize Maximum Pair Sum in Array
     //https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/
 
     public int minPairSum(int[] nums) {
