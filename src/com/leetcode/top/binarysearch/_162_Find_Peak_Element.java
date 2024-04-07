@@ -1,7 +1,8 @@
 package com.leetcode.top.binarysearch;
 
 public class _162_Find_Peak_Element {
-    //https://leetcode.com/problems/find-peak-element/description/
+    //https://leetcode.com/problems/find-peak-element/
+    //162. Find Peak Element
     //todo todo
     //binsearch
 
