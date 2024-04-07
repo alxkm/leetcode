@@ -10,6 +10,8 @@ import java.util.stream.Collectors;
 
 public class _1657_Determine_if_Two_Strings_Are_Close {
     //https://leetcode.com/problems/determine-if-two-strings-are-close/
+    //1657. Determine if Two Strings Are Close
+    //top
 
     public boolean closeStrings(String word1, String word2) {
         if (word1.length() != word2.length()) return false;
@@ -81,6 +83,31 @@ public class _1657_Determine_if_Two_Strings_Are_Close {
         Arrays.sort(a2);
 
         return Arrays.toString(a1).equals(Arrays.toString(a2)) && set.size() == 0;
+    }
+
+    public boolean closeStrings2(String word1, String word2) {
+        if (word1.length() != word2.length()) return false;
+        int[] c1 = new int[26];
+        int[] c2 = new int[26];
+        Set<Character> s1 = new HashSet<>();
+        Set<Character> s2 = new HashSet<>();
+        for (char ch: word1.toCharArray()) {
+            c1[ch - 'a']++;
+            s1.add(ch);
+        }
+        for (char ch: word2.toCharArray()) {
+            c2[ch - 'a']++;
+            s2.add(ch);
+        }
+        if (!s1.equals(s2)) return false;
+
+        Arrays.sort(c1);
+        Arrays.sort(c2);
+        for (int i = 0; i < 26; i++) {
+            if (c1[i] != c2[i]) return false;
+        }
+
+        return true;
     }
 
     public static void main(String[] args) {
