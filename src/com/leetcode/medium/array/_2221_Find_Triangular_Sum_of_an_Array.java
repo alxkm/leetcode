@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class _2221_Find_Triangular_Sum_of_an_Array {
     //https://leetcode.com/problems/find-triangular-sum-of-an-array/
+    //2221. Find Triangular Sum of an Array
 
     public int triangularSum(int[] nums) {
         int n = nums.length;
