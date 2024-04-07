@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class _567_Permutation_in_String {
     //567. Permutation in String
-    //https://leetcode.com/problems/permutation-in-string/description/
+    //https://leetcode.com/problems/permutation-in-string/
 
     public boolean checkInclusion(String s1, String s2) {
         Map<Character, Integer> sizeMap = new HashMap<>();
