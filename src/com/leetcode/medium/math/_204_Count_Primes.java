@@ -2,6 +2,7 @@ package com.leetcode.medium.math;
 
 public class _204_Count_Primes {
     //https://leetcode.com/problems/count-primes/
+    //204. Count Primes
 
     public int countPrimes(int n) {
         boolean[] primes = new boolean[n];
