@@ -10,6 +10,7 @@ import java.util.TreeMap;
 
 public class _973_K_Closest_Points_to_Origin {
     //https://leetcode.com/problems/k-closest-points-to-origin/
+    //973. K Closest Points to Origin
     //queue
     //todo todo todo
 
