@@ -2,6 +2,7 @@ package com.leetcode.medium.matrix;
 
 public class _498_Diagonal_Traverse {
     //https://leetcode.com/problems/diagonal-traverse/
+    //498. Diagonal Traverse
 
     public int[] findDiagonalOrder(int[][] mat) {
         int m = mat.length;
