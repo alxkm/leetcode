@@ -2,6 +2,7 @@ package com.leetcode.medium.binsearch;
 
 public class _540_Single_Element_in_a_Sorted_Array {
     //https://leetcode.com/problems/single-element-in-a-sorted-array/
+    //540. Single Element in a Sorted Array
 
     public int singleNonDuplicate(int[] nums) {
         int l = 0;
