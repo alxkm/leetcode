@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class _155_Min_Stack {
     //https://leetcode.com/problems/min-stack/
+    //155. Min Stack
     //FOREIGN_SOLUTION
 
     private Stack<Integer> stack = new Stack<>();
