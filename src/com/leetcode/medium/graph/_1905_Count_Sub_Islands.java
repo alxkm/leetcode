@@ -2,6 +2,7 @@ package com.leetcode.medium.graph;
 
 public class _1905_Count_Sub_Islands {
     //https://leetcode.com/problems/count-sub-islands/
+    //1905. Count Sub Islands
 
     private int m = 0;
     private int n = 0;
