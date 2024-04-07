@@ -18,4 +18,24 @@ public class _141_Linked_List_Cycle {
         }
         return false;
     }
+
+    public boolean hasCycle1(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while (fast != null) {
+            fast = fast.next;
+            if (fast != null) {
+                fast = fast.next;
+            } else {
+                return false;
+            }
+            slow = slow.next;
+            if (fast == slow) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
