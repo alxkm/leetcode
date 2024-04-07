@@ -5,7 +5,9 @@ import java.util.Set;
 
 public class _128_Longest_Consecutive_Sequence {
     //https://leetcode.com/problems/longest-consecutive-sequence/
+    //128. Longest Consecutive Sequence
     //todo todo todo
+    //dp
 
     public int longestConsecutive(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
