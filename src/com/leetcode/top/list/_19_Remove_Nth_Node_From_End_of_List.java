@@ -32,4 +32,27 @@ public class _19_Remove_Nth_Node_From_End_of_List {
             copy.next = copy.next.next;
         return head;
     }
+    public ListNode removeNthFromEnd1(ListNode head, int n) {
+        ListNode first = head;
+        ListNode second = head;
+
+        int i = 0;
+        while (first != null && i < n) {
+            first = first.next;
+            i++;
+        }
+        if (first == null) {
+            return head.next;
+        }
+
+        while (first != null) {
+            if (first.next == null) {
+                second.next = second.next.next;
+                break;
+            }
+            second = second.next;
+            first = first.next;
+        }
+        return head;
+    }
 }
