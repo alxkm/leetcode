@@ -5,6 +5,8 @@ import java.util.List;
 
 public class _73_Set_Matrix_Zeroes {
     //https://leetcode.com/problems/set-matrix-zeroes/
+    //73. Set Matrix Zeroes
+    //matrix
 
     public void setZeroes(int[][] matrix) {
         List<Integer> iThList = new ArrayList<>();
