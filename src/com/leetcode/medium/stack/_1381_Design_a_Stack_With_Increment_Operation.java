@@ -2,6 +2,7 @@ package com.leetcode.medium.stack;
 
 public class _1381_Design_a_Stack_With_Increment_Operation {
     //https://leetcode.com/problems/design-a-stack-with-increment-operation/
+    //1381. Design a Stack With Increment Operation
 
     class CustomStack {
         private int[] st;
