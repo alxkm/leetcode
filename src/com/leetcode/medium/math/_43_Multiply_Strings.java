@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class _43_Multiply_Strings {
     //https://leetcode.com/problems/multiply-strings/
+    //43. Multiply Strings
 
     public String multiply(String num1, String num2) {
         if (num1.equals("0") || num2.equals("0")) return "0";
