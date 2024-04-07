@@ -6,6 +6,7 @@ import java.util.List;
 
 public class _1329_Sort_the_Matrix_Diagonally {
     //https://leetcode.com/problems/sort-the-matrix-diagonally/
+    //1329. Sort the Matrix Diagonally
     //any diagonal has property i - j, any sub diagonal has property i - j
 
     public int[][] diagonalSort(int[][] mat) {
