@@ -2,6 +2,9 @@ package com.leetcode.medium.graph;
 
 public class _547_Number_of_Provinces {
     //https://leetcode.com/problems/number-of-provinces/
+    //547. Number of Provinces
+    //dfs
+    //top
 
     private boolean[] visit;
     private int m = 0;
