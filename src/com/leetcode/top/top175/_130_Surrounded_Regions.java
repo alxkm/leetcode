@@ -2,6 +2,7 @@ package com.leetcode.top.top175;
 
 public class _130_Surrounded_Regions {
     //https://leetcode.com/problems/surrounded-regions/
+    //130. Surrounded Regions
     //FOREIGN_SOLUTION
 
     private char[][] board;
