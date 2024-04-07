@@ -1,7 +1,8 @@
 package com.leetcode.top.top175;
 
 public class _74_Search_a_2D_Matrix {
-    //https://leetcode.com/problems/search-a-2d-matrix/description/
+    //https://leetcode.com/problems/search-a-2d-matrix/
+    //74. Search a 2D Matrix
 
     public boolean searchMatrix(int[][] matrix, int target) {
         for (int[] row: matrix) {
