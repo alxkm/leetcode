@@ -2,6 +2,9 @@ package com.leetcode.medium.dp;
 
 public class _64_Minimum_Path_Sum {
     //https://leetcode.com/problems/minimum-path-sum/
+    //64. Minimum Path Sum
+    //FOREIGN_SOLUTION
+    //TOP
 
     public int minPathSum(int[][] grid) {
         int m = grid.length;
