@@ -6,7 +6,6 @@ public class _876_Middle_of_the_Linked_List {
     //876. Middle of the Linked List
     //https://leetcode.com/problems/middle-of-the-linked-list/
 
-
     static public ListNode middleNode(ListNode head) {
         ListNode l = head;
         int size = 0;
