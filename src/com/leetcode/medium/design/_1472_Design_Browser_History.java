@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class _1472_Design_Browser_History {
-    //https://leetcode.com/problems/design-browser-history/description/
+    //https://leetcode.com/problems/design-browser-history/
     //1472. Design Browser History
 
     class BrowserHistory {
