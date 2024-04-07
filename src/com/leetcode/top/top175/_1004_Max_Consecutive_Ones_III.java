@@ -2,6 +2,7 @@ package com.leetcode.top.top175;
 
 public class _1004_Max_Consecutive_Ones_III {
     //https://leetcode.com/problems/max-consecutive-ones-iii/
+    //1004. Max Consecutive Ones III
     //NOT_OPTIMAL
     //sliding window
 
