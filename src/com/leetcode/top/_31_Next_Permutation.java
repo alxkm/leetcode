@@ -2,6 +2,8 @@ package com.leetcode.top;
 
 public class _31_Next_Permutation {
     //https://leetcode.com/problems/next-permutation/
+    //31. Next Permutation
+    //FOREIGN
 
     public void nextPermutation(int[] nums) {
         if (nums.length == 1) return;
