@@ -2,6 +2,10 @@ package com.leetcode.medium.dp;
 
 public class _300_Longest_Increasing_Subsequence {
     //https://leetcode.com/problems/longest-increasing-subsequence/
+    //300. Longest Increasing Subsequence
+    //DP
+    //FOREIGN_SOLUTION
+    //LCS
 
     public int lengthOfLIS(int[] nums) {
         int[] dp = new int[nums.length];
