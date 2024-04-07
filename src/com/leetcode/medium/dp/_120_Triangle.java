@@ -4,6 +4,7 @@ import java.util.List;
 
 public class _120_Triangle {
     //https://leetcode.com/problems/triangle/
+    //120. Triangle
 
     public int minimumTotal(List<List<Integer>> triangle) {
         int[] dp = new int[triangle.size() + 1];
