@@ -6,6 +6,7 @@ import java.util.Stack;
 
 public class _1249_Minimum_Remove_to_Make_Valid_Parentheses {
     //https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+    //1249. Minimum Remove to Make Valid Parentheses
 
     public String minRemoveToMakeValid(String s) {
         Stack<Character> st = new Stack<>();
