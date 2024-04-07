@@ -7,7 +7,8 @@ import java.util.List;
 import java.util.Stack;
 
 public class _92_Reverse_Linked_List_II {
-    //https://leetcode.com/problems/reverse-linked-list-ii/description/
+    //https://leetcode.com/problems/reverse-linked-list-ii/
+    //92. Reverse Linked List II
 
     public ListNode reverseBetween(ListNode head, int left, int right) {
         if (left == right || head == null) return head;
