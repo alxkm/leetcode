@@ -10,6 +10,7 @@ import java.util.TreeSet;
 
 public class _721_Accounts_Merge {
     //https://leetcode.com/problems/accounts-merge/
+    //721. Accounts Merge
     //FOREIGN_SOLUTION
 
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
