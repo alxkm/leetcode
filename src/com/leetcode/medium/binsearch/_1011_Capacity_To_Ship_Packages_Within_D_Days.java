@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class _1011_Capacity_To_Ship_Packages_Within_D_Days {
     //https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+    //1011. Capacity To Ship Packages Within D Days
 
     public int shipWithinDays(int[] weights, int days) {
         int l = Arrays.stream(weights).max().getAsInt();
