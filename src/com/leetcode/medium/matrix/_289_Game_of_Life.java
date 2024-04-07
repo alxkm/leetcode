@@ -2,6 +2,7 @@ package com.leetcode.medium.matrix;
 
 public class _289_Game_of_Life {
     //https://leetcode.com/problems/game-of-life/
+    //289. Game of Life
 
     public void gameOfLife(int[][] board) {
         int[][] b = new int[board.length][board[0].length];
