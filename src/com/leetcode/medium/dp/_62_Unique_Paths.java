@@ -2,6 +2,8 @@ package com.leetcode.medium.dp;
 
 public class _62_Unique_Paths {
     //https://leetcode.com/problems/unique-paths/
+    //62. Unique Paths
+    //dp
 
     static public int uniquePaths(int m, int n) {
 
