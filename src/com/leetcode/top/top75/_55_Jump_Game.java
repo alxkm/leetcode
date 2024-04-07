@@ -2,6 +2,8 @@ package com.leetcode.top.top75;
 
 public class _55_Jump_Game {
     //https://leetcode.com/problems/jump-game/
+    //55. Jump Game
+    //FOREIGN_SOLUTION
 
     public boolean canJump(int[] nums) {
         return dfs(nums, 0, new boolean[nums.length]);
