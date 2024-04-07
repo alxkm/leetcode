@@ -1,7 +1,8 @@
 package com.leetcode.top.top75;
 
 public class _647_Palindromic_Substrings {
-    //https://leetcode.com/problems/palindromic-substrings/description/
+    //https://leetcode.com/problems/palindromic-substrings/
+    //647. Palindromic Substrings
 
     public int countSubstrings(String s) {
         int counter = 0;
