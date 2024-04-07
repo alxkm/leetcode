@@ -2,6 +2,7 @@ package com.leetcode.top.top175;
 
 public class _852_Peak_Index_in_a_Mountain_Array {
     //https://leetcode.com/problems/peak-index-in-a-mountain-array/
+    //852. Peak Index in a Mountain Array
     //FOREIGN_SOLUTION
 
     public int peakIndexInMountainArray(int[] arr) {
