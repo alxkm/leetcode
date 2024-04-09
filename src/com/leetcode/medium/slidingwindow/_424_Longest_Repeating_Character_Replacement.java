@@ -2,6 +2,7 @@ package com.leetcode.medium.slidingwindow;
 
 public class _424_Longest_Repeating_Character_Replacement {
     //https://leetcode.com/problems/longest-repeating-character-replacement/
+    //424. Longest Repeating Character Replacement
 
     public int characterReplacement(String s, int k) {
         int[] freq = new int[26];
