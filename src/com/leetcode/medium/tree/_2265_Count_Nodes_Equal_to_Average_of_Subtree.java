@@ -4,6 +4,7 @@ import com.leetcode.TreeNode;
 
 public class _2265_Count_Nodes_Equal_to_Average_of_Subtree {
     //https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
+    //2265. Count Nodes Equal to Average of Subtree
 
     public int averageOfSubtree(TreeNode root) {
         int[] arr = new int[] {0, 0, 0};
