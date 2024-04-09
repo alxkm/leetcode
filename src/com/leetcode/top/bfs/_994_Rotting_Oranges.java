@@ -5,6 +5,7 @@ import java.util.Queue;
 
 public class _994_Rotting_Oranges {
     //https://leetcode.com/problems/rotting-oranges/
+    //994. Rotting Oranges
 
     public int orangesRotting(int[][] grid) {
         Queue<int[]> q = new LinkedList<>();
