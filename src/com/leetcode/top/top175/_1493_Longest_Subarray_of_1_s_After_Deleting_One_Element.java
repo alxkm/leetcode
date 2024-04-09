@@ -2,6 +2,12 @@ package com.leetcode.top.top175;
 
 public class _1493_Longest_Subarray_of_1_s_After_Deleting_One_Element {
     //https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
+    //1493. Longest Subarray of 1's After Deleting One Element
+
+    //Array
+    //Dynamic Programming
+    //Sliding Window
+
     //NOT_OPTIMAL
     //FOREIGN_SOLUTION
     //sliding window
