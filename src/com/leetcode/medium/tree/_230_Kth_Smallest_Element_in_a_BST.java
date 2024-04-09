@@ -4,6 +4,7 @@ import com.leetcode.TreeNode;
 
 public class _230_Kth_Smallest_Element_in_a_BST {
     //https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+    //230. Kth Smallest Element in a BST
 
     public int kthSmallest(TreeNode root, int k) {
         int[] counter = new int[1];
