@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class _698_Partition_to_K_Equal_Sum_Subsets {
     //https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+    //698. Partition to K Equal Sum Subsets
+    //backtrack
 
     private int[] nums;
     private boolean[] used;
