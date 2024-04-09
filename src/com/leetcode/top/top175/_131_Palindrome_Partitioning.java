@@ -6,6 +6,7 @@ import java.util.Stack;
 
 public class _131_Palindrome_Partitioning {
     //https://leetcode.com/problems/palindrome-partitioning/
+    //131. Palindrome Partitioning
     //todo todo
 
     public List<List<String>> partition(String s) {
