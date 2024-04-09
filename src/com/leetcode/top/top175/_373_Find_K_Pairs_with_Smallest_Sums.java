@@ -7,6 +7,7 @@ import java.util.Queue;
 
 public class _373_Find_K_Pairs_with_Smallest_Sums {
     //https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+    //373. Find K Pairs with Smallest Sums
     //FOREIGN_SOLUTION
     //TOP
 
