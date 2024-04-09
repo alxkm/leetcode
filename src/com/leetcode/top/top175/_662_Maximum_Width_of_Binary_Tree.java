@@ -11,6 +11,7 @@ import java.util.Queue;
 
 public class _662_Maximum_Width_of_Binary_Tree {
     //https://leetcode.com/problems/maximum-width-of-binary-tree/
+    //662. Maximum Width of Binary Tree
     //FOREIGN_SOLUTION
     //TOP
 
