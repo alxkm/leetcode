@@ -71,10 +71,56 @@ public class _76_Minimum_Window_Substring {
         return min;
     }
 
+    public String minWindow1(String s, String t) {
+        Map<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> tmap = new HashMap<>();
+        for (char ch: t.toCharArray()) tmap.put(ch, tmap.getOrDefault(ch, 0) + 1);
+        int size = Integer.MAX_VALUE;
+        String str = "";
+        int cnt = 0;
+        if (tmap.containsKey(s.charAt(0))) {
+            map.put(s.charAt(0), 1);
+            cnt++;
+        }
+        if (cnt == 1 && t.length() == 1) return "a";
+
+        for (int i = 0, j = 1; i < s.length() && j < s.length(); j++) {
+            char sch = s.charAt(j);
+            if (!tmap.containsKey(sch)) continue;
+            map.put(sch, map.getOrDefault(sch, 0) + 1);
+            if (map.get(sch) > tmap.get(sch)) continue;
+            cnt++;
+
+            if (cnt == t.length()) {
+                if (j - i < size) {
+                    str = s.substring(i, j + 1);
+                    size = str.length();
+                }
+
+                while (cnt == t.length()) {
+                    char ch = s.charAt(i);
+                    if (!tmap.containsKey(ch)) {
+                        i++;
+                        continue;
+                    }
+                    map.put(ch, map.get(ch) - 1);
+                    if (map.get(ch) >= tmap.get(ch) && (j - i < size)) {
+                        str = s.substring(i, j + 1);
+                        size = str.length();
+                    } else if (map.get(ch) < tmap.get(ch)){
+                        cnt--;
+                    }
+                    i++;
+                }
+            }
+        }
+        return str;
+    }
+
     public static void main(String[] args) {
-        //String s = "ADOBECODEBANC", t = "ABC";
-        String s = "ab", t = "a";
+        String s = "ADOBECODEBANC", t = "ABC";
+        //String s = "ab", t = "a";
         var sol = new _76_Minimum_Window_Substring();
-        System.out.println(sol.minWindow(s, t));
+        System.out.println(sol.minWindow1(s, t));
     }
 }
