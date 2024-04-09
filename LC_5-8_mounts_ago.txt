@@ -1,0 +1,287 @@
+union find
+need to rethinking
+https://leetcode.com/problems/longest-consecutive-sequence/
+
+eazy that complicated task
+https://leetcode.com/problems/find-the-difference-of-two-arrays/
+
+https://leetcode.com/problems/pacific-atlantic-water-flow/
+
+Array Hash Table Divide and Conquer Sorting Heap (Priority Queue) Bucket Sort Counting Quickselect
+https://leetcode.com/problems/top-k-frequent-elements/
+
+resolve better way with recursion
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+
+very top Array Divide and Conquer Sorting Heap (Priority Queue) Quickselect
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+dp backtracking memoization
+https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+https://leetcode.com/problems/combination-sum/
+
+dp
+https://leetcode.com/problems/partition-equal-subset-sum/
+https://leetcode.com/problems/decode-ways/
+https://leetcode.com/problems/house-robber-ii/
+https://leetcode.com/problems/jump-game/
+dp top
+https://leetcode.com/problems/coin-change/
+https://leetcode.com/problems/longest-increasing-subsequence/
+
+https://leetcode.com/problems/h-index/
+
+backtracking dfs bfs
+https://leetcode.com/problems/path-sum-ii/
+https://leetcode.com/problems/path-sum-ii/
+https://leetcode.com/problems/path-sum-iii/					very hard need to resolve
+dp backtracking
+https://leetcode.com/problems/palindrome-partitioning/
+
+resolve backtracking
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+https://leetcode.com/problems/word-search/
+https://leetcode.com/problems/subsets/
+https://leetcode.com/problems/iterator-for-combination/
+
+why very upvoted
+https://leetcode.com/problems/valid-sudoku/
+
+need to resolve without queue
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+
+priorityQueue greed
+https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+https://leetcode.com/problems/task-scheduler/
+https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+https://leetcode.com/problems/k-closest-points-to-origin/
+https://leetcode.com/problems/reorganize-string/
+hashtable priorityQueue
+https://leetcode.com/problems/sort-characters-by-frequency/
+
+
+hashtable
+https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+greed segment tree
+https://leetcode.com/problems/queue-reconstruction-by-height/
+
+two pointers
+https://leetcode.com/problems/container-with-most-water/
+
+topsort graph
+https://leetcode.com/problems/course-schedule-ii/
+https://leetcode.com/problems/minimum-height-trees/
+https://leetcode.com/problems/course-schedule/
+
+
+stock cooldown
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+
+graph
+https://leetcode.com/problems/surrounded-regions/
+https://leetcode.com/problems/number-of-provinces/
+
+
+3sum
+https://leetcode.com/problems/3sum-closest/
+
+-----------------------------------------------------------------------------------------
+two pointers hashtable sliding window
+https://leetcode.com/problems/permutation-in-string/
+sliding window top
+https://leetcode.com/problems/fruit-into-baskets/
+
+Top i thought it is two pointers
+Array Dynamic Programming Sliding Window
+https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
+
+prefix sum from end we store max
+https://leetcode.com/problems/maximum-sum-circular-subarray/
+
+prefix sum from end we store max
+https://leetcode.com/problems/max-consecutive-ones-iii/
+
+
+https://leetcode.com/problems/longest-repeating-character-replacement/
+
+
+https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+
+
+https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+-----------------------------------------------------------------------------------------
+
+top string hashtable priorityQueue
+https://leetcode.com/problems/reorganize-string/
+
+
+backtracking
+https://leetcode.com/problems/subsets-ii/
+https://leetcode.com/problems/combinations/
+https://leetcode.com/problems/combination-sum/
+
+
+List
+https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+https://leetcode.com/problems/partition-list/
+https://leetcode.com/problems/swap-nodes-in-pairs/
+https://leetcode.com/problems/reverse-linked-list-ii/
+https://leetcode.com/problems/rotate-list/
+https://leetcode.com/problems/odd-even-linked-list/
+https://leetcode.com/problems/rotate-list/
+https://leetcode.com/problems/delete-node-in-a-linked-list/
+
+greedy
+https://leetcode.com/problems/gas-station/
+
+
+stack parentheses
+https://leetcode.com/problems/generate-parentheses/
+https://leetcode.com/problems/min-stack/
+https://leetcode.com/problems/asteroid-collision/
+https://leetcode.com/problems/min-stack/
+https://leetcode.com/problems/reverse-words-in-a-string/
+https://leetcode.com/problems/evaluate-reverse-polish-notation/
+https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+https://leetcode.com/problems/generate-parentheses/
+
+dp
+https://leetcode.com/problems/unique-paths-ii/
+https://leetcode.com/problems/unique-paths/
+
+
+palindrome
+https://leetcode.com/problems/palindromic-substrings/
+https://leetcode.com/problems/palindromic-substrings/
+https://leetcode.com/problems/longest-palindromic-substring/
+https://leetcode.com/problems/palindromic-substrings/
+
+array greedy
+https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+
+Hash Table Math String
+https://leetcode.com/problems/integer-to-roman/
+
+https://leetcode.com/problems/hand-of-straights/
+eazy
+https://leetcode.com/problems/happy-number/
+
+intervals
+https://leetcode.com/problems/insert-interval/
+https://leetcode.com/problems/interval-list-intersections/
+https://leetcode.com/problems/non-overlapping-intervals/
+
+tree eazy
+https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+
+matrix
+https://leetcode.com/problems/set-matrix-zeroes/
+https://leetcode.com/problems/search-a-2d-matrix-ii/
+
+tp
+https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+
+
+top of top
+https://leetcode.com/problems/frequency-of-the-most-frequent-element/
+
+tree
+https://leetcode.com/problems/validate-binary-search-tree/
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+https://leetcode.com/problems/maximum-binary-tree/
+https://leetcode.com/problems/maximum-width-of-binary-tree/
+https://leetcode.com/problems/binary-tree-right-side-view/
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+math
+https://leetcode.com/problems/count-primes/
+https://leetcode.com/problems/find-the-divisibility-array-of-a-string/
+
+
+dp
+https://leetcode.com/problems/triangle/
+https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+https://leetcode.com/problems/interleaving-string/
+https://leetcode.com/problems/longest-increasing-subsequence/
+https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+
+//bin searh array
+https://leetcode.com/problems/search-a-2d-matrix/
+https://leetcode.com/problems/search-a-2d-matrix-ii/
+
+
+big arifmethic
+https://leetcode.com/problems/multiply-strings/
+
+binsearch
+https://leetcode.com/problems/koko-eating-bananas/
+https://leetcode.com/problems/binary-search/
+https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+https://leetcode.com/problems/find-k-closest-elements/
+https://leetcode.com/problems/search-a-2d-matrix/
+https://leetcode.com/problems/find-peak-element/
+https://leetcode.com/problems/binary-search/
+https://leetcode.com/problems/kth-missing-positive-number/
+
+
+tree eazy
+https://leetcode.com/problems/same-tree/
+https://leetcode.com/problems/binary-tree-paths/
+
+
+hashtable low likes
+https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/
+matrix
+https://leetcode.com/problems/sort-the-students-by-their-kth-score/
+pd greedy
+https://leetcode.com/problems/minimum-additions-to-make-valid-string/
+
+math simulation
+https://leetcode.com/problems/find-triangular-sum-of-an-array/
+https://leetcode.com/problems/bulb-switcher/
+
+string
+https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/
+https://leetcode.com/problems/determine-if-two-strings-are-close/
+
+
+
+
+eazy
+https://leetcode.com/problems/pascals-triangle-ii/
+https://leetcode.com/problems/pascals-triangle/
+https://leetcode.com/problems/find-the-difference/				bit
+https://leetcode.com/problems/ransom-note/
+https://leetcode.com/problems/word-pattern/
+https://leetcode.com/problems/sign-of-the-product-of-an-array/
+https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
+https://leetcode.com/problems/sum-multiples/
+
+
+https://leetcode.com/problems/sum-multiples/description/
+https://leetcode.com/problems/sum-multiples/solutions/3461961/c-constant-time-with-gauss-formula-0ms-5-9mb/
+https://leetcode.com/Ajna2/
+
+
+https://leetcode.com/problems/lemonade-change/
+https://leetcode.com/problems/prime-in-diagonal/
+
+
+https://leetcode.com/problems/merge-strings-alternately/
+
+
+https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
+
+eazy math
+https://leetcode.com/problems/add-digits/
+
+tree to resolve
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii/

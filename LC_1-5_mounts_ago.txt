@@ -1,0 +1,262 @@
+https://leetcode.com/problems/next-permutation/
+https://leetcode.com/problems/minimum-size-subarray-sum/
+
+
+https://leetcode.com/problems/4sum/
+https://leetcode.com/problems/3sum-closest/
+https://leetcode.com/problems/3sum/
+
+
+https://leetcode.com/problems/accounts-merge/
+https://leetcode.com/problems/01-matrix/
+https://leetcode.com/problems/perfect-squares/												dp
+https://leetcode.com/problems/minimum-path-sum/												dp
+https://leetcode.com/problems/increasing-triplet-subsequence/								greedy
+https://leetcode.com/problems/decode-ways/													dp
+https://leetcode.com/problems/word-break/													dp
+https://leetcode.com/problems/target-sum/
+
+https://leetcode.com/problems/gas-station/
+
+https://leetcode.com/problems/sum-of-two-integers/								bit
+https://leetcode.com/problems/linked-list-cycle-ii/								list
+
+bin search sliding window
+https://leetcode.com/problems/minimum-size-subarray-sum/
+
+
+https://leetcode.com/problems/rotting-oranges/											multisource bfs
+https://leetcode.com/problems/evaluate-division/
+
+https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/										not solve
+
+https://leetcode.com/problems/snapshot-array/						top design tree map 
+
+https://leetcode.com/problems/largest-submatrix-with-rearrangements/						medium dp math matrix
+https://leetcode.com/problems/bus-routes/													hard graph top
+https://leetcode.com/problems/design-graph-with-shortest-path-calculator/					hard graph top
+https://leetcode.com/problems/minimum-window-substring/										hard sliding window hashmap
+https://leetcode.com/problems/first-missing-positive/										hard swap counting sort
+https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/				hard bit math
+https://leetcode.com/problems/lexicographically-smallest-equivalent-string/							union find dp
+https://leetcode.com/problems/sliding-window-maximum/										hard sliding widow hm
+https://leetcode.com/problems/trapping-rain-water/											hard tp
+https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/						hard math dp
+https://leetcode.com/problems/merge-k-sorted-lists/											hard priority queue
+https://leetcode.com/problems/frequency-of-the-most-frequent-element/						while ((long)nums[r] * (r - l + 1) > k + totalSum)
+https://leetcode.com/problems/count-nice-pairs-in-an-array/									mod counting math array
+
+https://leetcode.com/problems/largest-number/												priority queue
+
+https://leetcode.com/problems/find-all-anagrams-in-a-string/								nice string
+
+https://leetcode.com/problems/132-pattern/
+
+dp
+https://leetcode.com/problems/maximum-subarray/
+
+
+https://leetcode.com/problems/hand-of-straights/ Array Hash Table Greedy Sorting
+
+https://leetcode.com/problems/single-number-iii/
+
+
+https://leetcode.com/problems/binary-search-tree-iterator/		desing
+
+
+https://leetcode.com/problems/add-two-numbers-ii/
+https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+
+binsearch
+https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/
+https://leetcode.com/problems/peak-index-in-a-mountain-array/
+https://leetcode.com/problems/single-element-in-a-sorted-array/
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+https://leetcode.com/problems/koko-eating-bananas/
+https://leetcode.com/problems/binary-search/
+
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+
+https://leetcode.com/problems/unique-paths-ii/
+
+//parenthesis stack
+https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/
+https://leetcode.com/problems/valid-parenthesis-string/
+https://leetcode.com/problems/remove-duplicate-letters/
+https://leetcode.com/problems/design-circular-queue/
+https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+https://leetcode.com/problems/flatten-nested-list-iterator/	design
+https://leetcode.com/problems/dota2-senate/
+https://leetcode.com/problems/asteroid-collision/
+https://leetcode.com/problems/design-a-stack-with-increment-operation/
+https://leetcode.com/problems/generate-parentheses/
+https://leetcode.com/problems/asteroid-collision/
+https://leetcode.com/problems/basic-calculator-ii/
+https://leetcode.com/problems/min-stack/
+
+https://leetcode.com/problems/integer-break/											dp + cache
+
+https://leetcode.com/problems/design-twitter/											two maps
+
+
+https://leetcode.com/problems/maximum-swap/									Math Greedy
+https://leetcode.com/problems/is-graph-bipartite/							graph
+https://leetcode.com/problems/count-sub-islands/							graph
+https://leetcode.com/problems/clone-graph/
+https://leetcode.com/problems/battleships-in-a-board/
+
+https://leetcode.com/problems/container-with-most-water/					tp
+
+//math
+https://leetcode.com/problems/k-th-symbol-in-grammar/
+https://leetcode.com/problems/stone-game/
+https://leetcode.com/problems/rectangle-area/
+https://leetcode.com/problems/factorial-trailing-zeroes/
+
+greedy dfs
+https://leetcode.com/problems/jump-game-iii/
+https://leetcode.com/problems/jump-game-ii/
+https://leetcode.com/problems/jump-game/
+
+eazy top
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+https://leetcode.com/problems/count-complete-tree-nodes/
+https://leetcode.com/problems/merge-two-binary-trees/
+https://leetcode.com/problems/binary-tree-inorder-traversal/
+https://leetcode.com/problems/same-tree/
+
+
+https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/					convert binary search tree
+https://leetcode.com/problems/count-number-of-homogenous-substrings/						MOD and use ans += ((count * (count + 1)) / 2) % mod;
+https://leetcode.com/problems/diagonal-traverse-ii/											matrix diagonal traverse
+https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/						graph put x,y and y,x and see from where we came
+https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/				graph remove nodes
+https://leetcode.com/problems/is-graph-bipartite/											graph
+https://leetcode.com/problems/keys-and-rooms/												graph
+
+https://leetcode.com/problems/sort-the-matrix-diagonally/								matrix
+https://leetcode.com/problems/game-of-life/
+https://leetcode.com/problems/spiral-matrix-ii/
+https://leetcode.com/problems/diagonal-traverse/
+
+
+intervals
+https://leetcode.com/problems/find-right-interval/
+https://leetcode.com/problems/insert-interval/
+
+
+https://leetcode.com/problems/majority-element-ii/
+https://leetcode.com/problems/majority-element/
+
+https://leetcode.com/problems/decoded-string-at-index/										nice string remainders  MOD
+
+https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/				prefix suffix
+https://leetcode.com/problems/product-of-array-except-self/
+https://leetcode.com/problems/contiguous-array/												prefix hashtable
+
+https://leetcode.com/problems/arithmetic-subarrays/											sort and tp
+https://leetcode.com/problems/maximum-number-of-coins-you-can-get/							sort piles
+https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/					prefix sum
+https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/		sort array, counting exact number of array
+https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/							sort array greed pointers
+https://leetcode.com/problems/find-unique-binary-string/									Array String Backtracking
+https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/				sort array
+https://leetcode.com/problems/maximum-ice-cream-bars/										greed sort array
+https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/						sort array
+
+https://leetcode.com/problems/unique-length-3-palindromic-subsequences/						string array tp
+https://leetcode.com/problems/design-browser-history/										design
+https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/	array
+https://leetcode.com/problems/design-memory-allocator/										desing tricky
+https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/					hashtable
+https://leetcode.com/problems/partition-array-according-to-given-pivot/						array sort
+
+//list
+https://leetcode.com/problems/split-linked-list-in-parts/
+https://leetcode.com/problems/remove-nodes-from-linked-list/
+https://leetcode.com/problems/merge-in-between-linked-lists/
+
+
+https://leetcode.com/problems/n-ary-tree-level-order-traversal/
+
+//backtracking
+https://leetcode.com/problems/target-sum/
+
+
+
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+//tree
+https://leetcode.com/problems/delete-node-in-a-bst/
+https://leetcode.com/problems/deepest-leaves-sum/
+https://leetcode.com/problems/sum-root-to-leaf-numbers/
+https://leetcode.com/problems/delete-nodes-and-return-forest/
+https://leetcode.com/problems/balance-a-binary-search-tree/
+https://leetcode.com/problems/validate-binary-search-tree/
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+https://leetcode.com/problems/binary-tree-pruning/
+https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/
+https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
+
+
+DP cache
+https://leetcode.com/problems/combination-sum/
+https://leetcode.com/problems/combination-sum-ii/
+https://leetcode.com/problems/combination-sum-iii/
+https://leetcode.com/problems/combination-sum-iv/
+https://leetcode.com/problems/unique-paths-iii/												hard	dp cache
+https://leetcode.com/problems/knight-dialer/														dp cache
+https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/							tree
+
+https://leetcode.com/problems/3sum/																	tp sort
+
+
+https://leetcode.com/problems/boats-to-save-people/           										tp
+https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/				greed
+
+
+https://leetcode.com/problems/find-the-original-array-of-prefix-xor/								array + bit
+https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/						chebushev distance
+https://leetcode.com/problems/minimum-time-visiting-all-points/										chebushev distance
+
+
+
+
+https://leetcode.com/problems/design-hashset/														set
+https://leetcode.com/problems/design-hashmap/
+https://leetcode.com/problems/number-of-1-bits/												easy	bit
+
+https://leetcode.com/problems/climbing-stairs/												dp
+
+
+https://leetcode.com/problems/linked-list-cycle/											easy list fast slow
+https://leetcode.com/problems/number-of-good-pairs/											easy top solution is good
+
+
+
+https://leetcode.com/problems/rearrange-array-elements-by-sign/							array
+https://leetcode.com/problems/eliminate-maximum-number-of-monsters/						greed sorting
+https://leetcode.com/problems/seat-reservation-manager/									design simulation
+https://leetcode.com/problems/find-the-winner-of-an-array-game/							simulation
+https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/			simulation
+https://leetcode.com/problems/build-an-array-with-stack-operations/
+https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/	array
+https://leetcode.com/problems/find-the-winner-of-the-circular-game/						queue
+https://leetcode.com/problems/remove-all-occurrences-of-a-substring/					string
+https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/			list
+https://leetcode.com/problems/frog-jump-ii/
+
+
+eazy top
+https://leetcode.com/problems/fair-candy-swap/									balance
+https://leetcode.com/problems/min-cost-climbing-stairs/							dp
+https://leetcode.com/problems/can-place-flowers/								Array Greedy
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/					dp
+https://leetcode.com/problems/two-sum/
+https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+https://leetcode.com/problems/contains-duplicate/
