@@ -2,6 +2,7 @@ package com.leetcode.medium.math;
 
 public class _670_Maximum_Swap {
     //https://leetcode.com/problems/maximum-swap/
+    //670. Maximum Swap
     //TOP
     //FOREIGN_SOLUTION
 
