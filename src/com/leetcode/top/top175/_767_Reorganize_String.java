@@ -7,6 +7,7 @@ import java.util.Queue;
 
 public class _767_Reorganize_String {
     //https://leetcode.com/problems/reorganize-string/
+    //767. Reorganize String
     //FOREIGN_SOLUTION
     //TOP
 
