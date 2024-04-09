@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class _1980_Find_Unique_Binary_String {
+    //1980. Find Unique Binary String
     //https://leetcode.com/problems/find-unique-binary-string/
 
     public String findDifferentBinaryString(String[] nums) {
