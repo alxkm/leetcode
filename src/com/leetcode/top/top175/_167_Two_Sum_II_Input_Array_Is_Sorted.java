@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class _167_Two_Sum_II_Input_Array_Is_Sorted {
     //https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+    //167. Two Sum II - Input Array Is Sorted
     //FOREIGN_SOLUTION
     //two pointers, binsearch
 
