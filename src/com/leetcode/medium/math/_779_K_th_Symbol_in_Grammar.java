@@ -1,7 +1,7 @@
 package com.leetcode.medium.math;
 
 public class _779_K_th_Symbol_in_Grammar {
-    //https://leetcode.com/problems/k-th-symbol-in-grammar/description/
+    //https://leetcode.com/problems/k-th-symbol-in-grammar/
     //779. K-th Symbol in Grammar
 
     public int kthGrammar(int n, int k) {
