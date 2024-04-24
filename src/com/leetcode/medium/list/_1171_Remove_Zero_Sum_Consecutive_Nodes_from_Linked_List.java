@@ -8,8 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 
 public class _1171_Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List {
-    //1171. Remove Zero Sum Consecutive Nodes from Linked List
     //https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
+    //1171. Remove Zero Sum Consecutive Nodes from Linked List
 
     public ListNode removeZeroSumSublists(ListNode head) {
         List<ListNode> list = new ArrayList<>();
