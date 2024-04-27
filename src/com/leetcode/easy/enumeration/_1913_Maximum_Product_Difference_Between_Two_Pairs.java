@@ -6,7 +6,7 @@ import java.util.List;
 
 public class _1913_Maximum_Product_Difference_Between_Two_Pairs {
     //1913. Maximum Product Difference Between Two Pairs
-    //https://leetcode.com/problems/maximum-product-difference-between-two-pairs/
+    //https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/
     //enumeration
     //easyTop
 
