@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class _347_Top_K_Frequent_Elements {
-    //https://leetcode.com/problems/top-k-frequent-elements/
+    //https://leetcode.com/problems/top-k-frequent-elements/description/
     //347. Top K Frequent Elements
     //FOREIGN_SOLUTION
     //TOP
