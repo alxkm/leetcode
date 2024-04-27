@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class _455_Assign_Cookies {
-    //https://leetcode.com/problems/assign-cookies/
+    //https://leetcode.com/problems/assign-cookies/description/
     //455. Assign Cookies
     //easyTop
     //greedy
