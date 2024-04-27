@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class _380_Insert_Delete_GetRandom_O_1_ {
     //380. Insert Delete GetRandom O(1)
-    //https://leetcode.com/problems/insert-delete-getrandom-o1/
+    //https://leetcode.com/problems/insert-delete-getrandom-o1/description/
 
     static class RandomizedSet {
 
