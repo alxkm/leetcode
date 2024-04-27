@@ -4,7 +4,7 @@ import com.leetcode.TreeNode;
 
 public class _993_Cousins_in_Binary_Tree {
     //993. Cousins in Binary Tree
-    //https://leetcode.com/problems/cousins-in-binary-tree/
+    //https://leetcode.com/problems/cousins-in-binary-tree/description/
 
     int dx = Integer.MAX_VALUE;
     int dy = Integer.MIN_VALUE;
