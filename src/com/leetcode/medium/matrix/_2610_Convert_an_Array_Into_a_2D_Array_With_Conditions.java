@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class _2610_Convert_an_Array_Into_a_2D_Array_With_Conditions {
-    //https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/
+    //https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/
 
     public List<List<Integer>> findMatrix(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
