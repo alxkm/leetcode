@@ -1,6 +1,9 @@
 package com.leetcode.medium.dp;
 
 public class _198_House_Robber {
+    //198. House Robber
+    //https://leetcode.com/problems/house-robber/description/
+
     static public int rob(int[] nums) {
         int rob1 = 0;
         int rob2 = 0;
