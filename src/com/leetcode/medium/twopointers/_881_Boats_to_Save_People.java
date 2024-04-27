@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class _881_Boats_to_Save_People {
     //881. Boats to Save People
-    //https://leetcode.com/problems/boats-to-save-people/
+    //https://leetcode.com/problems/boats-to-save-people/description/
 
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
