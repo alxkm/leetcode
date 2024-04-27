@@ -3,6 +3,9 @@ package com.leetcode.easy.string;
 import java.util.Set;
 
 public class  _1704_Determine_if_String_Halves_Are_Alike {
+    //1704. Determine if String Halves Are Alike
+    //https://leetcode.com/problems/determine-if-string-halves-are-alike/
+
     public boolean halvesAreAlike(String s) {
         String s1 = s.substring(0, s.length() / 2);
         s = s.substring(s.length() / 2);
