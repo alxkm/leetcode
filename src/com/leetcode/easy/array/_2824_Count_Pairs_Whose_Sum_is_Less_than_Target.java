@@ -3,7 +3,7 @@ package com.leetcode.easy.array;
 import java.util.List;
 
 public class _2824_Count_Pairs_Whose_Sum_is_Less_than_Target {
-    //https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/
+    //https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/
     //2824. Count Pairs Whose Sum is Less than Target
 
     public int countPairs(List<Integer> nums, int target) {
