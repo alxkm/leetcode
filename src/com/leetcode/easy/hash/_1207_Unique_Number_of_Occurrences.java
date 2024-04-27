@@ -6,6 +6,9 @@ import java.util.Map;
 import java.util.Set;
 
 public class _1207_Unique_Number_of_Occurrences {
+    //https://leetcode.com/problems/unique-number-of-occurrences/description/
+    //1207. Unique Number of Occurrences
+
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer, Integer> map = new HashMap<>();
 
