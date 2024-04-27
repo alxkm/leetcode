@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class _1823_Find_the_Winner_of_the_Circular_Game {
     //1823. Find the Winner of the Circular Game
-    //https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+    //https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/
 
     public int findTheWinner(int n, int k) {
         Queue<Integer> q = new LinkedList<>();
