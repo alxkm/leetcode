@@ -3,7 +3,7 @@ package com.leetcode.easy.top.array;
 public class _191_Number_of_1_Bits {
     // you need to treat n as an unsigned value
     //191. Number of 1 Bits
-    //https://leetcode.com/problems/number-of-1-bits/
+    //https://leetcode.com/problems/number-of-1-bits/description/
 
     public int hammingWeight(int n) {
         int cnt = 0;
