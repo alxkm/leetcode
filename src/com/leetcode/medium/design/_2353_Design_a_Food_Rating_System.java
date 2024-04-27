@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 
 public class _2353_Design_a_Food_Rating_System {
     //2353. Design a Food Rating System
-    //https://leetcode.com/problems/design-a-food-rating-system/
+    //https://leetcode.com/problems/design-a-food-rating-system/description/
 
     static class FoodRatings {
         static class Food {
