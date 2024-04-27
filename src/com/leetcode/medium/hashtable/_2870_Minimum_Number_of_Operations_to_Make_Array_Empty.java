@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class _2870_Minimum_Number_of_Operations_to_Make_Array_Empty {
     //2870. Minimum Number of Operations to Make Array Empty
-    //https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/
+    //https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/
 
     public int minOperations(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
