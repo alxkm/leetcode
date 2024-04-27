@@ -1,7 +1,7 @@
 package com.leetcode.easy.top;
 
 public class _1422_Maximum_Score_After_Splitting_a_String {
-    //https://leetcode.com/problems/maximum-score-after-splitting-a-string/
+    //https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/
     //1422. Maximum Score After Splitting a String
     //prefix
     //string
