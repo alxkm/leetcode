@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class _645_Set_Mismatch {
     //645. Set Mismatch
-    //https://leetcode.com/problems/set-mismatch/
+    //https://leetcode.com/problems/set-mismatch/description/
     //hash
 
     public int[] findErrorNums(int[] nums) {
