@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 public class _2215_Find_the_Difference_of_Two_Arrays {
-    //https://leetcode.com/problems/find-the-difference-of-two-arrays/
+    //https://leetcode.com/problems/find-the-difference-of-two-arrays/description/
     //2215. Find the Difference of Two Arrays
     //easyTop
 
