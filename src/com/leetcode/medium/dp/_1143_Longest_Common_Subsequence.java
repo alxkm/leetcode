@@ -2,7 +2,7 @@ package com.leetcode.medium.dp;
 
 public class _1143_Longest_Common_Subsequence {
     //1143. Longest Common Subsequence
-    //https://leetcode.com/problems/longest-common-subsequence/
+    //https://leetcode.com/problems/longest-common-subsequence/description/
 
     public int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length();
