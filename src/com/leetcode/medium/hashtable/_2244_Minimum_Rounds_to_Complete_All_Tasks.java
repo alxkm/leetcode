@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class _2244_Minimum_Rounds_to_Complete_All_Tasks {
     //2244. Minimum Rounds to Complete All Tasks
-    //https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/
+    //https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/
 
     public int minimumRounds(int[] tasks) {
         Map<Integer, Integer> map = new HashMap<>();
