@@ -1,9 +1,14 @@
 package com.leetcode.easy.hash;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class _205_Isomorphic_Strings {
+    //205. Isomorphic Strings
+    //https://leetcode.com/problems/isomorphic-strings/description/
+
     static public boolean isIsomorphic(String s, String t) {
         if (s.length() != t.length()) return false;
 
@@ -26,6 +31,24 @@ public class _205_Isomorphic_Strings {
             }
 
             return false;
+        }
+        return true;
+    }
+
+    public boolean isIsomorphic1(String s, String t) {
+        Map<Character, Character> map = new HashMap<>();
+        Set<Character> ar = new HashSet<>();
+        for (int i = 0; i < s.length(); i++) {
+            char ch1 = s.charAt(i);
+            char ch2 = t.charAt(i);
+            var ch = map.get(ch1);
+            if (ch == null) {
+                if (ar.contains(ch2)) return false;
+                ar.add(ch2);
+                map.put(ch1, ch2);
+                continue;
+            }
+            if (ch2 != ch) return false;
         }
         return true;
     }
