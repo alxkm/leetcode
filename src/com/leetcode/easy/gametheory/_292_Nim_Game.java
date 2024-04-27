@@ -2,7 +2,7 @@ package com.leetcode.easy.gametheory;
 
 public class _292_Nim_Game {
     //292. Nim Game
-    //https://leetcode.com/problems/nim-game/
+    //https://leetcode.com/problems/nim-game/description/
     //easyTop
     //game
 
