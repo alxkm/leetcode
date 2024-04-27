@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class _1657_Determine_if_Two_Strings_Are_Close {
-    //https://leetcode.com/problems/determine-if-two-strings-are-close/
+    //https://leetcode.com/problems/determine-if-two-strings-are-close/description/
     //1657. Determine if Two Strings Are Close
     //top
 
