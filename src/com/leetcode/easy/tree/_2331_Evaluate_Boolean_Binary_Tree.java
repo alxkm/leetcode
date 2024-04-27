@@ -4,7 +4,7 @@ import com.leetcode.TreeNode;
 import com.leetcode.TreeUtil;
 
 public class _2331_Evaluate_Boolean_Binary_Tree {
-    //https://leetcode.com/problems/evaluate-boolean-binary-tree/
+    //https://leetcode.com/problems/evaluate-boolean-binary-tree/description/
     //2331. Evaluate Boolean Binary Tree
 
     public boolean evaluateTree(TreeNode root) {
