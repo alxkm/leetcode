@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class _1464_Maximum_Product_of_Two_Elements_in_an_Array {
     //1464. Maximum Product of Two Elements in an Array
-    //https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+    //https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/
 
     public int maxProduct(int[] nums) {
         //int product = 0;
