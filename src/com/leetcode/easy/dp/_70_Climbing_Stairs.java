@@ -2,7 +2,7 @@ package com.leetcode.easy.dp;
 
 public class _70_Climbing_Stairs {
     //70. Climbing Stairs
-    //https://leetcode.com/problems/climbing-stairs/
+    //https://leetcode.com/problems/climbing-stairs/description/
 
     public int climbStairs(int n) {
         int dp = 0;
