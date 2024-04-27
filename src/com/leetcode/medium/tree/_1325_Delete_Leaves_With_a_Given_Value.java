@@ -4,7 +4,7 @@ import com.leetcode.TreeNode;
 
 public class _1325_Delete_Leaves_With_a_Given_Value {
     //1325. Delete Leaves With a Given Value
-    //https://leetcode.com/problems/delete-leaves-with-a-given-value/
+    //https://leetcode.com/problems/delete-leaves-with-a-given-value/description/
 
     public TreeNode removeLeafNodes(TreeNode root, int target) {
         if (root.val == target && root.left == null && root.right == null) return null;
