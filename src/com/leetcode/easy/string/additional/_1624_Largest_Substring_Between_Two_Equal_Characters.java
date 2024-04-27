@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 public class _1624_Largest_Substring_Between_Two_Equal_Characters {
+    //1624. Largest Substring Between Two Equal Characters
+    //https://leetcode.com/problems/largest-substring-between-two-equal-characters/description/
+
     static public int maxLengthBetweenEqualCharacters(String s) {
         Map<Character, List<Integer>> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
