@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class _1897_Redistribute_Characters_to_Make_All_Strings_Equal {
-    //https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/
+    //https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/
     //1897. Redistribute Characters to Make All Strings Equal
     //improve
 
