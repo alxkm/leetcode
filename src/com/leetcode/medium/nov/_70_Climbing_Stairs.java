@@ -2,7 +2,7 @@ package com.leetcode.medium.nov;
 
 public class _70_Climbing_Stairs {
     public int climbStairs(int n) {
-        //https://leetcode.com/problems/climbing-stairs/
+        //https://leetcode.com/problems/climbing-stairs/description/
 
         int dp = 0;
         int f = 1, s = 1;
