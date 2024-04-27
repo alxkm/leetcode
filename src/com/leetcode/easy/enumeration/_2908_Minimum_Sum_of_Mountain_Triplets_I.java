@@ -1,7 +1,7 @@
 package com.leetcode.easy.enumeration;
 
 public class _2908_Minimum_Sum_of_Mountain_Triplets_I {
-    //https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/
+    //https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/description/
     //2908. Minimum Sum of Mountain Triplets I
 
     public int minimumSum(int[] nums) {
