@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class _867_Transpose_Matrix {
     //867. Transpose Matrix
-    //https://leetcode.com/problems/transpose-matrix/
+    //https://leetcode.com/problems/transpose-matrix/description/
 
     static public int[][] transpose(int[][] matrix) {
         int[][] mat = new int[matrix[0].length][matrix.length];
