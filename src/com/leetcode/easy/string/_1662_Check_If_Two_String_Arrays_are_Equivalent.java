@@ -2,7 +2,7 @@ package com.leetcode.easy.string;
 
 public class _1662_Check_If_Two_String_Arrays_are_Equivalent {
     //1662. Check If Two String Arrays are Equivalent
-    //https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+    //https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/
 
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         StringBuilder sb1 = new StringBuilder();
