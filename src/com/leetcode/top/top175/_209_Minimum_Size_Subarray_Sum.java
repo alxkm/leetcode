@@ -47,6 +47,26 @@ public class _209_Minimum_Size_Subarray_Sum {
         return 0;
     }
 
+    public int minSubArrayLen2(int target, int[] nums) {
+        int l = 0;
+        int r = 0;
+        int s = 0;
+        int m = nums.length + 1;
+        while (l < nums.length) {
+            if (l > r) r = l;
+            while (s < target && r < nums.length) {
+                s += nums[r];
+                r++;
+            }
+            if (s >= target && r - l < m) {
+                m = r - l;
+            }
+            s -= nums[l];
+            l++;
+        }
+        return (m > nums.length) ? 0 : m;
+    }
+
     public static void main(String[] args) {
         _209_Minimum_Size_Subarray_Sum solution = new _209_Minimum_Size_Subarray_Sum();
 //        int[] a = {2,3,1,2,4,3};
