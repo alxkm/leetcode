@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class _1155_Number_of_Dice_Rolls_With_Target_Sum {
     //1155. Number of Dice Rolls With Target Sum
-    //https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+    //https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/
     //dp
     //top
 
