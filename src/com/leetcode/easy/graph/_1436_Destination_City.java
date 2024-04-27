@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class _1436_Destination_City {
     //1436. Destination City
-    //https://leetcode.com/problems/destination-city/
+    //https://leetcode.com/problems/destination-city/description/
 
     public String destCity(List<List<String>> paths) {
         Map<String, String> map = new HashMap<>();
