@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class _576_Out_of_Boundary_Paths {
     //576. Out of Boundary Paths
-    //https://leetcode.com/problems/out-of-boundary-paths/
+    //https://leetcode.com/problems/out-of-boundary-paths/description/
 
     int m;
     int n;
