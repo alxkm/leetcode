@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class _1531_String_Compression_II_1 {
     //1531. String Compression II
-    //https://leetcode.com/problems/string-compression-ii/
+    //https://leetcode.com/problems/string-compression-ii/description/
 
     Map<String, Integer> memo = new HashMap<>();
 

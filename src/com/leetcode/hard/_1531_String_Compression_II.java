@@ -7,7 +7,7 @@ import java.util.Objects;
 
 public class _1531_String_Compression_II {
     //1531. String Compression II
-    //https://leetcode.com/problems/string-compression-ii/
+    //https://leetcode.com/problems/string-compression-ii/description/
 
     public static class CompressionInfo {
         public int i;

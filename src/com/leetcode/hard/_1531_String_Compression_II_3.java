@@ -2,7 +2,7 @@ package com.leetcode.hard;
 
 public class _1531_String_Compression_II_3 {
     //1531. String Compression II
-    //https://leetcode.com/problems/string-compression-ii/
+    //https://leetcode.com/problems/string-compression-ii/description/
 
     private int[][][][] dp;
     private char[] s;
