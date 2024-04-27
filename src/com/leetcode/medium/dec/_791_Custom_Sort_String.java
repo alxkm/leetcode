@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class _791_Custom_Sort_String {
-    //https://leetcode.com/problems/custom-sort-string/
+    //https://leetcode.com/problems/custom-sort-string/description/
     //791. Custom Sort String
 
     public String customSortString(String order, String s) {
