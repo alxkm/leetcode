@@ -12,7 +12,7 @@ public class _1291_Sequential_Digits {
     private int low = 0;
     private int high = 0;
 
-    public List<Integer> sequentialDigits_(int low, int high) {
+    public List<Integer> sequentialDigits1(int low, int high) {
         List<Integer> list = new ArrayList<>();
         char[] s = Integer.valueOf(low).toString().toCharArray();
         int n = Integer.parseInt(String.valueOf(s));
