@@ -1,7 +1,7 @@
 package com.leetcode.easy.string.additional;
 
 public class _1903_Largest_Odd_Number_in_String {
-    //https://leetcode.com/problems/largest-odd-number-in-string/
+    //https://leetcode.com/problems/largest-odd-number-in-string/description/
     //1903. Largest Odd Number in String
 
     static public String largestOddNumber(String num) {
