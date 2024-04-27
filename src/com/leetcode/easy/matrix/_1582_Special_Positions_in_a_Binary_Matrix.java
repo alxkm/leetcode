@@ -2,7 +2,7 @@ package com.leetcode.easy.matrix;
 
 public class _1582_Special_Positions_in_a_Binary_Matrix {
     //1582. Special Positions in a Binary Matrix
-    //https://leetcode.com/problems/special-positions-in-a-binary-matrix/
+    //https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/
 
     public int numSpecial(int[][] mat) {
         int counter = 0;
