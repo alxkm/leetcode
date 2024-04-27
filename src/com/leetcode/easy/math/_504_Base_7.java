@@ -2,7 +2,7 @@ package com.leetcode.easy.math;
 
 public class _504_Base_7 {
     //504. Base 7
-    //https://leetcode.com/problems/base-7/
+    //https://leetcode.com/problems/base-7/description/
 
     public String convertToBase7(int num) {
         if (num == 0) return "0";
