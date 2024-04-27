@@ -1,4 +1,4 @@
-package com.leetcode.top.stack;
+package com.leetcode.medium.parenthesis;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,6 +57,44 @@ public class _1249_Minimum_Remove_to_Make_Valid_Parentheses {
         for (Character ch: list) {
             sb.append(ch);
         }
+        return sb.toString();
+    }
+
+    public String minRemoveToMakeValid1(String s) {
+        Stack<Character> stack = new Stack<>();
+        int op = 0;
+        for (char ch: s.toCharArray()) {
+            if (ch == '(') {
+                stack.push(ch);
+                op++;
+            }
+            else if (ch == ')') {
+                if (op > 0) {
+                    op--;
+                    stack.push(')');
+                }
+            } else {
+                stack.push(ch);
+            }
+        }
+        StringBuilder tail = new StringBuilder();
+        if (op > 0) {
+            List<Character> l = new ArrayList<>();
+            while (op > 0) {
+                char ch = stack.pop();
+                if (ch == '(') {
+                    op--;
+                } else {
+                    tail.insert(0, ch);
+                }
+            }
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for (Character ch: stack) {
+            sb.append(ch);
+        }
+        sb.append(tail);
         return sb.toString();
     }
 }
