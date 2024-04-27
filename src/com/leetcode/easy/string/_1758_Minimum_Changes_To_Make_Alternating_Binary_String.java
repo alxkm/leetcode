@@ -2,7 +2,8 @@ package com.leetcode.easy.string;
 
 public class _1758_Minimum_Changes_To_Make_Alternating_Binary_String {
     //1758. Minimum Changes To Make Alternating Binary String
-    //https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/
+    //https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/
+
     public int minOperations(String s) {
         char[] st = s.toCharArray();
         int n1 = 0, n2 = 0;
