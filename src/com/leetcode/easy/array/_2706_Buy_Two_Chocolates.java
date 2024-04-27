@@ -2,7 +2,7 @@ package com.leetcode.easy.array;
 
 public class _2706_Buy_Two_Chocolates {
     //2706. Buy Two Chocolates
-    //https://leetcode.com/problems/buy-two-chocolates/
+    //https://leetcode.com/problems/buy-two-chocolates/description/
 
     public int buyChoco(int[] prices, int money) {
         int min1 = Integer.MAX_VALUE;
