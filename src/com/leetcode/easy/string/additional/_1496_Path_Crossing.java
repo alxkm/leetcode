@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class _1496_Path_Crossing {
     //1496. Path Crossing
-    //https://leetcode.com/problems/path-crossing/
+    //https://leetcode.com/problems/path-crossing/description/
 
     static public boolean isPathCrossing(String path) {
         Set<String> set = new HashSet<>();
