@@ -3,6 +3,9 @@ package com.leetcode.easy.sort;
 import java.util.Arrays;
 
 public class _628_Maximum_Product_of_Three_Numbers {
+    //628. Maximum Product of Three Numbers
+    //https://leetcode.com/problems/maximum-product-of-three-numbers/description/
+
     public int maximumProduct(int[] nums) {
         Arrays.sort(nums);
         boolean negative = true;
@@ -57,5 +60,19 @@ public class _628_Maximum_Product_of_Three_Numbers {
         max = Math.max(sub2, sub3);
 
         return max;
+    }
+
+    public int maximumProduct1(int[] nums) {
+        Arrays.sort(nums);
+        int n = nums.length - 1;
+        if (nums[0] < 0 && nums[n] <= 0) {
+            return nums[n] * nums[n - 1] * nums[n - 2];
+        }
+        if (nums[0] < 0 && nums[n] > 0) {
+            if (nums[0] * nums[1] > nums[n] * nums[n - 1]) {
+                return nums[0] * nums[1] * nums[n];
+            }
+        }
+        return Math.max(nums[0] * nums[1] * nums[n], nums[n] * nums[n - 1] * nums[n - 2]);
     }
 }
