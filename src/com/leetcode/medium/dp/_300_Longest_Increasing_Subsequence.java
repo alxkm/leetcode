@@ -1,7 +1,7 @@
 package com.leetcode.medium.dp;
 
 public class _300_Longest_Increasing_Subsequence {
-    //https://leetcode.com/problems/longest-increasing-subsequence/
+    //https://leetcode.com/problems/longest-increasing-subsequence/description/
     //300. Longest Increasing Subsequence
     //DP
     //FOREIGN_SOLUTION
