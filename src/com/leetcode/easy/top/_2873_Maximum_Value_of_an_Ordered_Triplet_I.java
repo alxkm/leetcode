@@ -34,4 +34,18 @@ public class _2873_Maximum_Value_of_an_Ordered_Triplet_I {
             return res;
         }
     }
+
+    public long maximumTripletValue1(int[] nums) {
+        long max = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                for (int k = j + 1; k < nums.length; k++) {
+                    max = Math.max(max, ((long)(nums[i] - nums[j])) * (long)nums[k]);
+                }
+            }
+        }
+
+        return max;
+    }
 }
