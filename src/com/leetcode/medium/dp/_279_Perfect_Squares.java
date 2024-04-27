@@ -6,7 +6,7 @@ import java.util.List;
 
 public class _279_Perfect_Squares {
     //279. Perfect Squares
-    //https://leetcode.com/problems/perfect-squares/
+    //https://leetcode.com/problems/perfect-squares/description/
     //FOREIGN_SOLUTION
     //TOP
 
