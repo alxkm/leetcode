@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class _1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique {
     //1647. Minimum Deletions to Make Character Frequencies Unique
-    //https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/
+    //https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/
 
     public int minDeletions(String s) {
         int[] fr = new int[26];
