@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class _811_Subdomain_Visit_Count {
     //811. Subdomain Visit Count
-    //https://leetcode.com/problems/subdomain-visit-count/
+    //https://leetcode.com/problems/subdomain-visit-count/description/
 
     public List<String> subdomainVisits(String[] cpdomains) {
         Map<String, Integer> map = new HashMap<>();
