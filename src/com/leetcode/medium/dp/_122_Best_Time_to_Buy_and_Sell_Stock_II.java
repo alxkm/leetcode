@@ -1,7 +1,7 @@
 package com.leetcode.medium.dp;
 
 public class _122_Best_Time_to_Buy_and_Sell_Stock_II {
-    //https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+    //https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
     //todo todo todo
 
     public int maxProfit(int[] prices) {
