@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class _322_Coin_Change {
-    //https://leetcode.com/problems/coin-change/
+    //https://leetcode.com/problems/coin-change/description/
     //322. Coin Change
     //dp
 
