@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class _931_Minimum_Falling_Path_Sum {
     //931. Minimum Falling Path Sum
-    //https://leetcode.com/problems/minimum-falling-path-sum/
+    //https://leetcode.com/problems/minimum-falling-path-sum/description/
 
     int[][] matrix;
     int m;
