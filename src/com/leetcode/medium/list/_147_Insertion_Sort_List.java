@@ -14,7 +14,7 @@ import com.leetcode.ListNode;
  */
 public class _147_Insertion_Sort_List {
     //147. Insertion Sort List
-    //https://leetcode.com/problems/insertion-sort-list/
+    //https://leetcode.com/problems/insertion-sort-list/description/
 
     public ListNode insertionSortList(ListNode head) {
         ListNode newHead = head;
