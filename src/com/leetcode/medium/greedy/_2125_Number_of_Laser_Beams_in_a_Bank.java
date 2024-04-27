@@ -1,7 +1,7 @@
 package com.leetcode.medium.greedy;
 
 public class _2125_Number_of_Laser_Beams_in_a_Bank {
-    //https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
+    //https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/
     //2125. Number of Laser Beams in a Bank
 
     public int numberOfBeams(String[] bank) {
