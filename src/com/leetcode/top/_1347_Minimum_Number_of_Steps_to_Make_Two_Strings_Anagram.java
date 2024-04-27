@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class _1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram {
     //1347. Minimum Number of Steps to Make Two Strings Anagram
-    //https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
+    //https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/
 
     public int minSteps(String s, String t) {
         Map<Character, Integer> map = new HashMap<>();
