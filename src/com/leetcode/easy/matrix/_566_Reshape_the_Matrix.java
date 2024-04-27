@@ -1,7 +1,7 @@
 package com.leetcode.easy.matrix;
 
 public class _566_Reshape_the_Matrix {
-    //https://leetcode.com/problems/reshape-the-matrix/
+    //https://leetcode.com/problems/reshape-the-matrix/description/
     //566. Reshape the Matrix
 
     public int[][] matrixReshape(int[][] mat, int r, int c) {
