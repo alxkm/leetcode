@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class _935_Knight_Dialer {
     //935. Knight Dialer
-    //https://leetcode.com/problems/knight-dialer/
+    //https://leetcode.com/problems/knight-dialer/description/
 
     private final Map<AbstractMap.SimpleEntry<Integer, Integer>, Integer> cache = new HashMap<>();
     private Map<Integer, List<Integer>> move = new HashMap<>();
