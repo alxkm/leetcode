@@ -1,6 +1,9 @@
 package com.leetcode.easy.array;
 
 public class _1752_Check_if_Array_Is_Sorted_and_Rotated {
+    //1752. Check if Array Is Sorted and Rotated
+    //https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
+
     static public boolean check(int[] nums) {
 
         for (int i = 0; i < nums.length - 1; i++) {
@@ -10,6 +13,25 @@ public class _1752_Check_if_Array_Is_Sorted_and_Rotated {
                 return true;
         }
         return false;
+    }
+
+    public boolean check1(int[] nums) {
+        int index = -1;
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] <= nums[i+1]){
+                continue;
+            } index = i;
+            break;
+        }
+        if (index != -1){
+            for (int i = index; i < nums.length - 1; i++) {
+                if(nums[i] >= nums[i+1]) {
+                    continue;
+                } return false;
+            }
+        }
+        return true;
+
     }
 
     public static void main(String[] args) {
