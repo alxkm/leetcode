@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class _242_Valid_Anagram {
-    //https://leetcode.com/problems/valid-anagram/
+    //https://leetcode.com/problems/valid-anagram/description/
     //242. Valid Anagram
 
     static public boolean isAnagram(String s, String t) {
@@ -33,6 +33,16 @@ public class _242_Valid_Anagram {
         for (char ch : s.toCharArray()) map[ch - 'a']++;
         for (char ch : t.toCharArray()) map[ch - 'a']--;
         for (int n : map) if (n != 0) return false;
+        return true;
+    }
+
+    public boolean isAnagram2(String s, String t) {
+        if (s.length() != t.length()) return false;
+        int[] s1 = new int[26];
+        int[] s2 = new int[26];
+        for (char ch: s.toCharArray()) s1[ch - 'a']++;
+        for (char ch: t.toCharArray()) s2[ch - 'a']++;
+        for (int i = 0; i < s1.length; i++) if (s1[i] != s2[i]) return false;
         return true;
     }
 
