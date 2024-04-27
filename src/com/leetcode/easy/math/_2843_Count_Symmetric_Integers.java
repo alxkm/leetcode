@@ -1,10 +1,10 @@
 package com.leetcode.easy.math;
 
 public class _2843_Count_Symmetric_Integers {
-    public int countSymmetricIntegers(int low, int high) {
-        //2843. Count Symmetric Integers
-        //https://leetcode.com/problems/count-symmetric-integers/
+    //2843. Count Symmetric Integers
+    //https://leetcode.com/problems/count-symmetric-integers/
 
+    public int countSymmetricIntegers(int low, int high) {
         int c = 0;
         for (Integer i = low; i <= high; i++) {
             if (i.toString().length() % 2 == 0) {
