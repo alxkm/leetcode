@@ -2,7 +2,7 @@ package com.leetcode.easy.matrix;
 
 public class _661_Image_Smoother {
     //661. Image Smoother
-    //https://leetcode.com/problems/image-smoother/
+    //https://leetcode.com/problems/image-smoother/description/
 
     public int[][] imageSmoother(int[][] img) {
         int m = img.length, n = img[0].length;
