@@ -1,4 +1,4 @@
-package com.leetcode.easy.string;
+package com.leetcode.easy;
 
 public class _2833_Furthest_Point_From_Origin {
     //2833. Furthest Point From Origin
