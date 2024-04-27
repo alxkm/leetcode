@@ -7,7 +7,7 @@ import java.util.List;
 
 public class _1022_Sum_of_Root_To_Leaf_Binary_Numbers {
     //1022. Sum of Root To Leaf Binary Numbers
-    //https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+    //https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description/
 
     public int sumRootToLeaf(TreeNode root) {
         List<String> l = new ArrayList<>();
