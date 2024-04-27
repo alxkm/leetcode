@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class _1447_Simplified_Fractions {
-    //https://leetcode.com/problems/simplified-fractions/
+    //https://leetcode.com/problems/simplified-fractions/description/
     //1447. Simplified Fractions
 
     int gcd(int a, int b) {
