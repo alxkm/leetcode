@@ -1,6 +1,11 @@
 package com.leetcode.easy.string.additional;
 
+import java.util.Stack;
+
 public class _1544_Make_The_String_Great {
+    //1544. Make The String Great
+    //https://leetcode.com/problems/make-the-string-great/description/
+
     static public String makeGood(String s) {
         int size = s.length();
         while (true) {
@@ -28,6 +33,25 @@ public class _1544_Make_The_String_Great {
             size = s.length();
         }
         return s;
+    }
+
+    public String makeGood1(String s) {
+        Stack<Character> st = new Stack<>();
+        st.push(s.charAt(0));
+
+        for (int i = 1; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (!st.isEmpty() && Math.abs(st.peek() - ch) == 32) {
+                st.pop();
+            } else {
+                st.push(ch);
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        while (!st.isEmpty()) {
+            sb.insert(0, st.pop());
+        }
+        return sb.toString();
     }
 
     public static void main(String[] args) {
