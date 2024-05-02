@@ -1,4 +1,4 @@
-package com.leetcode.medium.binary;
+package com.leetcode.medium.bits;
 
 public class _2997_Minimum_Number_of_Operations_to_Make_Array_XOR_Equal_to_K {
     //2997. Minimum Number of Operations to Make Array XOR Equal to K
