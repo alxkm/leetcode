@@ -1,4 +1,4 @@
-package com.leetcode.medium.binary;
+package com.leetcode.medium.bits;
 
 import java.util.HashMap;
 import java.util.Map;
