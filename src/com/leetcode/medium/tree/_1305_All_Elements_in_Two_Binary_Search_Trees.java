@@ -9,6 +9,7 @@ import java.util.List;
 public class _1305_All_Elements_in_Two_Binary_Search_Trees {
     //1305. All Elements in Two Binary Search Trees
     //https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/
+
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
         List<Integer> l = new ArrayList<>();
         dfs(root1, l);
