@@ -1,9 +1,11 @@
 package com.leetcode.medium.list;
 
 import com.leetcode.ListNode;
+import com.leetcode.ListUtil;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class _2487_Remove_Nodes_From_Linked_List {
     //https://leetcode.com/problems/remove-nodes-from-linked-list/
@@ -31,5 +33,31 @@ public class _2487_Remove_Nodes_From_Linked_List {
             }
         }
         return newHead.next;
+    }
+
+    public ListNode removeNodes1(ListNode head) {
+        Stack<ListNode> st = new Stack<>();
+        ListNode h = head;
+        st.push(h);
+        while (h != null) {
+            while (!st.isEmpty() && st.peek().val < h.val) {
+                st.pop();
+            }
+            st.push(h);
+            h = h.next;
+        }
+        h = new ListNode();
+        head = h;
+        for (int i = 0; i < st.size(); i++) {
+            h.next = st.get(i);
+            h = h.next;
+            h.next = null;
+        }
+        return head.next;
+    }
+
+    public static void main(String[] args) {
+        var sol = new _2487_Remove_Nodes_From_Linked_List();
+        System.out.println(sol.removeNodes1(ListUtil.build(List.of(5, 2, 13, 3, 8))));
     }
 }
