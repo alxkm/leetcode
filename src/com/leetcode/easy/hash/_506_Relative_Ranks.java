@@ -32,4 +32,23 @@ public class _506_Relative_Ranks {
         }
         return a;
     }
+
+    public String[] findRelativeRanks1(int[] score) {
+        Map<Integer, Integer> map = new HashMap<>();
+        int n = score.length;
+        for (int i = 0; i < n; i++) {
+            map.put(score[i], i);
+        }
+        Arrays.sort(score);
+
+        String[] ar = new String[n];
+        ar[map.get(score[n - 1])] = "Gold Medal";
+        if (n > 1) ar[map.get(score[n - 2])] = "Silver Medal";
+        if (n > 2) ar[map.get(score[n - 3])] = "Bronze Medal";
+
+        for (int i = n - 4, j = 4; i >= 0; i--, j++) {
+            ar[map.get(score[i])] = "" + j;
+        }
+        return ar;
+    }
 }
