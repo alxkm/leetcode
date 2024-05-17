@@ -3,6 +3,7 @@ package com.leetcode.medium.parenthesis;
 public class _678_Valid_Parenthesis_String {
     //https://leetcode.com/problems/valid-parenthesis-string/
     //678. Valid Parenthesis String
+    //todo
 
     public boolean checkValidString(String s) {
         int leftMin = 0, leftMax = 0;
