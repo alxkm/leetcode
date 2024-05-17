@@ -14,7 +14,6 @@ public class _2373_Largest_Local_Values_in_a_Matrix {
         return max;
     }
 
-
     public int[][] largestLocal(int[][] grid) {
         int n = grid.length;
         int[][] ar = new int[n - 2][n - 2];
