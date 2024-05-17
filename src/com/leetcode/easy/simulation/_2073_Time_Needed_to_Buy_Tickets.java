@@ -15,6 +15,4 @@ public class _2073_Time_Needed_to_Buy_Tickets {
         }
         return counter;
     }
-
-
 }
