@@ -3,8 +3,8 @@ package com.leetcode.medium.graph;
 import java.util.ArrayList;
 
 public class _1992_Find_All_Groups_of_Farmland {
-    //1992._Find_All_Groups_of_Farmland
-    //https://leetcode.com/problems/find-all-groups-of-farmland/
+    //1992. Find All Groups of Farmland
+    //https://leetcode.com/problems/find-all-groups-of-farmland/description/
 
     int m;
     int n;
