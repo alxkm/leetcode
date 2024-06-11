@@ -2,12 +2,38 @@ package com.leetcode.easy.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 public class _1122_Relative_Sort_Array {
+    //1122. Relative Sort Array
+    //https://leetcode.com/problems/relative-sort-array/description/
+
+    public int[] relativeSortArray1(int[] arr1, int[] arr2) {
+        int[] order = new int[1003];
+        Arrays.fill(order, 1000000);
+        for (int i = 0; i < arr2.length; i++) order[arr2[i]] = i;
+
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < arr1.length; i++) {
+            if (order[i] == 1003) list.add(arr1[i]);
+        }
+        Collections.sort(list);
+
+        int[] ar = Arrays.stream(arr1).boxed().sorted((x, y) -> {
+            if (order[x] == order[y]) return x - y;
+            return order[x] - order[y];
+        }).mapToInt(i -> i).toArray();
+
+        for (int i = arr1.length - list.size(), j = 0; i < arr1.length; i++, j++) {
+            arr1[i] = list.get(j);
+        }
+        return ar;
+    }
+
     static public int[] relativeSortArray(int[] arr1, int[] arr2) {
         var n = new HashMap<Integer, Integer>();
         var l = Arrays.stream(arr2).boxed().collect(Collectors.toList());
