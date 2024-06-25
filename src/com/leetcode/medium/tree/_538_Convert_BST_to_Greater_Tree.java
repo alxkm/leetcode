@@ -12,6 +12,7 @@ import java.util.Map;
 public class _538_Convert_BST_to_Greater_Tree {
     //1038. Binary Search Tree to Greater Sum Tree
     //https://leetcode.com/problems/convert-bst-to-greater-tree/description/
+    //https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 
     List<Integer> l = new ArrayList<>();
 
