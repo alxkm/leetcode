@@ -49,4 +49,14 @@ public class _8_String_to_Integer_atoi {
         }
         return 0;
     }
+
+    public static void main(String[] args) {
+        var sol = new _8_String_to_Integer_atoi();
+
+        System.out.println(sol.myAtoi("-91283472332"));
+        System.out.println(sol.myAtoi("2147483648"));
+        System.out.println(sol.myAtoi("1095502006p8"));
+        System.out.println(sol.myAtoi("-2147483649"));
+        System.out.println(sol.myAtoi("+1168848995 o5"));
+    }
 }
