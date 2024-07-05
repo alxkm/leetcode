@@ -65,6 +65,6 @@ public class _2181_Merge_Nodes_in_Between_Zeros {
 
     public static void main(String[] args) {
         var sol = new _2181_Merge_Nodes_in_Between_Zeros();
-        sol.mergeNodes1(ListUtil.build(List.of(0,3,1,0,4,5,2,0)));
+        sol.mergeNodes1(ListUtil.of(0,3,1,0,4,5,2,0));
     }
 }

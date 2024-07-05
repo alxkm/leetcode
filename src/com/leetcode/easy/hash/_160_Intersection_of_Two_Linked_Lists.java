@@ -4,7 +4,6 @@ import com.leetcode.ListNode;
 import com.leetcode.ListUtil;
 
 import java.util.HashSet;
-import java.util.List;
 
 public class _160_Intersection_of_Two_Linked_Lists {
     //https://leetcode.com/problems/intersection-of-two-linked-lists/
@@ -24,7 +23,7 @@ public class _160_Intersection_of_Two_Linked_Lists {
     }
 
     public static void main(String[] args) {
-        ListNode build = ListUtil.build(List.of(1, 4, 6));
-        ListNode build1 = ListUtil.build(List.of(1, 5));
+        ListNode build = ListUtil.of(1, 4, 6);
+        ListNode build1 = ListUtil.of(1, 5);
     }
 }
