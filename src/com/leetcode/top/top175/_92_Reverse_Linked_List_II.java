@@ -3,7 +3,6 @@ package com.leetcode.top.top175;
 import com.leetcode.ListNode;
 import com.leetcode.ListUtil;
 
-import java.util.List;
 import java.util.Stack;
 
 public class _92_Reverse_Linked_List_II {
@@ -50,7 +49,7 @@ public class _92_Reverse_Linked_List_II {
 
     public static void main(String[] args) {
         var solution = new _92_Reverse_Linked_List_II();
-        ListNode list = ListUtil.build(List.of(1, 2, 3, 4, 5));
+        ListNode list = ListUtil.of(1, 2, 3, 4, 5);
         int left = 2, right = 4;
         //int left = 1, right = 5;
         ListUtil.print(solution.reverseBetween(list, left, right));
