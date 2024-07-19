@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class _1380_Lucky_Numbers_in_a_Matrix {
+    //1380. Lucky Numbers in a Matrix
+    //https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/?envType=daily-question&envId=2024-07-19
+
     static public List<Integer> luckyNumbers(int[][] matrix) {
         List<Integer> mins = new ArrayList<>();
         List<Integer> maxs = new ArrayList<>();
@@ -26,6 +29,36 @@ public class _1380_Lucky_Numbers_in_a_Matrix {
         for (Integer i : mins) {
             if (maxs.contains(i)) {
                 l.add(i);
+            }
+        }
+        return l;
+    }
+
+    public List<Integer> luckyNumbers1(int[][] matrix) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int[] mx = new int[n];
+
+        for (int j = 0; j < n; j++) {
+            int max = matrix[0][j];
+            for (int i = 0; i < m; i++) {
+                max = Math.max(max, matrix[i][j]);
+            }
+            mx[j] = max;
+        }
+
+        List<Integer> l = new ArrayList<>();
+        for (int i = 0; i < m; i++) {
+            int localMin = matrix[i][0];
+            int index = 0;
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] < localMin) {
+                    localMin = matrix[i][j];
+                    index = j;
+                }
+            }
+            if (mx[index] == localMin) {
+                l.add(localMin);
             }
         }
         return l;
