@@ -4,7 +4,6 @@ import com.leetcode.ListNode;
 import com.leetcode.ListUtil;
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -107,6 +106,6 @@ public class _143_Reorder_List {
     }
 
     public static void main(String[] args) {
-        reorderList3(ListUtil.build(List.of(1,2,3,4,5)));
+        reorderList3(ListUtil.of(1,2,3,4,5));
     }
 }

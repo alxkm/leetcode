@@ -3,8 +3,6 @@ package com.leetcode.easy.list;
 import com.leetcode.ListNode;
 import com.leetcode.ListUtil;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 public class _206_Reverse_Linked_List {
@@ -111,6 +109,6 @@ public class _206_Reverse_Linked_List {
     }
 
     public static void main(String[] args) {
-        ListUtil.print(reverseList(ListUtil.build(List.of(1, 2, 3, 4, 5))));
+        ListUtil.print(reverseList(ListUtil.of(1, 2, 3, 4, 5)));
     }
 }

@@ -3,8 +3,6 @@ package com.leetcode.easy.list;
 import com.leetcode.ListNode;
 import com.leetcode.ListUtil;
 
-import java.util.List;
-
 public class _203_Remove_Linked_List_Elements {
    static public ListNode removeElements(ListNode head, int val) {
         if (head == null) return null;
@@ -28,7 +26,7 @@ public class _203_Remove_Linked_List_Elements {
     }
 
     public static void main(String[] args) {
-        ListNode head = ListUtil.build(List.of(1, 1, 1, 1, 3, 3, 1, 1, 5, 6, 1, 1));
+        ListNode head = ListUtil.of(1, 1, 1, 1, 3, 3, 1, 1, 5, 6, 1, 1);
         head = removeElements(head, 1);
         ListUtil.print(head);
     }

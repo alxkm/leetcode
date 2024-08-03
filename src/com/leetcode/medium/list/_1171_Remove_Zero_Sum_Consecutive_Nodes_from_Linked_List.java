@@ -75,7 +75,7 @@ public class _1171_Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List {
     }
 
     public static void main(String[] args) {
-        var l = ListUtil.build(List.of(5,-3,-4,1,6,-2,-5));
+        var l = ListUtil.of(5,-3,-4,1,6,-2,-5);
         ListUtil.print(removeZeroSumSublists1(l));
     }
 }
