@@ -2,7 +2,7 @@ package com.leetcode.easy.math;
 
 public class _3210_Find_the_Encrypted_String {
     //3210. Find the Encrypted String
-    //https://leetcode.com/problems/find-the-encrypted-string/
+    //https://leetcode.com/problems/find-the-encrypted-string/description/
 
     public String getEncryptedString(String s, int k) {
         char[] s1 = new char[s.length() * 2];
