@@ -2,7 +2,7 @@ package com.leetcode.easy.matrix;
 
 public class _3127_Make_a_Square_with_the_Same_Color {
     //3127. Make a Square with the Same Color
-    //https://leetcode.com/problems/make-a-square-with-the-same-color
+    //https://leetcode.com/problems/make-a-square-with-the-same-color/description/
 
     public boolean canMakeSquare(char[][] grid) {
         for (int i = 0; i < grid.length; i++) {
