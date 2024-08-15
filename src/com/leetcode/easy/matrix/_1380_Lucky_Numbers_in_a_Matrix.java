@@ -6,6 +6,7 @@ import java.util.List;
 public class _1380_Lucky_Numbers_in_a_Matrix {
     //1380. Lucky Numbers in a Matrix
     //https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/?envType=daily-question&envId=2024-07-19
+    //not_optimal
 
     static public List<Integer> luckyNumbers(int[][] matrix) {
         List<Integer> mins = new ArrayList<>();
