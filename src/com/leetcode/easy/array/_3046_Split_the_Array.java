@@ -14,4 +14,13 @@ public class _3046_Split_the_Array {
         }
         return true;
     }
+
+    public boolean isPossibleToSplit1(int[] nums) {
+        int[] ar = new int[101];
+        for (int n: nums) ar[n]++;
+        for (int n: ar) if (n > 2) return false;
+        int counter = 0;
+        for (int n: ar) if (n == 1) counter++;
+        return counter % 2 == 0;
+    }
 }
