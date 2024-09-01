@@ -15,6 +15,21 @@ public class _1518_Water_Bottles {
         return cnt + numBottles;
     }
 
+    public int numWaterBottles1(int numBottles, int numExchange) {
+        int drinken = 0;
+        int full = numBottles;
+        int empty = 0;
+        while (full != 0) {
+            drinken += full;
+            empty += full % numExchange;
+            full = full / numExchange;
+
+            if (empty >= numExchange) full += empty / numExchange;
+            empty = empty % numExchange;
+        }
+        return drinken;
+    }
+
     public static void main(String[] args) {
         var sol = new _1518_Water_Bottles();
         int numBottles = 9, numExchange = 3;
