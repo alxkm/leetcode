@@ -73,7 +73,6 @@ public class _86_Partition_List {
 
     public static void main(String[] args) {
         var solution = new _86_Partition_List();
-        List<Integer> head = List.of(1, 4, 3, 2, 5, 2);
-        solution.partition(ListUtil.build(head), 3);
+        solution.partition(ListUtil.of(1, 4, 3, 2, 5, 2), 3);
     }
 }

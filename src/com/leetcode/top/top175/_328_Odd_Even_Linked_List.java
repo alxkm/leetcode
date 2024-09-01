@@ -3,8 +3,6 @@ package com.leetcode.top.top175;
 import com.leetcode.ListNode;
 import com.leetcode.ListUtil;
 
-import java.util.List;
-
 public class _328_Odd_Even_Linked_List {
     //328. Odd Even Linked List
     //https://leetcode.com/problems/odd-even-linked-list/
@@ -41,7 +39,7 @@ public class _328_Odd_Even_Linked_List {
     }
 
     public static void main(String[] args) {
-        var l = ListUtil.build(List.of(1,2,3,4,5));
+        var l = ListUtil.of(1,2,3,4,5);
         var solution = new _328_Odd_Even_Linked_List();
         ListUtil.print(solution.oddEvenList(l));
     }
