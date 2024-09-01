@@ -9,20 +9,40 @@ public class _1823_Find_the_Winner_of_the_Circular_Game {
 
     public int findTheWinner(int n, int k) {
         Queue<Integer> q = new LinkedList<>();
-        for (int i = 1; i <= n; i++) {
-            q.offer(i);
-        }
-
-        int i = 1;
+        for (int i = 1; i < n; i++) q.add(i);
+        int i = 0;
         while (q.size() != 1) {
-            if (i == k) {
-                i = 1;
-                q.poll();
+            int a = q.poll();
+            if (++i == k) {
+                q.remove(i);
+                i = 0;
             } else {
-                q.offer(q.poll());
-                i++;
+                q.offer(a);
             }
         }
+
         return q.poll();
+    }
+
+    public int findTheWinner1(int n, int k) {
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 1; i <= n; i++) q.add(i);
+        int i = 0;
+        while (q.size() != 1) {
+            int a = q.poll();
+            if (++i == k) {
+                i = 0;
+                System.out.println(q);
+            } else {
+                q.offer(a);
+            }
+        }
+
+        return q.poll();
+    }
+
+    public static void main(String[] args) {
+        var sol = new _1823_Find_the_Winner_of_the_Circular_Game();
+        System.out.println(sol.findTheWinner(5, 2));
     }
 }

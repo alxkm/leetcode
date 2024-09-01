@@ -58,6 +58,6 @@ public class _2487_Remove_Nodes_From_Linked_List {
 
     public static void main(String[] args) {
         var sol = new _2487_Remove_Nodes_From_Linked_List();
-        System.out.println(sol.removeNodes1(ListUtil.build(List.of(5, 2, 13, 3, 8))));
+        System.out.println(sol.removeNodes1(ListUtil.of(5, 2, 13, 3, 8)));
     }
 }

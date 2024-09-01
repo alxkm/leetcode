@@ -3,7 +3,6 @@ package com.leetcode.top.top175;
 import com.leetcode.ListNode;
 import com.leetcode.ListUtil;
 
-import java.util.List;
 import java.util.Stack;
 
 public class _61_Rotate_List {
@@ -80,7 +79,7 @@ public class _61_Rotate_List {
     }
 
     public static void main(String[] args) {
-        var l = ListUtil.build(List.of(1,2,3,4,5));
+        var l = ListUtil.of(1,2,3,4,5);
         var solution = new _61_Rotate_List();
         ListUtil.print(solution.rotateRight(l, 2));
     }

@@ -57,7 +57,7 @@ public class _24_Swap_Nodes_in_Pairs {
     }
 
     public static void main(String[] args) {
-        var l = ListUtil.build(List.of(1,2,3,4));
+        var l = ListUtil.of(1,2,3,4);
         var solution = new _24_Swap_Nodes_in_Pairs();
         ListNode listNode = solution.swapPairs(l);
         ListUtil.print(listNode);
