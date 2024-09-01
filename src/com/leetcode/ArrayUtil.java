@@ -94,6 +94,7 @@ public class ArrayUtil {
             int[] array = new int[numbers.length];
 
             for (int i = 0; i < numbers.length; i++) {
+                //array[i] = Integer.parseInt(numbers[i]);
                 array[i] = Integer.parseInt(numbers[i].trim());
             }
 
