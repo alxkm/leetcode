@@ -3,7 +3,6 @@ package com.leetcode.easy.list;
 import com.leetcode.ListNode;
 import com.leetcode.ListUtil;
 
-import java.util.List;
 import java.util.Stack;
 
 public class _234_Palindrome_Linked_List {
@@ -97,6 +96,6 @@ public class _234_Palindrome_Linked_List {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome2(ListUtil.build(List.of(1, 2, 2, 1))));
+        System.out.println(isPalindrome2(ListUtil.of(1, 2, 2, 1)));
     }
 }
