@@ -2,6 +2,8 @@ package com.leetcode.easy.design;
 
 import com.leetcode.ArrayUtil;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.PriorityQueue;
@@ -51,6 +53,7 @@ public class _703_Kth_Largest_Element_in_a_Stream {
         sol.add(10);
         System.out.println(sol);
     }
+
     class KthLargest1 {
         private Queue<Integer> pq = new PriorityQueue<>();
         private int k;
@@ -67,6 +70,36 @@ public class _703_Kth_Largest_Element_in_a_Stream {
             pq.offer(val);
             if (pq.size() > k) pq.poll();
             return pq.peek();
+        }
+    }
+
+    class KthLargest2 {
+        private List<Integer> l = new ArrayList<>();
+        private final int k;
+
+        public KthLargest2(int k, int[] nums) {
+            this.k = k;
+            Arrays.sort(nums);
+            for (int i = nums.length - 1; i >= 0 && l.size() < k; i--) {
+                l.add(nums[i]);
+            }
+        }
+
+        public int add(int val) {
+            boolean inserted = false;
+            for (int i = 0; i < l.size(); i++) {
+                if (l.get(i) < val) {
+                    l.add(i, val);
+                    inserted = true;
+                    break;
+                }
+            }
+            if (!inserted) l.add(val);
+            if (l.size() > k) {
+                l.remove(l.size() - 1);
+                return l.get(k - 1);
+            }
+            return l.get(l.size() - 1);
         }
     }
 }
