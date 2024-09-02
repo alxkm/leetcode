@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class _1514_Path_with_Maximum_Probability {
-    //1514. Path with Maximum Probability
     //https://leetcode.com/problems/path-with-maximum-probability/description/?envType=daily-question&envId=2024-08-31
+    //1514. Path with Maximum Probability
 
     record Edge(int v, double w) {}
 
