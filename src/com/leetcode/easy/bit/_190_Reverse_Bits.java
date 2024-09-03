@@ -1,4 +1,4 @@
-package com.leetcode.easy.binary;
+package com.leetcode.easy.bit;
 
 public class _190_Reverse_Bits {
     //https://leetcode.com/problems/reverse-bits/description/
