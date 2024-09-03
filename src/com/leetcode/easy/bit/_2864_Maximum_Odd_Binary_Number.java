@@ -1,4 +1,4 @@
-package com.leetcode.easy.binary;
+package com.leetcode.easy.bit;
 
 public class _2864_Maximum_Odd_Binary_Number {
     //https://leetcode.com/problems/maximum-odd-binary-number/

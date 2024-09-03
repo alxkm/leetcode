@@ -1,4 +1,4 @@
-package com.leetcode.easy.binary;
+package com.leetcode.easy.bit;
 
 public class _231_Power_of_Two {
     //231. Power of Two

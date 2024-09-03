@@ -1,4 +1,4 @@
-package com.leetcode.easy.binary;
+package com.leetcode.easy.bit;
 
 public class _371_Sum_of_Two_Integers {
     //https://leetcode.com/problems/sum-of-two-integers/

@@ -1,4 +1,4 @@
-package com.leetcode.easy.binary;
+package com.leetcode.easy.bit;
 
 import com.leetcode.ArrayUtil;
 
