@@ -5,7 +5,10 @@ import java.util.List;
 public class _624_Maximum_Distance_in_Arrays {
     //624. Maximum Distance in Arrays
     //https://leetcode.com/problems/maximum-distance-in-arrays/description/
+    //WITH_HINTS
 
+    //[[1,2,3],[4,5],[1,2,3]]
+    //[[-3,-3],[-3,-2]]
     public int maxDistance(List<List<Integer>> arrays) {
         int min = arrays.get(0).get(0);
         int max = arrays.get(0).get(arrays.get(0).size() - 1);
