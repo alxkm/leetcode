@@ -9,7 +9,6 @@ import java.util.List;
 public class _1367_Linked_List_in_Binary_Tree {
     //1367. Linked List in Binary Tree
     //https://leetcode.com/problems/linked-list-in-binary-tree/description/
-    //but first one is short and tricky
 
     public boolean isSubPath(ListNode head, TreeNode root) {
         return dfsTraverse(root, head);
@@ -63,7 +62,7 @@ public class _1367_Linked_List_in_Binary_Tree {
         }
     }
 
-    //foreign solution
+    //foreign solution is short and tricky
     class Solution1 {
         public boolean isSubPath(ListNode head, TreeNode root) {
             return dfs(head, head, root);
