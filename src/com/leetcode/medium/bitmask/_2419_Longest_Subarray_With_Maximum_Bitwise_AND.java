@@ -6,7 +6,6 @@ public class _2419_Longest_Subarray_With_Maximum_Bitwise_AND {
     //2419. Longest Subarray With Maximum Bitwise AND
     //https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description/
 
-    //tle
     public int longestSubarray(int[] nums) {
         int max = Arrays.stream(nums).max().getAsInt();
         int l = 1;
