@@ -3,6 +3,7 @@ package com.leetcode.easy.matrix;
 import java.util.Arrays;
 
 public class _2022_Convert_1D_Array_Into_2D_Array {
+    //2022. Convert 1D Array Into 2D Array
     //https://leetcode.com/problems/convert-1d-array-into-2d-array/
 
     public static int[][] construct2DArray(int[] original, int m, int n) {
@@ -45,5 +46,19 @@ public class _2022_Convert_1D_Array_Into_2D_Array {
         int[] a = {1,2,3};
 
         System.out.println(Arrays.deepToString(construct2DArray(a, 1, 3)));
+    }
+
+    class Solution {
+        public int[][] construct2DArray(int[] original, int m, int n) {
+            if(original.length != m*n) return new int[0][0];
+            int[][] a = new int[m][n];
+            int k = 0;
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    a[i][j] = original[k++];
+                }
+            }
+            return a;
+        }
     }
 }

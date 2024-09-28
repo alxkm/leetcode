@@ -51,4 +51,21 @@ public class _590_N_ary_Tree_Postorder_Traversal {
         l.add(root.val);
         for (Node n : root.children) dfs1(n, l);
     }
+
+    class Solution {
+        public List<Integer> postorder(Node root) {
+            List<Integer> l = new ArrayList<>();
+            dfs(root, l);
+            return l;
+        }
+
+        private void dfs(Node t, List<Integer> l) {
+            if (t == null) return;
+
+            for (var n: t.children) {
+                dfs(n, l);
+            }
+            l.add(t.val);
+        }
+    }
 }
