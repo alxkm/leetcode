@@ -5,7 +5,7 @@ import java.util.List;
 
 public class _386_Lexicographical_Numbers {
     //386. Lexicographical Numbers
-    //https://leetcode.com/problems/lexicographical-numbers/description/
+    //https://leetcode.com/problems/lexicographical-numbers/description/?envType=daily-question&envId=2024-09-21
 
     public List<Integer> lexicalOrder(int n) {
         TrieRoot t = new TrieRoot();
