@@ -3,7 +3,7 @@ package com.leetcode.top.list;
 import com.leetcode.ListNode;
 
 public class _725_Split_Linked_List_in_Parts {
-    //https://leetcode.com/problems/split-linked-list-in-parts/
+    //https://leetcode.com/problems/split-linked-list-in-parts/description/
     //725. Split Linked List in Parts
     //https://leetcode.com/problems/split-linked-list-in-parts/description/?envType=daily-question&envId=2024-09-08
 
