@@ -2,7 +2,7 @@ package com.leetcode.medium.implementation;
 
 public class _592_Fraction_Addition_and_Subtraction {
     //592. Fraction Addition and Subtraction
-    //https://leetcode.com/problems/fraction-addition-and-subtraction/
+    //https://leetcode.com/problems/fraction-addition-and-subtraction/description/?envType=daily-question&envId=2024-08-23
     //FOREIGN_SOLUTION
 
     public String fractionAddition(String expression) {
