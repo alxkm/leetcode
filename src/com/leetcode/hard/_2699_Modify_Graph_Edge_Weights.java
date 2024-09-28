@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 
 public class _2699_Modify_Graph_Edge_Weights {
     //2699. Modify Graph Edge Weights
-    //https://leetcode.com/problems/modify-graph-edge-weights/description/
+    //https://leetcode.com/problems/modify-graph-edge-weights/description/?envType=daily-question&envId=2024-08-30
     //FOREIGN_SOLUTION
 
     List<int[]>[] graph;
