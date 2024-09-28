@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class _2028_Find_Missing_Observations {
     //2028. Find Missing Observations
-    //https://leetcode.com/problems/find-missing-observations/description/
+    //https://leetcode.com/problems/find-missing-observations/description/?envType=daily-question&envId=2024-09-05
 
     public int[] missingRolls(int[] rolls, int mean, int n) {
         int subSum = 0;
