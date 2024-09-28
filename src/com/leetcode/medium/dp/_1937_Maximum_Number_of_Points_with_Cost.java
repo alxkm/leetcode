@@ -2,7 +2,7 @@ package com.leetcode.medium.dp;
 
 public class _1937_Maximum_Number_of_Points_with_Cost {
     //1937. Maximum Number of Points with Cost
-    //https://leetcode.com/problems/maximum-number-of-points-with-cost/description/
+    //https://leetcode.com/problems/maximum-number-of-points-with-cost/description/?envType=daily-question&envId=2024-08-17
     //FOREIGN_SOLUTION
 
     public long maxPoints(int[][] points) {
