@@ -8,6 +8,8 @@ import java.util.Map;
 public class _241_Different_Ways_to_Add_Parentheses {
     //241. Different Ways to Add Parentheses
     //https://leetcode.com/problems/different-ways-to-add-parentheses/description/?envType=daily-question&envId=2024-09-19
+    // DP
+    // NOT MAIN
 
     Map<String, List<Integer>> dp = new HashMap<>();
 
