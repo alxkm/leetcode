@@ -1,6 +1,9 @@
 package com.leetcode.easy.dp;
 
 public class _1646_Get_Maximum_in_Generated_Array {
+    //1646. Get Maximum in Generated Array
+    //https://leetcode.com/problems/get-maximum-in-generated-array/description/
+
     static public int getMaximumGenerated(int n) {
         if (n < 2) return n;
 
