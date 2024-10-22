@@ -1,12 +1,15 @@
 package com.leetcode.easy.array;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class _1331_Rank_Transform_of_an_Array {
     //1331. Rank Transform of an Array
-    //https://leetcode.com/problems/rank-transform-of-an-array/
+    //https://leetcode.com/problems/rank-transform-of-an-array
 
     public int[] arrayRankTransform(int[] arr) {
         int[] arr1 = new int[arr.length];
@@ -23,6 +26,23 @@ public class _1331_Rank_Transform_of_an_Array {
             }
         }
 
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = map.get(arr[i]);
+        }
+        return arr;
+    }
+
+    public int[] arrayRankTransform1(int[] arr) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (int n: arr) {
+            map.putIfAbsent(n, -1);
+        }
+        List<Integer> l = new ArrayList<>(map.keySet());
+        Collections.sort(l);
+        for (int i = 0; i < l.size(); i++) {
+            map.put(l.get(i), i + 1);
+        }
         for (int i = 0; i < arr.length; i++) {
             arr[i] = map.get(arr[i]);
         }
