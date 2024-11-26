@@ -1,4 +1,4 @@
-package com.leetcode.medium.hard;
+package com.leetcode.medium.recursion;
 
 public class _779_K_th_Symbol_in_Grammar {
     //https://leetcode.com/problems/k-th-symbol-in-grammar/description/
@@ -44,9 +44,29 @@ public class _779_K_th_Symbol_in_Grammar {
         return (k > half) ? (half - (pow - k)) : k;
     }
 
+    class Solution {
+        int[] ar = new int[30 + 1];
+        public int kthGrammar(int n, int k) {
+            ar[1] = 1;
+            for (int i = 2; i < 31; i++) {
+                ar[i] = ar[i - 1] * 2;
+            }
+            return f(n, k);
+        }
+
+        private int f(int n, int k) {
+            if (n == 1) return 0;
+            if (n == 2) return k == 1 ? 0 : 1;
+
+            if (k <= ar[n - 1]) return f(n - 1, k);
+
+            //reinvert
+            return f(n - 1, k - ar[n - 1]) == 1 ? 0 : 1;
+        }
+    }
+
     public static void main(String[] args) {
         var sol = new _779_K_th_Symbol_in_Grammar();
         System.out.println(sol.kthGrammar(3, 5));
     }
-
 }
