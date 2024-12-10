@@ -1,4 +1,4 @@
-package com.leetcode.medium.math;
+package com.leetcode.medium.hard;
 
 import java.util.Arrays;
 
