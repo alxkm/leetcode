@@ -59,39 +59,71 @@ public class _773_Sliding_Puzzle {
         return -1;
     }
 
-    public int findChampion(int n, int[][] edges) {
-        int[] deg = new int[n];
-        List[] gr = new List[n];
+    class Solution {
+        int[][] win = new int[][] {{1, 2, 3}, {4, 5, 0}};
 
-        for (int[] ar: edges) {
-            gr[ar[0]].add(ar[1]);
-        }
+        public int slidingPuzzle(int[][] board) {
+            Set<String> visited = new HashSet<>();
+            Queue<int[][]> q = new LinkedList<>();
+            q.add(deepCopy(board));
+            visited.add(boardToString(board));
+            int[][] directions = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+            int depth = 0;
 
-        for (int[] ar: edges) {
-            deg[ar[1]]++;
-        }
+            while (!q.isEmpty()) {
+                int size = q.size();
+                for (int i = 0; i < size; i++) {
+                    int[][] current = q.poll();
+                    if (Arrays.deepEquals(current, win)) return depth;
 
-        for (int i = 0; i < n; i++) {
-            if (deg[i] == 0) {
-                Set<Integer> set = new HashSet<>();
-                Queue<Integer> q = new LinkedList<>();
-                for (var a: gr[i]) {
-                    q.add((int)a);
-                }
+                    int zeroX = 0, zeroY = 0;
+                    for (int x = 0; x < current.length; x++) {
+                        for (int y = 0; y < current[0].length; y++) {
+                            if (current[x][y] == 0) {
+                                zeroX = x;
+                                zeroY = y;
+                            }
+                        }
+                    }
 
-                while (!q.isEmpty()) {
-                    int v = q.poll();
-                    set.add(v);
+                    for (int[] d : directions) {
+                        int newX = zeroX + d[0], newY = zeroY + d[1];
+                        if (newX >= 0 && newX < 2 && newY >= 0 && newY < 3) {
+                            int[][] newBoard = deepCopy(current);
 
-                    for (var a: gr[v]) {
-                        q.add((int)a);
+                            newBoard[zeroX][zeroY] = newBoard[newX][newY];
+                            newBoard[newX][newY] = 0;
+
+                            String newState = boardToString(newBoard);
+                            if (!visited.contains(newState)) {
+                                visited.add(newState);
+                                q.add(newBoard);
+                            }
+                        }
                     }
                 }
-                if (set.size() == n - 1) return i;
+                depth++;
             }
+            return -1;
         }
 
-        return -1;
+        private int[][] deepCopy(int[][] board) {
+            int[][] copy = new int[board.length][board[0].length];
+            for (int i = 0; i < board.length; i++) {
+                copy[i] = board[i].clone();
+            }
+            return copy;
+        }
+
+        private String boardToString(int[][] board) {
+            StringBuilder sb = new StringBuilder();
+            for (int[] row : board) {
+                for (int num : row) {
+                    sb.append(num);
+                }
+            }
+            return sb.toString();
+        }
     }
 
     public static void main(String[] args) {
