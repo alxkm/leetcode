@@ -21,4 +21,18 @@ public class _1422_Maximum_Score_After_Splitting_a_String {
         }
         return max;
     }
+
+    public int maxScore1(String s) {
+        int[] ones = new int[s.length() + 1];
+        for (int i = s.length() - 1; i >= 0; i--) {
+            ones[i] = ones[i + 1] + (int)(s.charAt(i) - '0');
+        }
+        int score = 0;
+        int z = 0;
+        for (int i = 0; i < s.length() - 1; i++) {
+            if (s.charAt(i) == '0') z++;
+            score = Math.max(score, z + ones[i + 1]);
+        }
+        return score;
+    }
 }
