@@ -1,5 +1,10 @@
 package com.leetcode.medium.string;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class _3223_Minimum_Length_of_String_After_Operations {
     //3223. Minimum Length of String After Operations
     //https://leetcode.com/problems/minimum-length-of-string-after-operations/description//
