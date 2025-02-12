@@ -26,4 +26,31 @@ public class _3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray {
         return max;
     }
 
+    public int longestMonotonicSubarray1(int[] nums) {
+        int asc = 1;
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[j - 1] < nums[j]) {
+                    asc = Math.max(asc, j - i + 1);
+                } else {
+                    i = j - 1;
+                    break;
+                }
+            }
+        }
+        int des = 1;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[j - 1] > nums[j]) {
+                    des = Math.max(des, j - i + 1);
+                } else {
+                    i = j - 1;
+                    break;
+                }
+            }
+        }
+
+        return Math.max(asc, des);
+    }
 }
