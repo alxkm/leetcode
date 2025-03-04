@@ -41,4 +41,52 @@ public class _2415_Reverse_Odd_Levels_of_Binary_Tree {
 
         return root;
     }
+
+    public TreeNode reverseOddLevels1(TreeNode root) {
+        if (root == null) return null;
+        int level = 0;
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            int size = q.size();
+            if (level % 2 != 0) {
+                for (int i = 0, j = q.size() - 1; i < j; i++, j--) {
+                    int tmp = ((LinkedList<TreeNode>)q).get(i).val;
+                    ((LinkedList<TreeNode>)q).get(i).val = ((LinkedList<TreeNode>)q).get(j).val;
+                    ((LinkedList<TreeNode>)q).get(j).val = tmp;
+                }
+            }
+            for (int i = 0; i < size; i++) {
+                TreeNode t = q.poll();
+                if (t.left != null) {
+                    q.offer(t.left);
+                    q.offer(t.right);
+                }
+            }
+            level++;
+        }
+        return root;
+    }
+
+    class Solution {
+        public TreeNode reverseOddLevels(TreeNode root) {
+            traverseDFS(root.left, root.right, 0);
+            return root;
+        }
+
+        private void traverseDFS(TreeNode left, TreeNode right, int level) {
+            if (left == null || right == null) {
+                return;
+            }
+
+            if (level % 2 == 0) {
+                int temp = left.val;
+                left.val = right.val;
+                right.val = temp;
+            }
+
+            traverseDFS(left.left, right.right, level + 1);
+            traverseDFS(left.right, right.left, level + 1);
+        }
+    }
 }
