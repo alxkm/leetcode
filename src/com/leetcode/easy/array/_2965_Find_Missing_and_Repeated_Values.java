@@ -35,4 +35,25 @@ public class _2965_Find_Missing_and_Repeated_Values {
         }
         return ar;
     }
+
+    public int[] findMissingAndRepeatedValues1(int[][] grid) {
+        boolean[] check = new boolean[grid.length * grid[0].length + 1];
+        int[] ans = new int[2];
+        for (int[] ar : grid) {
+            for (int i = 0; i < grid.length; i++) {
+                if (check[ar[i]]) {
+                    ans[0] = ar[i];
+                } else {
+                    check[ar[i]] = true;
+                }
+            }
+        }
+        for (int i = 1; i < check.length; i++) {
+            if (!check[i]) {
+                ans[1] = i;
+                break;
+            }
+        }
+        return ans;
+    }
 }
