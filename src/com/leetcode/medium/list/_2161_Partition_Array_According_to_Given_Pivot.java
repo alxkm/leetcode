@@ -35,4 +35,27 @@ public class _2161_Partition_Array_According_to_Given_Pivot {
         }
         return nums;
     }
+
+    public int[] pivotArray1(int[] nums, int pivot) {
+        int[] ar = new int[nums.length];
+        int j = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] < pivot) {
+                ar[j++] = nums[i];
+            }
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == pivot) {
+                ar[j++] = nums[i];
+            }
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > pivot) {
+                ar[j++] = nums[i];
+            }
+        }
+        return ar;
+    }
 }
