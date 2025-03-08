@@ -1,6 +1,7 @@
 package com.leetcode.easy.list;
 
 import com.leetcode.ListNode;
+import com.leetcode.ListUtil;
 
 public class _21_Merge_Two_Sorted_Lists {
     //21. Merge Two Sorted Lists
@@ -70,4 +71,101 @@ public class _21_Merge_Two_Sorted_Lists {
         return newHead.next;
     }
 
+    public static ListNode mergeTwoLists2(ListNode list1, ListNode list2) {
+        if (list1 == null) return list2;
+        if (list2 == null) return list1;
+
+        ListNode dummy = new ListNode();
+        ListNode h = dummy;
+        ListNode h1 = list1;
+        ListNode h2 = list2;
+
+        while (h1 != null && h2 != null) {
+            if (h1.val < h2.val) {
+                var t = h1.next;
+                h.next = h1;
+                h = h.next;
+                h.next = null;
+                h1 = t;
+            } else if (h1.val > h2.val) {
+                var t = h2.next;
+                h.next = h2;
+                h = h.next;
+                h.next = null;
+                h2 = t;
+            } else {
+                var t1 = h1.next;
+                var t2 = h2.next;
+                h.next = h1;
+                h = h.next;
+                h.next = null;
+                h.next = h2;
+                h = h.next;
+                h.next = null;
+                h1 = t1;
+                h2 = t2;
+            }
+        }
+
+        while (h1 != null) {
+            h.next = h1;
+            h1 = h1.next;
+        }
+        while (h2 != null) {
+            h.next = h2;
+            h2 = h2.next;
+        }
+        return h.next;
+    }
+
+
+    public ListNode mergeTwoLists3(ListNode list1, ListNode list2) {
+        if (list1 == null) return list2;
+        if (list2 == null) return list1;
+
+        ListNode dummy = new ListNode();
+        ListNode h = dummy;
+        ListNode h1 = list1;
+        ListNode h2 = list2;
+
+        while (h1 != null && h2 != null) {
+            if (h1.val < h2.val) {
+                var t = h1.next;
+                h.next = h1;
+                h = h.next;
+                h.next = null;
+                h1 = t;
+            } else if (h1.val > h2.val) {
+                var t = h2.next;
+                h.next = h2;
+                h = h.next;
+                h.next = null;
+                h2 = t;
+            } else {
+                var t1 = h1.next;
+                var t2 = h2.next;
+                h.next = h1;
+                h = h.next;
+                h.next = null;
+                h.next = h2;
+                h = h.next;
+                h.next = null;
+                h1 = t1;
+                h2 = t2;
+            }
+        }
+        while (h1 != null) {
+            h.next = h1;
+            h1 = h1.next;
+        }
+        while (h2 != null) {
+            h.next = h2;
+            h2 = h2.next;
+        }
+        return dummy.next;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(mergeTwoLists2(ListUtil.of(1, 2, 4), ListUtil.of(1, 3, 4)));
+    }
 }
