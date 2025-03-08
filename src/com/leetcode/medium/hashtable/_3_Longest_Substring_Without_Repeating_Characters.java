@@ -6,6 +6,9 @@ import java.util.Map;
 import java.util.Set;
 
 public class _3_Longest_Substring_Without_Repeating_Characters {
+    //3. Longest Substring Without Repeating Characters
+    //https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
     public int lengthOfLongestSubstring1(String s) {
         Map<Character, Integer> map = new HashMap<>();
         int maxSize = 0;
@@ -55,5 +58,28 @@ public class _3_Longest_Substring_Without_Repeating_Characters {
         }
         return globalMax;
     }
+    public static int lengthOfLongestSubstring2(String s) {
+        char[] ch = s.toCharArray();
+        int max = 1;
+        Set<Character> set = new HashSet<>();
+        for (int i = 0, j = 0; i < ch.length && i < ch.length;) {
+            while (j < ch.length && set.add(ch[j])) {
+                max = Math.max(j - i + 1, max);
+                j++;
+            }
+            System.out.println("j = " + j);
+            while (i < ch.length && j < ch.length) {
+                set.remove(ch[i]);
+                char prev = ch[i];
+                i++;
+                if (prev == ch[j]) break;
 
+            }
+            System.out.println("i = " + i);
+        }
+        return max;
+    }
+    public static void main(String[] args) {
+        System.out.println(lengthOfLongestSubstring2("abcabcbb"));
+    }
 }
