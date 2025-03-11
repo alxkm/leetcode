@@ -30,4 +30,40 @@ public class _23_Merge_k_Sorted_Lists {
         }
         return head;
     }
+
+    class Solution {
+        public ListNode mergeKLists(ListNode[] lists) {
+            ListNode h = new ListNode(-1);
+            for (ListNode l: lists) {
+                h = merge(h, l);
+            }
+            return h.next;
+        }
+
+        ListNode merge(ListNode l1, ListNode l2) {
+            ListNode h = new ListNode(-1);
+            ListNode dummy = h;
+
+            while (l1 != null && l2 != null) {
+                if (l1.val < l2.val) {
+                    h.next = new ListNode(l1.val);
+                    h = h.next;
+                    l1 = l1.next;
+                } else if (l1.val > l2.val) {
+                    h.next = new ListNode(l2.val);
+                    h = h.next;
+                    l2 = l2.next;
+                } else {
+                    h.next = new ListNode(l1.val);
+                    h = h.next;
+                    h.next = new ListNode(l2.val);
+                    h = h.next;
+                    l1 = l1.next;
+                    l2 = l2.next;
+                }
+            }
+            h.next = (l1 != null) ? l1 : l2;
+            return dummy.next;
+        }
+    }
 }
