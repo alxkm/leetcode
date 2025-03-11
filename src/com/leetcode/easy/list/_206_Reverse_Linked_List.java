@@ -9,6 +9,19 @@ public class _206_Reverse_Linked_List {
     //206. Reverse Linked List
     //https://leetcode.com/problems/reverse-linked-list/
 
+    static public ListNode reverseList6(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode prev = null;
+        while (head.next != null) {
+            var next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+        return head;
+    }
+
+
     static public ListNode reverseList(ListNode head) {
         if (head == null) return null;
         Stack<ListNode> s = new Stack<>();
@@ -108,7 +121,36 @@ public class _206_Reverse_Linked_List {
         return prev;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static void main(String[] args) {
-        ListUtil.print(reverseList(ListUtil.of(1, 2, 3, 4, 5)));
+        ListUtil.print(reverseList6(ListUtil.of(1, 2, 3, 4, 5)));
     }
 }
