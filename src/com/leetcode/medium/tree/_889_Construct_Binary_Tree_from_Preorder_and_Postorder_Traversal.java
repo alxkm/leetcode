@@ -1,4 +1,4 @@
-package com.leetcode.medium.matrix;
+package com.leetcode.medium.tree;
 
 import com.leetcode.TreeNode;
 
