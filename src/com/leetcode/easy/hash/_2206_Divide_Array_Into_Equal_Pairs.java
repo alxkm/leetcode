@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class _2206_Divide_Array_Into_Equal_Pairs {
+    //2206. Divide Array Into Equal Pairs
+    //https://leetcode.com/problems/divide-array-into-equal-pairs/description/
+
     static public boolean divideArray(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
 
@@ -16,6 +19,18 @@ public class _2206_Divide_Array_Into_Equal_Pairs {
                 return false;
             }
         }
+        return true;
+    }
+
+    public boolean divideArray1(int[] nums) {
+        int[] arr = new int[501];
+        for (int n: nums) arr[n]++;
+
+        for (int n : arr) {
+            if (n == 0 || n % 2 == 0) continue;
+            return false;
+        }
+
         return true;
     }
 
