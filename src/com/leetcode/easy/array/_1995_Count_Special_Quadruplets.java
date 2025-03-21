@@ -19,4 +19,14 @@ public class _1995_Count_Special_Quadruplets {
         }
         return count;
     }
+
+    public int countQuadruplets1(int[] nums) {
+        int n = nums.length, ans = 0;
+        int[] cnt = new int[1000];
+        for (int b = n - 3; b >= 1; b--) {
+            for (int d = b + 2; d < n; d++) cnt[nums[d] - nums[b + 1] + 200]++;
+            for (int a = 0; a < b; a++) ans += cnt[nums[a] + nums[b] + 200];
+        }
+        return ans;
+    }
 }
