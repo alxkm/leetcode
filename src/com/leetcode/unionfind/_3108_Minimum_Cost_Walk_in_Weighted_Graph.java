@@ -1,4 +1,4 @@
-package com.leetcode.hard;
+package com.leetcode.unionfind;
 
 public class _3108_Minimum_Cost_Walk_in_Weighted_Graph {
     //https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/?envType=daily-question&envId=2025-03-20
