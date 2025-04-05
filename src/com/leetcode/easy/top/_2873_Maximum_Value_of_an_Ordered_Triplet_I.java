@@ -48,4 +48,20 @@ public class _2873_Maximum_Value_of_an_Ordered_Triplet_I {
 
         return max;
     }
+
+    public long maximumTripletValue2(int[] nums) {
+        long max = 0;
+        int[] prefix = new int[nums.length + 1];
+
+        for (int i = nums.length - 1; i >= 0; i--) {
+            prefix[i] = Math.max(nums[i], prefix[i + 1]);
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                max = Math.max(max, (long)(nums[i] - nums[j]) * (long)prefix[j + 1]);
+            }
+        }
+        return max;
+    }
 }
