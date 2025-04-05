@@ -6,6 +6,7 @@ import java.util.Map;
 public class _2425_Bitwise_XOR_of_All_Pairings {
     //2425. Bitwise XOR of All Pairings
     //https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/
+    //FOREIGN
 
     class Solution {
 
