@@ -3,6 +3,7 @@ package com.leetcode.medium.bits;
 public class _2429_Minimize_XOR {
     //2429. Minimize XOR
     //https://leetcode.com/problems/minimize-xor/description/
+    //FOREIGN
 
     class Solution {
 
