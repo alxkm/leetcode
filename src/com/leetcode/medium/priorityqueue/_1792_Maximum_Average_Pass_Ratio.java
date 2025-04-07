@@ -6,6 +6,7 @@ public class _1792_Maximum_Average_Pass_Ratio {
     //1792. Maximum Average Pass Ratio
     //https://leetcode.com/problems/maximum-average-pass-ratio/description/?envType=daily-question&envId=2024-12-15
 
+
     public double maxAverageRatio(int[][] classes, int extraStudents) {
         PriorityQueue<int[]> pq = new PriorityQueue<>(
                 (x, y) -> Double.compare(improvement(y[0], y[1]), improvement(x[0], x[1])));
